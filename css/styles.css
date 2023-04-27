@@ -1,0 +1,8 @@
+div {
+    outline: 1px solid green;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-around;
+}
