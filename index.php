@@ -14,4 +14,3 @@
 <?php include "./partials/footer.html" ;?>
 
 
-    
