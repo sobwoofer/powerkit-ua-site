@@ -2,7 +2,16 @@ div {
     outline: 1px solid green;
 }
 
-.header-box {
-    display: flex;
-    justify-content: space-around;
+@media (min-width: 920px){
+.container {
+    min-width: 920px;
+}
+/*end of 920 media query*/
+}
+
+@media (min-width: 1280px){
+.container {
+    min-width: 1280px;
+}
+/*end of 1280 media query*/
 }
