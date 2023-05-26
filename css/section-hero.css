@@ -1,21 +1,40 @@
 .hero {
-
+background: #222222;
 }
 
 .hero-container {
 	width: 1200px;
 	display: flex;
 	flex-direction: row;
-margin-left: auto;
-margin-right: auto;
+	background: black;
+	color: whitesmoke;
 }
 
 .hero-text {
 width: 50%;
+padding: 25px;
+
 }
 
 .hero-donate-btn {
-	
+	display: block;
+	width: 300px;
+	height: 50px;
+	padding: 10px;
+/*	margin-left: auto;*/
+	margin-right: auto;
+	margin-top: 100px;
+
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 700;
+
+
+	border: 2px solid darkblue;
+	color: blue;
+	background: yellow;
+	border-radius: 4px;
 }
 
 .hero-image {
