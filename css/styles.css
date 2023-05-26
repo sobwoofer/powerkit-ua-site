@@ -1,17 +1,24 @@
-div {
-    outline: 1px solid green;
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 @media (min-width: 920px){
+
 .container {
-    min-width: 920px;
+    width: 920px;
+
+
 }
 /*end of 920 media query*/
 }
 
 @media (min-width: 1280px){
 .container {
-    min-width: 1280px;
+    width: 1280px;
 }
 /*end of 1280 media query*/
 }
