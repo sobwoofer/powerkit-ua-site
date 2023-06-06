@@ -1,6 +1,6 @@
 .hero {
-  margin-top: 24px;
-  margin-bottom: 40px;
+  padding-top: 24px;
+  padding-bottom: 40px;
 }
 
 .hero-container {
@@ -35,4 +35,61 @@
   background-size: contain;
   background-position: center;
   border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-bottom: 80px;
+  }
+
+  .hero-text {
+    max-width: 458px;
+    padding-top: 110px;
+    padding-bottom: 80px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-moto {
+    line-height: 1.5;
+  }
+
+  .hero-image {
+    flex-grow: 1;
+    background: url(../images/powerkit-hero-optimize-300.gif), black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 15px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-text {
+    max-width: 782px;
+    padding-top: 210px;
+    padding-bottom: 253px;
+  }
+
+  .hero-title {
+    font-size: 45px;
+    margin-bottom: 24px;
+  }
+
+  .hero-moto {
+    max-width: 607px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .hero-image {
+    flex-grow: 1;
+    background: url(../images/powerkit-hero-optimize-300.gif), black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 15px;
+  }
 }
