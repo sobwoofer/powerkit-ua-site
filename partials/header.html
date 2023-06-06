@@ -1,7 +1,39 @@
 <body>
-    <header>
-        <div class="container header-box">
-            <div class="logo">The logo</div>
-            <nav class="nav">The Navigation</nav>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="./"
+          ><img
+            class="header-logo"
+            src="../images/header/logo.svg"
+            alt="PowerKit logo"
+        /></a>
+      </div>
+      <div class="header-menu-side">
+        <div class="header-menu-dropdown">
+          <ul>
+            <li>UA</li>
+            <li></li>
+          </ul>
+          <img src="../images/header/vector.svg" alt="" />
         </div>
-    </header>
+        <button id="btn" class="js-open-menu header-burger-btn">
+          <img src="../images/header/burger.svg" alt="" />
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="js-menu-container menu visually-hidden">
+    <nav class="menu-nav">
+      <ul class="menu-list">
+        <li><a href="#" class="menu-link">Про нас</a></li>
+        <li><a href="#" class="menu-link">Відгуки</a></li>
+        <li><a href="#" class="menu-link">Партнери</a></li>
+        <li><a href="#" class="menu-link">Контакти</a></li>
+        <li><a href="#" class="menu-link">FAQ</a></li>
+        <li><a href="#" class="menu-link menu-btn-donat">Донат</a></li>
+      </ul>
+    </nav>
+  </div>
+</body>
