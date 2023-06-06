@@ -108,7 +108,7 @@ body {
 /* DESKTOP */
 @media screen and (min-width: 1440px) {
   .container {
-    width: 1200px;
+    width: 1440px;
     padding: 0 40px;
   }
 }
