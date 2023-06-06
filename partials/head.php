@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +9,9 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <?php 
 function addCss(string $css_file_name = 'styles.css'){
-    echo '<link rel="stylesheet" href="' . $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/css/' . $css_file_name . '">';
+    $file_with_path = $_SERVER['DOCUMENT_ROOT'] . "/css/" . $css_file_name;
+    $mtime = filemtime($file_with_path);
+    echo '<link rel="stylesheet" href="' . $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/css/' . $css_file_name . '?v=' . $mtime . '">';
 }
 addCss('modern-normalize.min.css');
 addCss('header.css');
@@ -20,15 +22,17 @@ addCss('section-articles.css');
 addCss('section-reviews.css');
 addCss('section-img.css');
 addCss('section-partners.css');
-addCss('section-donate.css');
+addCss('section-donate-top.css');
+addCss('section-donate-down.css');
 addCss('section-FAQ.css');
 addCss('footer.css');
 addCss('styles.css');
 ?>
     
     <title>Powerkit</title>
+    <link rel="icon" type="image/x-icon" href="../favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <script src="../js/burger-menu.js" type="module"></script> 
+    <script src="../js/burger-menu.js" type="module"></script>
 </head>
