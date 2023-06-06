@@ -1,4 +1,70 @@
-.header-box {
-    display: flex;
-    justify-content: space-around;
+.header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: var(--dark-bg-color);
+  border-bottom: 1px solid #ffffff;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.header-burger-btn {
+  background-color: transparent;
+  padding: 12px 0;
+}
+
+.header-menu-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.header-menu-dropdown {
+  align-items: center;
+  display: flex;
+  padding-top: 8px;
+  padding-bottom: 18px;
+}
+
+.menu {
+  position: fixed;
+  top: 50px;
+  right: 0;
+  transition: transform 500ms;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 16px 32px 32px 16px;
+  background-color: var(--dark-bg-color);
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.menu-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--main-txt-color);
+}
+
+.menu-btn-donat {
+  background-color: #fff;
+  color: var(--accent-btn-color);
+  border: 0.54px solid #ffffff;
+  border-radius: 5px;
+  padding: 5px 18.5px;
 }

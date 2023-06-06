@@ -3,8 +3,6 @@
   --main-txt-color: #e6e6e6;
   --accent-red-txt-color: #f56a3d;
   --accent-blue-txt-color: #5e9ff5;
-  --contacts-hover-txt-color: #d6936d;
-  --footer-copyright-txt-color: #7a7a7a;
 
   /* Background colors */
   --dark-bg-color: #0a0909;
@@ -80,6 +78,8 @@ html {
 
 body {
   font-family: var(--main-font);
+  color: var(--main-txt-color);
+  background-color: var(--dark-bg-color);
 }
 
 .container {
