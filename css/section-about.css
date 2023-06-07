@@ -26,6 +26,20 @@
 	margin-bottom: 29px;
 }
 
+.swiper {
+	width: 600px;
+	height: 300px;
+  }
+
+.link-see-more {
+	color: var(--main-text-color);
+	font-size: 14px;
+}
+
+.link-see-more:hover {
+	color: white;
+}
+
 /* MOBILE */
 @media screen and (min-width: 375px) {
 
