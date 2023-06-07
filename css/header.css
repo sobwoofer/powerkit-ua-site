@@ -92,6 +92,13 @@
     border-radius: 5px;
     padding: 5px 18.5px;
   }
+
+  .menu-btn-donat:hover,
+  .menu-btn-donat:focus {
+    background-color: var(--accent-btn-color);
+    color: var(----default-btn-color);
+    border: 0.54px solid var(--accent-btn-color);
+  }
 }
 
 /* TABLET */
@@ -130,11 +137,18 @@
     font-size: 12px;
     line-height: 1.25;
     letter-spacing: 0.04em;
-    background-color: #fff;
+    background-color: var(--default-btn-color);
     color: var(--accent-btn-color);
-    border: 0.54px solid #ffffff;
+    border: 0.54px solid var(--default-btn-color);
     border-radius: 5px;
     padding: 5.5px 25.5px;
+  }
+
+  .header-btn-donat:hover,
+  .header-btn-donat:focus {
+    background-color: var(--accent-btn-color);
+    color: var(----default-btn-color);
+    border: 0.54px solid var(--accent-btn-color);
   }
 }
 
