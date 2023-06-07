@@ -1,13 +1,12 @@
-.hero {
-  padding-top: 24px;
-}
-
 .hero-container {
+  position: relative;
+  overflow-x: hidden;
   display: flex;
   gap: 8px;
 }
 
 .hero-text {
+  padding-top: 24px;
   max-width: 234px;
 }
 
@@ -33,6 +32,15 @@
   border-radius: 15px;
 }
 
+.hero-video {
+  width: 501px;
+  height: 281px;
+  position: absolute;
+  left: 63px;
+  top: -4px;
+  z-index: -1;
+}
+
 @media screen and (min-width: 768px) {
   .hero-text {
     max-width: 458px;
@@ -56,6 +64,15 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
+  }
+
+  .hero-video {
+    width: 777px;
+    height: 437px;
+    position: absolute;
+    left: 239px;
+    top: -20px;
+    z-index: -1;
   }
 }
 
@@ -85,5 +102,14 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
+  }
+
+  .hero-video {
+    width: 1235px;
+    height: 695px;
+    position: absolute;
+    left: 503px;
+    top: -65px;
+    z-index: -1;
   }
 }
