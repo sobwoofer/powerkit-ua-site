@@ -87,6 +87,23 @@ body {
   padding: 0 16px;
 }
 
+.text-accent {
+  color: var(--accent-red-txt-color);
+}
+
+.button-donate {
+  background-color: #fff;
+  color: var(--accent-btn-color);
+  border: 0.5px solid #ffffff;
+}
+
+.button-donate:hover,
+.button-donate:focus {
+  background-color: var(--accent-btn-color);
+  color: var(----default-btn-color);
+  border: 0.5px solid var(--accent-btn-color);
+}
+
 /* MOBILE */
 @media screen and (min-width: 375px) {
   .container {
