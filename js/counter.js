@@ -33,7 +33,7 @@ function windowLoad() {
   }
 
   let options = {
-    threshold: 0.3,
+    threshold: 0.75,
   };
   let observer = new IntersectionObserver((entries, observer) => {
     entries.forEach((entry) => {
