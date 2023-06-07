@@ -102,6 +102,7 @@
 
   .menu {
     position: fixed;
+    z-index: 5;
     top: 50px;
     right: 0;
     transition: transform 500ms;
