@@ -18,10 +18,6 @@
   margin-bottom: 12px;
 }
 
-.hero-title-name {
-  color: var(--accent-red-txt-color);
-}
-
 .hero-moto {
   font-size: 14px;
   line-height: 1.34;

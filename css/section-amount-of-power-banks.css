@@ -25,10 +25,6 @@
   margin-bottom: 16px;
 }
 
-.amount-item-numbers.red-number {
-  color: var(--accent-red-txt-color);
-}
-
 .amount-item-numbers.blue-number {
   color: var(--accent-blue-txt-color);
 }

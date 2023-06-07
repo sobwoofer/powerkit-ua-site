@@ -87,6 +87,18 @@ body {
   padding: 0 16px;
 }
 
+.text-accent {
+  color: var(--accent-red-txt-color);
+}
+
+.button-donate {
+}
+
+.button-donate:hover,
+.button-donate:focus {
+}
+
+
 /* MOBILE */
 @media screen and (min-width: 375px) {
   .container {
