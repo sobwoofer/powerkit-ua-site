@@ -1,3 +1,31 @@
+.section {
+	padding-bottom: 40px;
+}
+
+.section-header {
+	font-family: Inter, sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--main-text-color);
+	display: block;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.about-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+
+.about-paragraph {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-bottom: 29px;
+}
+
 /* MOBILE */
 @media screen and (min-width: 375px) {
 
