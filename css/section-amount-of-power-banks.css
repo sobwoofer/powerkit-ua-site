@@ -94,6 +94,8 @@
 
   .amount-item-numbers {
     text-align: center;
+    font-size: 64px;
+    line-height: 1.2;
     padding: 0 122px 16px;
     margin-bottom: 24px;
   }
