@@ -3,6 +3,7 @@
   z-index: 10;
   top: 0;
   left: 0;
+  margin: 0 auto;
   background-color: var(--dark-bg-color);
   border-bottom: 1px solid #ffffff;
 }
