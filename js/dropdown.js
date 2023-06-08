@@ -28,7 +28,7 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
       e.stopPropagation();
       dropDownBtn.innerText = this.innerText;
       dropDownBtn.focus();
-      dropDownInput.value = this.dataset.value;
+      //   dropDownInput.value = this.dataset.value;
       dropDownList.classList.remove("dropdown-list--visible");
     });
   });
