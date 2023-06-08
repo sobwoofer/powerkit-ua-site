@@ -84,6 +84,7 @@ body {
 
 .section {
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .container {
@@ -123,6 +124,10 @@ body {
   .container {
     width: 768px;
     padding: 0 20px;
+  }
+
+  .section {
+    padding-bottom: 80px;
   }
 }
 
