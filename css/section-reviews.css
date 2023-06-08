@@ -1,3 +1,14 @@
+.swiper-review {
+	width: 343px;
+	height: 222px;
+	overflow: hidden;
+}
+
+.swiper-review .swiper-slide {
+    border: 1px solid orangered;
+    height: 100%;
+}
+
 /* MOBILE */
 @media screen and (min-width: 375px) {
 
@@ -6,10 +17,18 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
 
+    .swiper-review {
+		width: 728px;
+		height: 450px ;
+	}
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1440px) {
 
+    .swiper-review {
+		width: 1360px;
+		height: 484px ;
+	}
 	
 }
