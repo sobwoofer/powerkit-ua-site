@@ -12,6 +12,10 @@
     list-style: none;
 }
 
+.logo-img {
+    width: 100px;
+}
+
 /* MOBILE */
 @media screen and (min-width: 375px) {
 
