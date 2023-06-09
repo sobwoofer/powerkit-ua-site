@@ -332,3 +332,40 @@
     line-height: 1.23;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .modal-cookie {
+    top: 107px;
+    width: 1360px;
+    padding: 13px 44px 13px 10px;
+  }
+
+  .modal-button-close {
+    height: 10px;
+    width: 10px;
+  }
+
+  .modal-content {
+    gap: 0;
+  }
+
+  .modal-content-img {
+    width: 51px;
+    height: 45px;
+    margin-right: 10px;
+  }
+
+  .modal-content-text {
+    font-size: 16px;
+    line-height: 1.18;
+    margin-right: 164px;
+  }
+
+  .modal-content-btn {
+    padding: 11.5px 12.5px;
+    font-size: 14px;
+    line-height: 1.21;
+    border: 1.5px solid #f56a3d;
+    border-radius: 7.5px;
+  }
+}
