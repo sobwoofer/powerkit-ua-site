@@ -295,6 +295,40 @@
   letter-spacing: 0.04em;
   color: #010101;
   background: #ffffff;
-  border: 0.9px solid #f56a3d;
-  border-radius: 4.61539px;
+  border: 1px solid #f56a3d;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-cookie {
+    top: 80px;
+    width: 768px;
+    padding: 11px 28px 12px 10px;
+  }
+
+  .modal-button-close {
+    right: 10px;
+    top: 10px;
+  }
+
+  .modal-content {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .modal-content-img {
+    width: 33px;
+    height: 29px;
+  }
+
+  .modal-content-text {
+    font-size: 14px;
+    line-height: 1.21;
+  }
+
+  .modal-content-btn {
+    padding: 8.5px 17px;
+    font-size: 10.5px;
+    line-height: 1.23;
+  }
 }
