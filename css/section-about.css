@@ -35,10 +35,12 @@
   /* border: 1px solid gray; */
 }
 
-.swiper-slide {
-  width: 148px;
-  height: 100%;
-  border: 1px solid orangered;
+.swiper-slide{
+	width: 148px;
+	height: 100%;
+	/* border: 1px solid orangered; */
+	border-radius: 12px;
+	overflow: hidden;
 }
 
 .link-see-more {

@@ -2,8 +2,10 @@ const swiper = new Swiper('.swiper', {
     speed: 400,
   allowSlideNext: true,
   allowSlidePrev: true,
-    loop: true,
-  
+    // loop: true,
+  autoplay: {
+    delay: 5000,
+  },
     breakpoints: {
         // when window width is >= 320px
         375: {
@@ -27,7 +29,10 @@ const swiper = new Swiper('.swiper', {
     speed: 400,
   allowSlideNext: true,
   allowSlidePrev: true,
-    loop: true,
+    // loop: true,
+    autoplay: {
+      delay: 5000,
+    },
     breakpoints: {
         // when window width is >= 320px
         375: {
