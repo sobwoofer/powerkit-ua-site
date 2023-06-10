@@ -6,7 +6,6 @@
 }
 
 .hero-text {
-  padding-top: 24px;
   max-width: 234px;
 }
 
@@ -37,8 +36,14 @@
   height: 281px;
   position: absolute;
   left: 63px;
-  top: -4px;
+  top: -14px;
   z-index: -1;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-container {
+    padding-top: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) {
