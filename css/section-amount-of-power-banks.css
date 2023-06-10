@@ -1,7 +1,3 @@
-.section-amount {
-  padding: 40px 0;
-}
-
 .amount-list {
   display: flex;
   gap: 8px;
@@ -18,9 +14,10 @@
 
 .amount-item-numbers {
   display: block;
+  text-align: center;
   font-size: 36px;
   line-height: 1.22;
-  padding: 0 27px 7px;
+  padding: 0 0 7px;
   border-bottom: 0.5px solid #e6e6e6;
   margin-bottom: 16px;
 }
@@ -41,10 +38,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .section-amount {
-    padding: 80px 0;
-  }
-
   .amount-list {
     gap: 59px;
     justify-content: center;
@@ -61,7 +54,6 @@
 
   .amount-item-numbers {
     text-align: center;
-    padding: 0 57px 7px;
     margin-bottom: 12px;
   }
 
@@ -92,7 +84,7 @@
     text-align: center;
     font-size: 64px;
     line-height: 1.2;
-    padding: 0 122px 16px;
+    padding: 0 0 16px;
     margin-bottom: 24px;
   }
 
