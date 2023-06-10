@@ -3,10 +3,10 @@
   overflow-x: hidden;
   display: flex;
   gap: 8px;
+  padding-top: 24px;
 }
 
 .hero-text {
-  padding-top: 24px;
   max-width: 234px;
 }
 
@@ -37,7 +37,7 @@
   height: 281px;
   position: absolute;
   left: 63px;
-  top: -4px;
+  top: -14px;
   z-index: -1;
 }
 
