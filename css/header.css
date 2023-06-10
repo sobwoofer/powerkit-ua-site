@@ -211,7 +211,7 @@
 /* DESKTOP */
 @media screen and (min-width: 1440px) {
   .header-logo {
-    width: 182px;
+    width: 180px;
     padding-top: 24px;
     padding-bottom: 24px;
   }
