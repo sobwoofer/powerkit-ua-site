@@ -3,7 +3,6 @@
   overflow-x: hidden;
   display: flex;
   gap: 8px;
-  padding-top: 24px;
 }
 
 .hero-text {
@@ -39,6 +38,12 @@
   left: 63px;
   top: -14px;
   z-index: -1;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-container {
+    padding-top: 24px;
+  }
 }
 
 @media screen and (min-width: 768px) {
