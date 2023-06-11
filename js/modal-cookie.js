@@ -4,8 +4,9 @@ const agreeBtn = document.querySelector(".modal-content-btn");
 
 agreeBtn.addEventListener("click", setCookie);
 closeMenuBtn.addEventListener("click", closeCookieMenu);
-const cookieKey = document.cookie.split(/\=|;/);
+const cookieKey = document.cookie;
 
+// console.log(document.cookie);
 // console.log(cookieKey);
 // console.log(cookieKey.includes("PKCoockiesAgree"));
 
