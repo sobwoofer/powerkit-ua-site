@@ -4,8 +4,10 @@ const agreeBtn = document.querySelector(".modal-content-btn");
 
 agreeBtn.addEventListener("click", setCookie);
 closeMenuBtn.addEventListener("click", closeCookieMenu);
-const cookieKey = document.cookie.split("=");
-console.log(cookieKey.includes("PKCoockiesAgree"));
+const cookieKey = document.cookie.split(/\=|;/);
+
+// console.log(cookieKey);
+// console.log(cookieKey.includes("PKCoockiesAgree"));
 
 if (cookieKey.includes("PKCoockiesAgree")) {
   // додати скрипт у тіло сторінки:
