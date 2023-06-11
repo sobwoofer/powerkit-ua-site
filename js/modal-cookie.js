@@ -6,9 +6,22 @@ agreeBtn.addEventListener("click", setCookie);
 closeMenuBtn.addEventListener("click", closeCookieMenu);
 
 if (!document.cookie) {
+  // показати модалку
   setTimeout(function openCookieMenu() {
     cookieMenu.classList.remove("visually-hidden");
   }, 5000);
+}
+if (document.cookie) {
+  // додати скрипт у тіло сторінки:
+  const string = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VK2FJHKC8D');
+  </script>`;
+  document.body.insertAdjacentHTML("beforeend", string);
 }
 
 function setCookie() {
