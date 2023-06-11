@@ -205,6 +205,7 @@
 
   .dropdown-list {
     top: 40%;
+    cursor: pointer;
   }
 }
 
