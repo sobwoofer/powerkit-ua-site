@@ -1,19 +1,21 @@
-.logo-box {
+.logo-articles {
     display: grid;
-    width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 200px 200px 200px;
+    grid-template-rows: repeat(3, 70px);
+    grid-auto-rows: 70px;
+    grid-auto-flow: row;
     gap: 20px 30px;
-    justify-items: center;
-    justify-content: center;
+    justify-items: self-end;
+    align-items: center;
 }
 
-.logo-item {
-    list-style: none;
+.articles-item:nth-child(n+5){
+    grid-column-end: span 2;
 }
 
-.logo-img {
-    width: 100px;
+.articles-link {
+    display: block;
+    cursor: pointer;
 }
 
 /* MOBILE */
@@ -23,11 +25,37 @@
 
 /* TABLET */
 @media screen and (min-width: 768px) {
+    .logo-articles { 
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3, 100px);
+        grid-auto-rows: 100px;
+        row-gap: 60px;
+        justify-items: center;
+    }
 
+    .articles-item:nth-child(-n+4) {
+        grid-column-end:  span 3;
+    }
+
+    .articles-item:nth-child(n+5){
+        grid-column-end: span 4;
+    }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1440px) {
+    .logo-articles {
+        grid-template-rows: repeat(3, 150px);
+        grid-auto-rows: 150px;
+        row-gap: 90px;
+    }
 
+    .articles-item {
+        width: 60%;
+    }
+
+    .articles-img {
+        width: 100%;
+        }
 	
 }
