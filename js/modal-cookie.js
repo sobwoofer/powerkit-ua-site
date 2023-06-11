@@ -4,14 +4,16 @@ const agreeBtn = document.querySelector(".modal-content-btn");
 
 agreeBtn.addEventListener("click", setCookie);
 closeMenuBtn.addEventListener("click", closeCookieMenu);
+const cookieKey = document.cookie.split("=");
 
-if (!document.cookie) {
+if (cookieKey[0] !== "PKCoockiesAgree") {
   // показати модалку
   setTimeout(function openCookieMenu() {
     cookieMenu.classList.remove("visually-hidden");
   }, 5000);
 }
-if (document.cookie) {
+
+if (cookieKey[0] === "PKCoockiesAgree") {
   // додати скрипт у тіло сторінки:
   const string = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
   <script>
