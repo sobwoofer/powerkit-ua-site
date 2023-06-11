@@ -4,14 +4,10 @@ const agreeBtn = document.querySelector(".modal-content-btn");
 
 agreeBtn.addEventListener("click", setCookie);
 closeMenuBtn.addEventListener("click", closeCookieMenu);
+const cookieKey = document.cookie.split("=");
+console.log(cookieKey.includes("PKCoockiesAgree"));
 
-if (!document.cookie) {
-  // показати модалку
-  setTimeout(function openCookieMenu() {
-    cookieMenu.classList.remove("visually-hidden");
-  }, 5000);
-}
-if (document.cookie) {
+if (cookieKey.includes("PKCoockiesAgree")) {
   // додати скрипт у тіло сторінки:
   const string = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
   <script>
@@ -22,6 +18,13 @@ if (document.cookie) {
     gtag('config', 'G-VK2FJHKC8D');
   </script>`;
   document.body.insertAdjacentHTML("beforeend", string);
+} else {
+  {
+    // показати модалку
+    setTimeout(function openCookieMenu() {
+      cookieMenu.classList.remove("visually-hidden");
+    }, 5000);
+  }
 }
 
 function setCookie() {
