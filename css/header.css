@@ -129,6 +129,12 @@
     color: var(--main-txt-color);
   }
 
+  .menu-link:hover,
+  .menu-link:focus {
+    color: #ffffff;
+    text-shadow: var(--hover-shadow);
+  }
+
   .menu-btn-donat {
     font-weight: 700;
     font-size: 14px;
@@ -173,6 +179,12 @@
     font-size: 16px;
     line-height: 1.19;
     padding: 30px 0;
+  }
+
+  .header-link:hover,
+  .header-link:focus {
+    color: #ffffff;
+    text-shadow: var(--hover-shadow);
   }
 
   .header-menu-dropdown {
