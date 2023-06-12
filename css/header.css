@@ -106,14 +106,14 @@
     z-index: 5;
     top: 50px;
     right: 0;
-    transition: transform 500ms;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     height: 300px;
-    padding: 16px 32px 32px 16px;
+    padding: 16px;
     border-radius: 0px 0px 0px 12px;
     background-color: var(--dark-bg-color);
+    transition: all var(--transition-dur-and-func);
   }
 
   .menu-list {
