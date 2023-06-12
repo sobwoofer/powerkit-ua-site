@@ -5,7 +5,6 @@ const agreeBtn = document.querySelector(".modal-content-btn");
 agreeBtn.addEventListener("click", setCookie);
 closeMenuBtn.addEventListener("click", closeCookieMenu);
 
-
 const cookieKey = document.cookie;
 if (cookieKey.includes("PKCoockiesAgree")) {
   // додати скрипт у тіло сторінки:
@@ -20,6 +19,8 @@ if (cookieKey.includes("PKCoockiesAgree")) {
   gtag('config', 'G-VK2FJHKC8D');
   </script>`;
   document.head.insertAdjacentHTML("afterend", string);
+} else if (localStorage.getItem("PKCoockies")) {
+  console.log("PKCoockies", "no");
 } else {
   // показати модалку
   setTimeout(function openCookieMenu() {
@@ -56,4 +57,5 @@ function setCookie() {
 function closeCookieMenu(event) {
   event.preventDefault();
   cookieMenu.classList.add("visually-hidden");
+  localStorage.setItem("PKCoockies", "no");
 }
