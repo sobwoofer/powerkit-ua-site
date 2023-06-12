@@ -21,16 +21,6 @@
   line-height: 1.34;
 }
 
-/* .hero-image {
-  flex-grow: 1;
-  background: url(../images/powerkit-hero-optimize-300.gif), black;
-  background: url(../images/hero-powerkit-video.gif), black;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 15px;
-} */
-
 .hero-video {
   width: 501px;
   height: 281px;
@@ -61,16 +51,6 @@
     line-height: 1.5;
   }
 
-  /* .hero-image {
-    flex-grow: 1;
-    background: url(../images/powerkit-hero-optimize-300.gif), black;
-    background: url(../images/hero-powerkit-video.gif), black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 15px;
-  } */
-
   .hero-video {
     width: 777px;
     height: 437px;
@@ -98,16 +78,6 @@
     font-size: 18px;
     line-height: 1.5;
   }
-
-  /* .hero-image {
-    flex-grow: 1;
-    background: url(../images/powerkit-hero-optimize-300.gif), black;
-    background: url(../images/hero-powerkit-video.gif), black;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 15px;
-  } */
 
   .hero-video {
     width: 1235px;
