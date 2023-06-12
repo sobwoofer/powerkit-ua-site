@@ -4,49 +4,45 @@ const agreeBtn = document.querySelector(".modal-content-btn");
 
 agreeBtn.addEventListener("click", setCookie);
 closeMenuBtn.addEventListener("click", closeCookieMenu);
+
+
 const cookieKey = document.cookie;
-
-// console.log(document.cookie);
-// console.log(cookieKey);
-// console.log(cookieKey.includes("PKCoockiesAgree"));
-
 if (cookieKey.includes("PKCoockiesAgree")) {
   // додати скрипт у тіло сторінки:
-  const string = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
+  const string = `
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-VK2FJHKC8D');
+  gtag('config', 'G-VK2FJHKC8D');
   </script>`;
-  document.body.insertAdjacentHTML("beforeend", string);
+  document.head.insertAdjacentHTML("afterend", string);
 } else {
-  {
-    // показати модалку
-    setTimeout(function openCookieMenu() {
-      cookieMenu.classList.remove("visually-hidden");
-    }, 5000);
-  }
+  // показати модалку
+  setTimeout(function openCookieMenu() {
+    cookieMenu.classList.remove("visually-hidden");
+  }, 5000);
 }
 
 function setCookie() {
   // закрити модальне вікно з кукі
   cookieMenu.classList.add("visually-hidden");
 
-  //   Тег для Google Analytics
-  // <!-- Google tag (gtag.js) -->
-
   // i додати скрипт у тіло сторінки:
-  const string = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
+  const string = `
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-VK2FJHKC8D');
+  gtag('config', 'G-VK2FJHKC8D');
   </script>`;
-  document.body.insertAdjacentHTML("beforeend", string);
+  document.head.insertAdjacentHTML("afterend", string);
 
   // встановити кукі
   const d = new Date();
