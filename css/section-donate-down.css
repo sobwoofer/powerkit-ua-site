@@ -2,15 +2,13 @@
   color: #e6e6e6;
   text-align: center;
 }
-.donate.down {
-  padding-top: 40px;
-  padding-bottom: 24px;
-}
+
 .donate-container.down {
   position: relative;
+  padding-bottom: 24px;
 }
-.donate-container.down::after,
-.donate-container.down::before {
+
+.donate-container.down::after {
   content: "";
   position: absolute;
   left: 0;
@@ -18,12 +16,11 @@
   height: 1px;
   background-color: #e6e6e6;
 }
+
 .donate-container.down::after {
-  bottom: -24px;
+  bottom: 0;
 }
-.donate-container.down::before {
-  top: -40px;
-}
+
 .donate-title {
   font-size: 20px;
   font-weight: 600;
@@ -46,7 +43,8 @@
   background-color: var(--default-btn-color);
   border: 1px solid transparent;
   border-radius: 10px;
-  transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func);
+  transition: color var(--transition-dur-and-func),
+    background-color var(--transition-dur-and-func);
 }
 
 .donate-btn:hover,
@@ -65,27 +63,23 @@
 
 @media screen and (max-width: 767.8px) {
   .donate-title.down {
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
     width: 315px;
   }
   .donate-text.down {
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
     width: 255px;
   }
 }
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-  .donate.down {
-    padding-top: 80px;
+  .donate-container.down {
     padding-bottom: 80px;
   }
-  .donate-container.down::after {
-    bottom: -80px;
-  }
-  .donate-container.down::before {
-    top: -80px;
-  }
+
   .donate-title {
     font-size: 36px;
   }
@@ -101,12 +95,6 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1440px) {
-  .donate.down {
-    padding-top: 66px;
-  }
-  .donate-container.down::before {
-    top: -66px;
-  }
   .donate-title {
     font-size: 45px;
   }
