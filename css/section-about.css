@@ -1,7 +1,3 @@
-.section-about {
-  padding-bottom: 40px;
-}
-
 .section-header {
   font-family: Inter, sans-serif;
   font-weight: 600;
@@ -35,12 +31,12 @@
   /* border: 1px solid gray; */
 }
 
-.swiper-slide{
-	width: 148px;
-	height: 100%;
-	/* border: 1px solid orangered; */
-	border-radius: 12px;
-	overflow: hidden;
+.swiper-slide {
+  width: 148px;
+  height: 100%;
+  /* border: 1px solid orangered; */
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .link-see-more {
