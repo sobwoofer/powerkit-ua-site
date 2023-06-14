@@ -6,9 +6,10 @@
 .donate-container.down {
   position: relative;
   padding-bottom: 24px;
+  border-bottom: 1px solid var(--main-txt-color);
 }
 
-.donate-container.down::after {
+/* .donate-container.down::after {
   content: "";
   position: absolute;
   left: 0;
@@ -19,7 +20,7 @@
 
 .donate-container.down::after {
   bottom: 0;
-}
+} */
 
 .donate-title {
   font-size: 20px;

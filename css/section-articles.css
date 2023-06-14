@@ -1,3 +1,8 @@
+.container-underline {
+    border-bottom: 1px solid var(--main-txt-color);
+    padding-bottom: 24px;
+}
+
 .logo-articles {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -33,6 +38,10 @@
         justify-items: center;
     }
 
+    .container-underline {
+        padding-bottom: 40px;
+    }
+
     .articles-item:nth-child(-n+4) {
         grid-column-end:  span 3;
     }
@@ -50,6 +59,10 @@
         row-gap: 90px;
     }
 
+    .container-underline {
+        padding-bottom: 80px;
+    }
+
     .articles-item {
         width: 60%;
     }
@@ -57,5 +70,7 @@
     .articles-img {
         width: 100%;
         }
+
+
 	
 }
