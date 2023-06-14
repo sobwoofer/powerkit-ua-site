@@ -1,0 +1,16 @@
+.legal-order {
+    list-style: unset;
+    list-style-type: decimal;
+}
+
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+
+	
+}

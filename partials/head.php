@@ -37,6 +37,8 @@ addCss('section-donate-top.css');
 addCss('section-donate-down.css');
 addCss('section-FAQ.css');
 addCss('footer.css');
+addCss('text-offer.css');
+addCss('text-privacy.css');
 ?>
     
     <title>Powerkit</title>
