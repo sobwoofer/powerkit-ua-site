@@ -36,6 +36,7 @@ addCss('section-partners.css');
 addCss('section-donate-top.css');
 addCss('section-donate-down.css');
 addCss('section-FAQ.css');
+addCss('section-contacts.css');
 addCss('footer.css');
 addCss('text-offer.css');
 addCss('text-privacy.css');

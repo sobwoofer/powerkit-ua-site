@@ -1,8 +1,37 @@
-.legal-order {
-    list-style: unset;
-    list-style-type: decimal;
+.legal-text-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+.legal-header-1 {
+    margin-bottom: 40px;
+}
+
+.legal-header-2 {
+    margin-bottom: 30px;
+}
+
+.legal-text-content p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.regular-link {
+    color: var(--accent-blue-txt-color);
+}
+
+.dodatok {
+    font-weight: bold;
+    text-align: right;
+}
+
+.agree {
+    text-align: center;
+}
+
+.agree>span {
+    display: block;
+}
 
 /* TABLET */
 @media screen and (min-width: 768px) {
