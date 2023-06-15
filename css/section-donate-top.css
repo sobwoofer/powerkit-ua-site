@@ -8,6 +8,10 @@
   margin-bottom: 24px;
 }
 
+.donate-btn.top {
+  padding-top: 10px;
+}
+
 /* MOBILE */
 @media screen and (min-width: 375px) {
 }
