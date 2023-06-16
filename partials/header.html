@@ -1,7 +1,81 @@
 <body>
-    <header>
-        <div class="container header-box">
-            <div class="logo">The logo</div>
-            <nav class="nav">The Navigation</nav>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="./"
+          ><img
+            class="header-logo"
+            src="../images/header/logo-powerkit.svg"
+            alt="PowerKit logo"
+        /></a>
+      </div>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li><a href="../#about" class="header-link" href="">Про нас</a></li>
+          <li><a href="../#reviews" class="header-link" href="">Відгуки</a></li>
+          <li><a href="../#partners" class="header-link" href="">Партнери</a></li>
+          <li><a href="../#contacts" class="header-link" href="">Контакти</a></li>
+          <li><a href="../#faq" class="header-link" href="">FAQ</a></li>
+        </ul>
+      </nav>
+      <div class="header-menu-side">
+        <div class="dropdown header-menu-dropdown">
+          <ul class="dropdown-list">
+            <li class="dropdown-list-item" data-value="ua">UA</li>
+            <li class="dropdown-list-item" data-value="en">EN</li>
+          </ul>
+          <button class="dropdown-button">UA</button>
         </div>
-    </header>
+        <button id="btn" class="js-open-menu header-burger-btn">
+          <img src="../images/header/burger.svg" alt="" />
+        </button>
+        <a
+          href="https://send.monobank.ua/jar/9XUQiiaqJi"
+          target="_blank"
+          class="header-btn-donat"
+          >Донат</a
+        >
+      </div>
+    </div>
+  </header>
+
+  <div class="js-menu-container menu visually-hidden">
+    <nav class="menu-nav">
+      <ul class="menu-list">
+        <li><a href="../#about" class="menu-link">Про нас</a></li>
+        <li><a href="../#reviews" class="menu-link">Відгуки</a></li>
+        <li><a href="../#partners" class="menu-link">Партнери</a></li>
+        <li><a href="../#contacts" class="menu-link">Контакти</a></li>
+        <li><a href="../#faq" class="menu-link">FAQ</a></li>
+        <li>
+          <a
+            href="https://send.monobank.ua/jar/9XUQiiaqJi"
+            target="_blank"
+            class="menu-link menu-btn-donat"
+            >Донат</a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- COOKIE -->
+  <div class="modal-cookie visually-hidden">
+    <button class="modal-button-close" type="button">
+      <img src="../images/section-hero/close.svg" alt="close" />
+    </button>
+    <div class="modal-content">
+      <img
+        class="modal-content-img"
+        src="../images/section-hero/cookie.png"
+        alt="cookie"
+      />
+      <p class="modal-content-text">
+        Ми використовуємо файли
+        <a href="./privacy-policy.php">cookie</a>, щоб дозволити нашому сайту працювати належним
+        чином і аналізувати наш трафік.
+      </p>
+      <button class="modal-content-btn">Погоджуюсь</button>
+    </div>
+  </div>
+</body>

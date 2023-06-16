@@ -1,0 +1,235 @@
+.container-underline {
+    border-bottom: 1px solid var(--main-txt-color);
+    padding-bottom: 24px;
+}
+
+.logo-articles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 70px);
+    grid-auto-rows: 70px;
+    /* grid-auto-flow: row; */
+    gap: 15px 10px;
+    justify-items: self-end;
+    align-items: center;
+}
+
+.articles-item:nth-child(n+5){
+    grid-column-end: span 2;
+}
+
+.logo-link {
+    display: block;
+    cursor: pointer;
+}
+
+.logo-link:hover  {
+    filter: drop-shadow(var(--hover-shadow));
+}
+
+.logo-stb {
+    width: 73px ;
+}
+
+.logo-intb {
+    width: 67px;
+}
+
+.logo-mvi {
+    width: 86px;
+}
+
+.logo-cna {
+    width: 52px;
+}
+
+.logo-informator {
+    width: 164px;
+}
+
+.logo-arte {
+    width: 163px;
+}
+
+.logo-vkyiv {
+    width: 164px ;
+    /* height: 43px; */
+}
+
+.logo-liga {
+    width: 163px;
+}
+
+.logo-1p1 {
+    width: 164px ;
+}
+
+.logo-dim {
+    width: 163px;
+}
+
+/* MOBILE */
+@media screen and (min-width: 375px) {
+
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .logo-articles { 
+        grid-template-columns: repeat(24, 1fr);
+        grid-template-rows: 107px 40px 40px;
+        grid-auto-rows: 40px;
+        row-gap: 50px;
+        justify-items: center;
+    }
+
+    .container-underline {
+        padding-bottom: 40px;
+    }
+
+    /* .articles-item:nth-child(-n+4) {
+        grid-column-end:  span 3;
+    } */
+
+    /* .articles-item:nth-child(n+5){
+        grid-column-end: span 4;
+    } */
+
+    .logo-stb {
+        width: 105px;
+        justify-self: start;
+        grid-column: 1 / 6;
+    }
+
+    .logo-intb {
+        width: 99px;
+        justify-self: center;
+        grid-column: 6 / 12;
+    }
+
+    .logo-mvi {
+        width: 122px;
+        grid-column: 12 / 21;
+    }
+
+    .logo-cna {
+        width: 82px;
+        justify-self: end;
+        grid-column: 21 / 24;
+    }
+
+    .logo-informator {
+        width: 102px;
+        grid-row: 3;
+        grid-column: 19 / 22 ;
+    }
+
+    .logo-arte {
+        width: 160px;
+        grid-row: 2;
+        grid-column: 19 / 22 ;
+    }
+
+    .logo-1p1 {
+        width: 104px;
+        grid-row: 2;
+        grid-column: 4 / 7;
+    }
+
+    .logo-dim {
+        width: 106px;
+        grid-row: 2;
+        grid-column: 12 / 15 ;
+    }
+
+    .logo-vkyiv {
+        width: 104px;
+        grid-row: 3;
+        grid-column: 4 / 7;
+    }
+
+    .logo-liga {
+        width: 104px;
+        grid-row: 3;
+        grid-column: 12 / 15;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1440px) {
+    .logo-articles {
+        grid-template-columns: repeat(24, 47px);
+        grid-template-rows: 160px 60px 50px;
+        grid-auto-rows: 50px;
+        row-gap: 81px;
+    }
+
+    .container-underline {
+        padding-bottom: 80px;
+    }
+
+    .articles-item {
+        width: 60%;
+    }
+
+    .articles-img {
+        width: 100%;
+        }
+
+    .logo-stb {
+        width: 164px;
+        grid-column: 2 / 6;
+        justify-self: end;
+    }
+
+    .logo-intb {
+        width: 154px;
+        grid-column: 9 / 12;
+        justify-self: start;
+    }
+
+    .logo-mvi {
+        width: 189px;
+        grid-column: 13 / 18 ;
+        justify-self: end;
+    }
+
+    .logo-cna {
+        width: 127px;
+        justify-self: center;
+        grid-column: 20 / 23;
+    }
+
+    .logo-1p1 { 
+        width: 161px;
+        grid-column: 6 / 10;
+    }
+
+    .logo-dim {
+        width: 165px;
+        grid-column: 12 / 15;
+    }
+
+    .logo-arte {
+        width: 249px;
+        grid-column: 18 / 22;
+       justify-self: center;
+    }
+
+    .logo-vkyiv {
+        width: 161px;
+        grid-column: 6 / 10;
+    }
+
+    .logo-liga {
+        width: 161px;
+        grid-column: 12 / 15;
+    }
+
+    .logo-informator {
+        width: 159px;
+        grid-column: 18 /22;
+        justify-self: center;
+    }
+	
+}

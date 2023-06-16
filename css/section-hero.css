@@ -1,49 +1,90 @@
-.hero {
-background: #222222;
-}
-
 .hero-container {
-	width: 1200px;
-	display: flex;
-	flex-direction: row;
-	background: black;
-	color: whitesmoke;
+  position: relative;
+  overflow-x: hidden;
+  display: flex;
+  gap: 8px;
 }
 
 .hero-text {
-width: 50%;
-padding: 25px;
-
+  max-width: 234px;
 }
 
-.hero-donate-btn {
-	display: block;
-	width: 300px;
-	height: 50px;
-	padding: 10px;
-/*	margin-left: auto;*/
-	margin-right: auto;
-	margin-top: 100px;
-
-	text-align: center;
-	text-decoration: none;
-	font-size: 24px;
-	font-weight: 700;
-
-
-	border: 2px solid darkblue;
-	color: blue;
-	background: yellow;
-	border-radius: 4px;
+.hero-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 12px;
 }
 
-.hero-image {
-	width: 50%;
-	height: 470px;
-	background: url(../images/powerkit-hero-optimize-300.gif), black ;
-/*	background: url(../images/powerkit-hero.gif) ;*/
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: center;
-	border-radius: 15px;
+.hero-moto {
+  font-size: 14px;
+  line-height: 1.34;
+}
+
+.hero-video {
+  width: 501px;
+  height: 281px;
+  position: absolute;
+  left: 63px;
+  top: -14px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 767px) {
+  .hero-container {
+    padding-top: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero-text {
+    max-width: 458px;
+    padding-top: 110px;
+    padding-bottom: 80px;
+  }
+
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-moto {
+    line-height: 1.5;
+  }
+
+  .hero-video {
+    width: 777px;
+    height: 437px;
+    position: absolute;
+    left: 239px;
+    top: -20px;
+    z-index: -1;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-text {
+    max-width: 782px;
+    padding-top: 210px;
+    padding-bottom: 253px;
+  }
+
+  .hero-title {
+    font-size: 45px;
+    margin-bottom: 24px;
+  }
+
+  .hero-moto {
+    max-width: 607px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .hero-video {
+    width: 1235px;
+    height: 695px;
+    position: absolute;
+    left: 503px;
+    top: -65px;
+    z-index: -1;
+  }
 }
