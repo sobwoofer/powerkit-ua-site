@@ -18,9 +18,13 @@
     grid-column-end: span 2;
 }
 
-.articles-link {
+.logo-link {
     display: block;
     cursor: pointer;
+}
+
+.logo-link:hover  {
+    filter: drop-shadow(var(--hover-shadow));
 }
 
 .logo-stb {
