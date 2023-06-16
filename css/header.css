@@ -82,6 +82,10 @@
   overflow: hidden;
 }
 
+.dropdown-list-item:first-child {
+  margin-bottom: 7%;
+}
+
 .dropdown-list--visible {
   display: block;
 }

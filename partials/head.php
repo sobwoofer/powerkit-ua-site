@@ -21,7 +21,7 @@
 function addCss(string $css_file_name = 'styles.css'){
     $file_with_path = $_SERVER['DOCUMENT_ROOT'] . "/css/" . $css_file_name;
     $mtime = filemtime($file_with_path);
-    echo '<link rel="stylesheet" href="' . $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . '/css/' . $css_file_name . '?v=' . $mtime . '">';
+    echo '<link rel="stylesheet" href="../css/' . $css_file_name . '?v=' . $mtime . '">';
 }
 addCss('modern-normalize.min.css');
 addCss('styles.css');
