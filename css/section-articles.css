@@ -5,17 +5,11 @@
 
 .logo-articles {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 70px);
-    grid-auto-rows: 70px;
-    /* grid-auto-flow: row; */
-    gap: 15px 10px;
-    justify-items: self-end;
+    grid-template-columns: repeat(4, 74px);
+    grid-template-rows: 70px 38px 48px 58px;
+    gap: 15px 16px;
+    justify-items: center;
     align-items: center;
-}
-
-.articles-item:nth-child(n+5){
-    grid-column-end: span 2;
 }
 
 .logo-link {
@@ -29,43 +23,65 @@
 
 .logo-stb {
     width: 73px ;
+    grid-row: 1;
+    grid-column: 1;
+    justify-self: start;
 }
 
 .logo-intb {
     width: 67px;
+    grid-row: 1;
+    grid-column: 2;
 }
 
 .logo-mvi {
     width: 86px;
+    grid-row: 1;
+    grid-column: 3;
 }
 
 .logo-cna {
     width: 52px;
+    grid-row: 1;
+    grid-column: 4;
+    justify-self: end;
 }
 
 .logo-informator {
     width: 164px;
+    grid-row: 2;
+    grid-column: 1 / 3;
 }
 
 .logo-arte {
     width: 163px;
+    grid-row: 2;
+    grid-column: 3 / 5;
 }
 
 .logo-vkyiv {
     width: 164px ;
     /* height: 43px; */
+    grid-row: 3;
+    grid-column: 1 / 3;
 }
 
 .logo-liga {
     width: 163px;
+    grid-row: 3;
+    grid-column: 3 / 5;
 }
 
 .logo-1p1 {
     width: 164px ;
+    grid-row: 4;
+    grid-column: 1 / 3;
 }
 
 .logo-dim {
     width: 163px;
+    grid-row: 4;
+    grid-column: 3 / 5;
 }
 
 /* MOBILE */
@@ -76,9 +92,9 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
     .logo-articles { 
-        grid-template-columns: repeat(24, 1fr);
-        grid-template-rows: 107px 40px 40px;
-        grid-auto-rows: 40px;
+        grid-template-columns: repeat(12, 60px);
+        grid-template-rows: 107px 40px 30px;
+
         row-gap: 50px;
         justify-items: center;
     }
@@ -87,148 +103,136 @@
         padding-bottom: 40px;
     }
 
-    /* .articles-item:nth-child(-n+4) {
-        grid-column-end:  span 3;
-    } */
-
-    /* .articles-item:nth-child(n+5){
-        grid-column-end: span 4;
-    } */
-
     .logo-stb {
         width: 105px;
         justify-self: start;
-        grid-column: 1 / 6;
+        grid-column: 1 / 3;
     }
 
     .logo-intb {
         width: 99px;
         justify-self: center;
-        grid-column: 6 / 12;
+        grid-column: 3 / 6;
     }
 
     .logo-mvi {
         width: 122px;
-        grid-column: 12 / 21;
+        grid-row: 1;
+        grid-column: 6 / 9;
     }
 
     .logo-cna {
         width: 82px;
         justify-self: end;
-        grid-column: 21 / 24;
+        grid-row: 1;
+        grid-column: 8 / 11;
     }
 
     .logo-informator {
         width: 102px;
         grid-row: 3;
-        grid-column: 19 / 22 ;
+        grid-column: 7 / 11 ;
     }
 
     .logo-arte {
         width: 160px;
         grid-row: 2;
-        grid-column: 19 / 22 ;
+        grid-column: 7 / 11 ;
     }
 
     .logo-1p1 {
         width: 104px;
         grid-row: 2;
-        grid-column: 4 / 7;
+        grid-column: 2 / 4;
     }
 
     .logo-dim {
         width: 106px;
         grid-row: 2;
-        grid-column: 12 / 15 ;
+        grid-column: 5 / 7 ;
     }
 
     .logo-vkyiv {
         width: 104px;
         grid-row: 3;
-        grid-column: 4 / 7;
+        grid-column: 2 / 4;
     }
 
     .logo-liga {
         width: 104px;
         grid-row: 3;
-        grid-column: 12 / 15;
+        grid-column: 5 / 7;
     }
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1440px) {
     .logo-articles {
-        grid-template-columns: repeat(24, 47px);
-        grid-template-rows: 160px 60px 50px;
-        grid-auto-rows: 50px;
+        grid-template-columns: repeat(12, 113px);
+        grid-template-rows: 167px 61px 47px;
         row-gap: 81px;
+        column-gap: 0;
     }
 
     .container-underline {
         padding-bottom: 80px;
     }
 
-    .articles-item {
-        width: 60%;
-    }
-
-    .articles-img {
-        width: 100%;
-        }
-
     .logo-stb {
         width: 164px;
-        grid-column: 2 / 6;
-        justify-self: end;
+        grid-column: 2 / 4;
+        justify-self: start;
     }
 
     .logo-intb {
         width: 154px;
-        grid-column: 9 / 12;
-        justify-self: start;
+        grid-column: 4 / 7;
+        justify-self: center;
     }
 
     .logo-mvi {
         width: 189px;
-        grid-column: 13 / 18 ;
-        justify-self: end;
+        grid-column: 7 / 10 ;
+        justify-self: center;
     }
 
     .logo-cna {
         width: 127px;
-        justify-self: center;
-        grid-column: 20 / 23;
+        justify-self: end;
+        grid-column: 10 / 12;
     }
 
     .logo-1p1 { 
         width: 161px;
-        grid-column: 6 / 10;
+        grid-row: 2;
+        grid-column: 3 / 5;
     }
 
     .logo-dim {
         width: 165px;
-        grid-column: 12 / 15;
+        grid-row: 2;
+        grid-column: 6 / 8;
     }
 
     .logo-arte {
         width: 249px;
-        grid-column: 18 / 22;
-       justify-self: center;
+        grid-column: 8 / 11;
+       justify-self: end;
     }
 
     .logo-vkyiv {
         width: 161px;
-        grid-column: 6 / 10;
+        grid-column: 3 / 5;
     }
 
     .logo-liga {
         width: 161px;
-        grid-column: 12 / 15;
+        grid-column: 6 / 8;
     }
 
     .logo-informator {
         width: 159px;
-        grid-column: 18 /22;
+        grid-column: 9 / 11;
         justify-self: center;
     }
 	
