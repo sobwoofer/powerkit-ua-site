@@ -48,7 +48,8 @@
   }
 
   .img-item1 {
-    max-width: 375px;
+    /* max-width: 375px; */
+    max-width: 49.82%;
   }
   .img-item-picture1 {
     width: 145px;
@@ -99,7 +100,8 @@
   }
 
   .img-item1 {
-    max-width: 520px;
+    /* max-width: 520px; */
+    max-width: 38.24%;
   }
 
   .img-item2 {
