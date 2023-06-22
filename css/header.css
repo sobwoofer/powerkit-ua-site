@@ -149,6 +149,8 @@
     border: 0.54px solid #ffffff;
     border-radius: 5px;
     padding: 5px 18.5px;
+    transition: color var(--transition-dur-and-func),
+      background-color var(--transition-dur-and-func);
   }
 
   .menu-btn-donat:hover,
@@ -206,6 +208,8 @@
     border: 0.54px solid var(--default-btn-color);
     border-radius: 5px;
     padding: 5.5px 25.5px;
+    transition: color var(--transition-dur-and-func),
+      background-color var(--transition-dur-and-func);
   }
 
   .header-btn-donat:hover,
@@ -255,6 +259,11 @@
     line-height: 1.2;
     border: 1px solid #ffffff;
     border-radius: 10px;
+  }
+
+  .header-btn-donat:hover,
+  .header-btn-donat:focus {
+    border: 1px solid var(--accent-btn-color);
   }
 
   .dropdown {
