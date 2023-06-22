@@ -386,3 +386,21 @@
     border-radius: 7.5px;
   }
 }
+
+/* #id */
+.ancor {
+  position: absolute;
+  display: block;
+  top: -70px;
+}
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .ancor {
+    top: -120px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .ancor {
+    top: -147px;
+  }
+}
