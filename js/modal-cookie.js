@@ -2,9 +2,6 @@ const cookieMenu = document.querySelector(".modal-cookie");
 const closeMenuBtn = document.querySelector(".modal-button-close");
 const agreeBtn = document.querySelector(".modal-content-btn");
 
-agreeBtn.addEventListener("click", setCookie);
-closeMenuBtn.addEventListener("click", closeCookieMenu);
-
 const cookieKey = document.cookie;
 if (cookieKey.includes("PKCoockiesAgree")) {
   // додати скрипт у тіло сторінки:
@@ -20,10 +17,12 @@ if (cookieKey.includes("PKCoockiesAgree")) {
   </script>`;
   document.head.insertAdjacentHTML("afterend", string);
 } else if (localStorage.getItem("PKCoockies")) {
-  console.log("PKCoockies", "no");
+  // console.log("PKCoockies", "no");
 } else {
   // показати модалку
   setTimeout(function openCookieMenu() {
+    agreeBtn.addEventListener("click", setCookie);
+    closeMenuBtn.addEventListener("click", closeCookieMenu);
     cookieMenu.classList.remove("visually-hidden");
   }, 5000);
 }
