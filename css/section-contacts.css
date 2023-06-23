@@ -1,21 +1,27 @@
-.contacts-list-item{
-    background: radial-gradient(92.18% 99.11% at 26.56% 107.7%, #FFDD55 0%, #FFDD55 10%, #FF543E 50%, #C837AB 100%);
+.section-contacts {
+  position: relative;
 }
-.footer{
-    background: #fff;
+
+.contacts-list-item {
+  background: radial-gradient(
+    92.18% 99.11% at 26.56% 107.7%,
+    #ffdd55 0%,
+    #ffdd55 10%,
+    #ff543e 50%,
+    #c837ab 100%
+  );
+}
+.footer {
+  background: #fff;
 }
 /* MOBILE */
 @media screen and (min-width: 375px) {
-
 }
 
 /* TABLET */
 @media screen and (min-width: 768px) {
-
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1440px) {
-
-	
 }
