@@ -1,22 +1,39 @@
-.legal-text-content {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.legal-text-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .legal-header-1 {
-    margin-bottom: 40px;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    text-align: center;
 }
 
 .legal-header-2 {
-    margin-bottom: 30px;
+    font-size: 48px;
+    margin: 80px 0;
 }
 
-.legal-text-content p {
-    margin-bottom: 20px;
+.legal-accent {
+    font-weight: bold;
+}
+
+.legal-text-container p {
+    font-size: 24px;
     line-height: 1.5;
+    margin-bottom: 20px;
 }
 
-.regular-link {
+.legal-text-container a {
+    color: var(--accent-blue-txt-color);
+}
+
+.legal-text-container a:hover {
+    color: var(--accent-blue-txt-color);
+}
+
+.legal-text-container a:visited {
     color: var(--accent-blue-txt-color);
 }
 
