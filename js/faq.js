@@ -4,12 +4,12 @@ const box = document.querySelector(".faq-box");
 box.addEventListener("click", clickBtnFaq);
 
 function clickBtnFaq(e) {
-  const btnEl = e.target.closest(".faq-box-item-topline-btn");
-  if (!btnEl) {
+  const itemEl = e.target.closest(".faq-box-item");
+  if (!itemEl) {
     return;
   }
-  const liParentEl = e.target.closest(".faq-box-item");
-  const openEl = liParentEl.querySelector(".faq-box-item-answer");
+  const btnEl = itemEl.querySelector(".faq-box-item-topline-btn");
+  const openEl = itemEl.querySelector(".faq-box-item-answer");
   btnEl.classList.toggle("active");
   slideToggle({ element: openEl });
 }
