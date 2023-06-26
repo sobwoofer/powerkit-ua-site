@@ -17,7 +17,7 @@
   margin-bottom: 24px;
 }
 
-@supports (display: flex) and (gap: 24px) {
+@supports  (gap: 24px) and (display: flex) {
 
 .about-wrapper {
   display: flex;
