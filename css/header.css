@@ -43,7 +43,7 @@
 .dropdown {
   position: relative;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .dropdown-button {
@@ -77,13 +77,14 @@
   z-index: 2;
   position: absolute;
   background-color: var(--dark-bg-color);
-  top: 20%;
+  bottom: 1px;
   left: 0;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .dropdown-list-item:first-child {
-  margin-bottom: 7%;
+  margin-bottom: 5px;
 }
 
 .dropdown-list--visible {
@@ -224,8 +225,11 @@
   }
 
   .dropdown-list {
-    top: 40%;
-    cursor: pointer;
+    bottom: 11px;
+  }
+
+  .dropdown-list-item:first-child {
+    margin-bottom: 8px;
   }
 }
 
@@ -269,6 +273,14 @@
   .dropdown {
     font-size: 18px;
   }
+
+  .dropdown-list {
+    bottom: 5px;
+  }
+
+  .dropdown-list-item:first-child {
+    margin-bottom: 9px;
+  }
 }
 
 /* #id */
@@ -288,4 +300,3 @@
     top: -147px;
   }
 }
-
