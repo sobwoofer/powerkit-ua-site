@@ -14,10 +14,8 @@
 }
 
 .about-text {
-  margin-bottom: 24px;
+  margin-bottom: 0;
 }
-
-@supports  (gap: 24px) and (display: flex) {
 
 .about-wrapper {
   display: flex;
@@ -25,8 +23,9 @@
   gap: 24px;
 }
 
-.about-text {
-  margin-bottom: 0;
+@supports not (gap: 24px) {
+  .about-text {
+  margin-bottom: 24px;
 }
 
 }
