@@ -124,7 +124,11 @@
   .menu-list {
     display: flex;
     flex-direction: column;
-    gap: 26px;
+    /* gap: 26px; */
+  }
+
+  .menu-list li:not(:last-child) {
+    margin-bottom: 26px;
   }
 
   .menu-link {
