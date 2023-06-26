@@ -275,11 +275,11 @@
   }
 
   .dropdown-list {
-    bottom: 5px;
+    bottom: 2.5px;
   }
 
   .dropdown-list-item:first-child {
-    margin-bottom: 9px;
+    margin-bottom: 10px;
   }
 }
 
