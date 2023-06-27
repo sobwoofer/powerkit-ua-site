@@ -89,7 +89,18 @@
 }
 
 .dropdown-list--visible {
-  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-list-reverse {
+  flex-direction: column-reverse;
+}
+.dropdown-list-reverse .dropdown-list-item:last-child {
+  margin-bottom: 5px;
+}
+.dropdown-list-reverse .dropdown-list-item:first-child {
+  margin-bottom: 0;
 }
 
 /* MOBILE */
@@ -236,6 +247,13 @@
   .dropdown-list-item:first-child {
     margin-bottom: 8px;
   }
+
+  .dropdown-list-reverse .dropdown-list-item:last-child {
+    margin-bottom: 8px;
+  }
+  .dropdown-list-reverse .dropdown-list-item:first-child {
+    margin-bottom: 0;
+  }
 }
 
 /* DESKTOP */
@@ -281,11 +299,18 @@
   }
 
   .dropdown-list {
-    bottom: 2.5px;
+    bottom: 3px;
   }
 
   .dropdown-list-item:first-child {
     margin-bottom: 10px;
+  }
+
+  .dropdown-list-reverse .dropdown-list-item:last-child {
+    margin-bottom: 10px;
+  }
+  .dropdown-list-reverse .dropdown-list-item:first-child {
+    margin-bottom: 0;
   }
 }
 
