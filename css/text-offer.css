@@ -1,39 +1,83 @@
-.legal-text-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+.legal {
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
-.legal-header-1 {
+.legal h1 {
     font-size: 32px;
     text-transform: uppercase;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
-.legal-header-2 {
-    font-size: 48px;
-    margin: 80px 0;
+.legal h2 {
+    font-size: 20px;
+    margin: 24px 0;
+    text-transform:uppercase;
+}
+
+.legal h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+dl {
+    display: inline;
+    font-weight: bold;
+}
+
+dd {
+
+    display: inline;
+    margin-inline-start: 10px;
+    
+}
+
+dd::before {
+    content:  " \2014 ";
+    padding-right: 10px;
+}
+
+.legal ol li {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+
+.legal ol li ol {
+    padding-left: 24px;
+}
+
+.legal ol li ul {
+    padding-left: 24px;
+    list-style: circle;
+}
+
+.legal ol li ul li {
+    margin-bottom: 0;
+
 }
 
 .legal-accent {
     font-weight: bold;
 }
 
-.legal-text-container p {
-    font-size: 24px;
+.legal p {
+    font-size: 14px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
-.legal-text-container a {
+.legal a {
     color: var(--accent-blue-txt-color);
 }
 
-.legal-text-container a:hover {
+.legal a:hover {
     color: var(--accent-blue-txt-color);
 }
 
-.legal-text-container a:visited {
+.legal a:visited {
     color: var(--accent-blue-txt-color);
 }
 
@@ -57,6 +101,35 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1440px) {
+    
+    .legal {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
 
+    .legal h1 {
+        font-size: 64px;
+        margin-bottom: 120px;
+    }
+
+    .legal h2 {
+        font-size: 45px  ;
+        margin-bottom: 40px;
+    }
+
+    .legal h3 {
+        font-size: 32px ;
+        margin-bottom: 40px;
+    }
+    
+    .legal ol li {
+        font-size: 24px;
+        /* line-height: 2.5; */
+    }
+
+    .legal p {
+        font-size: 24px;
+        /* line-height: 2.5; */
+    }
 	
 }
