@@ -1,0 +1,14 @@
+dl {
+    display: inline;
+    font-weight: bold;
+}
+
+dd {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    
+    display: inline;
+    margin-inline-start: 10px;
+    
+}
