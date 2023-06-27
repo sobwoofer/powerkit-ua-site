@@ -5,7 +5,7 @@
 .logo-partners {
   display: grid;
   grid-template-columns: 164px 164px;
-  grid-template-rows: 139px 55px 50px 116px 55px;
+  grid-template-rows: 139px 55px 50px 70px 55px;
   gap: 30px 16px;
   justify-items: center;
   align-items: center;
