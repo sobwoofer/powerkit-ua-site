@@ -50,8 +50,12 @@
   width: 148px;
   height: 100%;
   /* border: 1px solid orangered; */
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
+}
+
+.swiper-slide img {
+  width: 100%;
 }
 
 .link-see-more {
