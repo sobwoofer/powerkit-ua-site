@@ -73,8 +73,6 @@ if (swiperAboutEl && swiperReviewEl) {
 
   }
 
-  setInterval(swiperStopFn, 60000);
-
   // function swiperStatus () {
   //   console.log('about paused: ' + swiper.autoplay.paused);
   //   console.log('review paused: ' + swiperReview.autoplay.paused);
@@ -90,8 +88,8 @@ if (swiperAboutEl && swiperReviewEl) {
   
   const swiperObserverAbout = new IntersectionObserver(() => {
     if (swiper.autoplay.paused) {  
-      swiper.autoplay.resume()
-    
+      swiper.autoplay.resume();
+      setTimeout(swiper.autoplay.pause, 60000);
     }
   }, swiperIntersectionOptions);
   
@@ -99,7 +97,7 @@ if (swiperAboutEl && swiperReviewEl) {
 
     if (swiperReview.autoplay.paused) {
       swiperReview.autoplay.resume();
-
+      setTimeout(swiperReview.autoplay.pause, 60000);
     }
   }, swiperIntersectionOptions);
 
