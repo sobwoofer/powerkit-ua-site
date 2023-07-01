@@ -1,7 +1,7 @@
 import { langArr } from "./translation.js";
-// console.log(langArr);
 
 const allLang = ["ua", "en"];
+let currentLang = localStorage.getItem("language") || "ua";
 
 if (window.NodeList && !NodeList.prototype.forEach) {
   NodeList.prototype.forEach = function (callback, thisArg) {
@@ -18,23 +18,18 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
     ".dropdown-list-item"
   );
 
-  // Перенаправити на ulr з уточненням мови
   dropDownListItems.forEach(function (listItem) {
     listItem.addEventListener("click", function (e) {
       e.stopPropagation();
-      let lang = this.dataset.value;
-      console.log(lang);
-      location.href = window.location.pathname + "#" + lang;
-      location.reload();
+      currentLang = this.dataset.value;
+      localStorage.setItem("language", this.dataset.value);
+      changeLanguage();
     });
   });
 
   const dropDownBtn = document.querySelector(".dropdown-button");
   function changeLanguage() {
-    let hash = window.location.hash;
-    hash = hash.substr(1);
-    // console.log(hash);
-    dropDownBtn.innerText = hash.toUpperCase();
+    dropDownBtn.innerText = currentLang.toUpperCase();
     if (dropDownBtn.innerText === "EN") {
       dropDownList.classList.add("dropdown-list-reverse");
     }
@@ -43,14 +38,10 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
     }
     dropDownList.classList.remove("dropdown-list--visible");
 
-    if (!allLang.includes(hash)) {
-      location.href = window.location.pathname + "#ua";
-      location.reload();
-    }
     for (let key in langArr) {
       let elem = document.querySelector(`[data-lng=${key}]`);
       if (elem) {
-        elem.innerHTML = langArr[key][hash];
+        elem.innerHTML = langArr[key][currentLang];
       }
     }
   }
