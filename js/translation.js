@@ -49,6 +49,14 @@ export const langArr = {
     ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? Задонать на комплектуючі.",
     en: "We recycle used electronic cigarettes to assemble power banks that we provide to UAF soldiers absolutely for free. Do you want to support us? Donate to help buy the components.",
   },
+  "coockies-msg": {
+    ua: 'Ми використовуємо файли <a href="./coockies-policy.php">cookie</a>, щоб дозволити нашому сайту працювати належним чином і аналізувати наш трафік.',
+    en: 'We use files <a href="./coockies-policy.php">cookie</a>, to allow our site to function properly and to analyze our traffic.',
+  },
+  "coockies-btn": {
+    ua: "Погоджуюсь",
+    en: "Agree",
+  },
   // section-amount
   "amount-numbers-pw": {
     ua: '<p class="amount-item-title-sp">Кількість</p> зроблених паверів',
@@ -194,10 +202,27 @@ export const langArr = {
   // footer
   "footer-privacy-policy": {
     ua: "Політика конфіденційності ",
-    en: "About us",
+    en: "Privacy Policy",
   },
   "footer-public-offer": {
-    ua: "Privacy Policy ",
-    en: "Public Offer ",
+    ua: "Публічна оферта",
+    en: "Public Offer",
+  },
+  // Cookie page
+  "cookie-title": {
+    ua: "ПОВІДОМЛЕННЯ ЩОДО ВИКОРИСТАННЯ ФАЙЛІВ COOKIE НА ВЕБ-САЙТІ",
+    en: "COOKIE NOTICE",
+  },
+
+  // Public Offer page
+  "public-offer-title": {
+    ua: 'ПУБЛІЧНА ОФЕРТА ГО "ПОВЕРКІТ ВОЛОНТЕР"',
+    en: 'The Public Offer of the NGO "POWERKIT VOLUNTEER"',
+  },
+
+  // Privacy Policy page
+  "privacy-policy-title": {
+    ua: 'ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ ГО "ПАВЕРКІТ ВОЛОНТЕР"',
+    en: 'The Privacy Policy of the NGO "POWERKIT VOLUNTEER"',
   },
 };

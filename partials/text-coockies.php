@@ -1,5 +1,5 @@
 <div class="container legal">
-  <h1>ПОВІДОМЛЕННЯ ЩОДО ВИКОРИСТАННЯ ФАЙЛІВ COOKIE НА ВЕБ-САЙТІ</h1>
+  <h1 data-lng="cookie-title">ПОВІДОМЛЕННЯ ЩОДО ВИКОРИСТАННЯ ФАЙЛІВ COOKIE НА ВЕБ-САЙТІ</h1>
   <p>
     При перегляді веб-сайту
     <a href="http://<?= $_SERVER['HTTP_HOST'];?>"> <?= $_SERVER['HTTP_HOST'];?></a>, інформація може
