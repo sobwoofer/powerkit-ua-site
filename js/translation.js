@@ -213,6 +213,86 @@ export const langArr = {
     ua: "ПОВІДОМЛЕННЯ ЩОДО ВИКОРИСТАННЯ ФАЙЛІВ COOKIE НА ВЕБ-САЙТІ",
     en: "COOKIE NOTICE",
   },
+  "cookie-text1": {
+    ua: 'При перегляді веб-сайту <a href="https://uapowerkit.com">https://uapowerkit.com</a>, інформація може зберігатися у файлах “Cookie”, встановлених нами або третіми особами на вашому компʼютері, планшеті або смартфоні.',
+    en: 'When browsing the website <a href="https://uapowerkit.com">https://uapowerkit.com</a> we or third parties may store information as “Cookie-files” on your computer, tablet or smartphone.',
+  },
+  "cookie-text2": {
+    ua: "Цей інформаційний документ інформує про використання файлів cookie, пов’язаних із програмним забезпеченням браузера вашого комп’ютера, планшета чи смартфона.",
+    en: "Hereby we inform you about the use of cookies stored in the browser on your computer, tablet or smartphone.",
+  },
+  "cookie-question": {
+    ua: "Які cookie використовує сайт “PowerKit”?",
+    en: "What cookies does the PowerKit site use?",
+  },
+  "cookie-text3": {
+    ua: "Під час відвідування нашого веб-сайту ми використовуємо наступні категорії cookie-файлів:",
+    en: "We use the following categories of cookies when you visit our website:",
+  },
+  "cookie-item1-1": {
+    ua: "<span class='legal-accent'>1. Технічні файли cookie,</span> щоб зробити вашу навігацію на сайті можливою, забезпечити безпеку сайту та дозволити Вам отримати доступ до різних продуктів та послуг сайту.",
+    en: "<span class='legal-accent'>1. Technical cookies</span> to make your navigation throughout the Website possible and to ensure the security of the Website and to allow you to access various products and services on the Website.",
+  },
+  "cookie-item1-2": {
+    ua: "Технічні файли cookie включають файли cookie, які суворо необхідні для перегляду нашого сайту (наприклад, ідентифікатори сеансів, версія вашої операційної системи, версія застосованої програми), які дозволяють вам використовувати основні функції сайту, а також функціональні файли cookie, які дозволяють вам надати доступ до певних функціональних можливостей, зокрема, розпізнати вас і, таким чином, покращити ваш комфортний перегляд. Технічні файли cookie також дозволяють застосовувати заходи безпеки.",
+    en: "Technical cookies include cookies that are strictly necessary to view our site (for example, session identifiers, the version of your operating system, the version of the application used) that allow you to use the basic functions of the Website, as well as functional cookies that allow you to access certain functionalities, in particular, to recognize you and thus improve your seamless experience while browsing the Website. Technical cookies also enable security measures.",
+  },
+  "cookie-item1-3": {
+    ua: "Ви можете заблокувати використання цих файлів cookie та видалити їх за допомогою налаштувань браузера, однак це може вплинути на коректну роботу сайту.",
+    en: "You can block the use of these cookies and delete them using your browser settings, but it may affect correct operation of the Website.",
+  },
+  "cookie-item1-4": {
+    ua: "Ці файли cookie мають короткий термін служби, для строго необхідних файлів cookie — час сеансу, а для функціональних файлів cookie — час сеансу або кілька годин, але не більше одного року.",
+    en: "These cookies have a short lifetime. Strictly necessary cookies last for the duration of the session and functional cookies last for the duration of the session or a few extra hours, but for no longer than one year.",
+  },
+  "cookie-item2-1": {
+    ua: "<span class='legal-accent'>2. Файли cookie для вимірювання аудиторії,</span> видані нами або нашими постачальниками технічних послуг (наприклад, <a href='https://analytics.google.com/'>Google Analytics</a>) з метою вимірювання аудиторії для різного вмісту та розділів нашого сайту, з метою їх оцінки та кращої організації.",
+    en: "<span class='legal-accent'>2. Statistics Cookies</span> are stored by us or our technical service providers (e.g. <a href='https://analytics.google.com/'>Google Analytics</a>) in order to measure the audience for different content and sections of our Website in order to estimate and better organize them.",
+  },
+  "cookie-item2-2": {
+    ua: "Файли cookie для вимірювання аудиторії видаються нами та нашими постачальниками технічних послуг. На додаток до аналізу трафіку, вони дозволяють за потреби виявляти проблеми з навігацією, а отже, покращують ергономіку наших служб. ",
+    en: "Statistics cookies are stored by us and our technical service providers. In addition to traffic analysis, they allow us to detect navigation problems when necessary and therefore improve the ergonomics of our services.",
+  },
+  "cookie-item2-3": {
+    ua: "Тривалість життя файлів cookie для вимірювання аудиторії не перевищує 24 місяців.",
+    en: "The lifetime of statistics cookies does not exceed 24 months.",
+  },
+  "cookie-item2-4": {
+    ua: "Ви можете відмовитись від використання ваших даних Google Analytics, встановивши у своєму браузері розширення <a href='https://tools.google.com/dlpage/gaoptout/'>“Вимкнути Google Analytics”</a>.",
+    en: "You can opt out of the use of your Google Analytics data by installing <a href='https://tools.google.com/dlpage/gaoptout/'>“Turn off Google Analytics”</a> extension in your browser.",
+  },
+  "cookie-item2-5": {
+    ua: "Докладніше про конфіденційність і безпеку Google Analytics: <a href='https://support.google.com/analytics/answer/6004245/'>https://support.google.com/analytics/answer/6004245/</a>",
+    en: "Learn more about Google Analytics privacy and security: <a href='https://support.google.com/analytics/answer/6004245/'>https://support.google.com/analytics/answer/6004245/</a>",
+  },
+  "cookie-item3-1": {
+    ua: "3. Відмова від cookie",
+    en: "3. Rejection of cookies",
+  },
+  "cookie-item3-2": {
+    ua: "Ви можете по-різному керувати своїм вибором щодо файлів cookie (щоб дізнатися більше дивіться <a href='http://aboutcookies.org'>aboutcookies.org</a>):",
+    en: "You can manage your cookie choices in various ways (see <a href='http://aboutcookies.org'>aboutcookies.org</a>):",
+  },
+  "cookie-item3-3": {
+    ua: "Відмовитись від використання файлів cookie за допомогою програмного забезпечення вашого браузера або комп’ютера:",
+    en: "Opt out of cookies using your browser or computer software:",
+  },
+  "cookie-item3-4": {
+    ua: "Ваш браузер може бути налаштований так, щоб файли cookie створювалися лише за згодою або взагалі відхилялися. Однак ми зазначаємо, що це може вплинути на коректну роботу веб-сайту.",
+    en: "Your browser can be configured to set cookies only upon your approval or to reject all of them. However, it may affect correct operation of the Website.",
+  },
+  "cookie-item3-5": {
+    ua: "Керувати використанням файлів cookie або заборонити їх використання можна в налаштуваннях браузера:",
+    en: "You can manage cookie acceptance or disable them in your browser settings:",
+  },
+  "cookie-item3-6": {
+    ua: "Google Chrome: <a href='https://support.google.com/chrome/answer/95647' target='_blank' >https://support.google.com/chrome/answer/95647</a>",
+    en: "Google Chrome: <a href='https://support.google.com/chrome/answer/95647' target='_blank' >https://support.google.com/chrome/answer/95647</a>",
+  },
+  "cookie-item3-7": {
+    ua: "Safari: <a href='https://support.apple.com/en-gb/HT201265' target='_blank' >https://support.apple.com/en-gb/HT201265</a>",
+    en: "Safari: <a href='https://support.apple.com/en-gb/HT201265' target='_blank' >https://support.apple.com/en-gb/HT201265</a>",
+  },
 
   // Public Offer page
   "public-offer-title": {
