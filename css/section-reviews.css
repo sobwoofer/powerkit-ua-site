@@ -8,9 +8,10 @@
   overflow: hidden;
 }
 
-.swiper-review .swiper-slide {
+.swiper-review .swiper-slide img {
   /* border: 1px solid orangered; */
   /* height: 100%; */
+  width: 100%;
 }
 
 /* MOBILE */
