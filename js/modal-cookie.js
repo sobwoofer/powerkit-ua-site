@@ -1,4 +1,5 @@
 const cookieMenu = document.querySelector(".modal-cookie");
+if (cookieMenu) {
 const closeMenuBtn = document.querySelector(".modal-button-close");
 const agreeBtn = document.querySelector(".modal-content-btn");
 
@@ -57,4 +58,5 @@ function closeCookieMenu(event) {
   event.preventDefault();
   cookieMenu.classList.add("visually-hidden");
   localStorage.setItem("PKCoockies", "no");
+}
 }

@@ -1,4 +1,9 @@
-const swiper = new Swiper('.swiper', {
+const swiperAboutEl = document.querySelector('.swiper');
+const swiperReviewEl = document.querySelector('.swiper-review');
+
+if (swiperAboutEl && swiperReviewEl) {
+
+  const swiper = new Swiper('.swiper', {
     speed: 400,
   allowSlideNext: true,
   allowSlidePrev: true,
@@ -51,3 +56,53 @@ const swiper = new Swiper('.swiper', {
         }
     },
   })
+
+  window.addEventListener("load", swiperStopFn);
+
+  function swiperStopFn (){
+      if (!swiper.autoplay.paused ) {
+        
+        swiper.autoplay.pause();
+
+      }
+      if (!swiperReview.autoplay.paused) {
+        
+        swiperReview.autoplay.pause();
+
+      }
+
+  }
+
+  // function swiperStatus () {
+  //   console.log('about paused: ' + swiper.autoplay.paused);
+  //   console.log('review paused: ' + swiperReview.autoplay.paused);
+  // }
+
+  // setInterval(swiperStatus, 2000);
+
+  const swiperIntersectionOptions = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0,
+  };
+  
+  const swiperObserverAbout = new IntersectionObserver(() => {
+    if (swiper.autoplay.paused) {  
+      swiper.autoplay.resume();
+      setTimeout(swiper.autoplay.pause, 60000);
+    }
+  }, swiperIntersectionOptions);
+  
+  const swiperObserverReview = new IntersectionObserver(() => {
+
+    if (swiperReview.autoplay.paused) {
+      swiperReview.autoplay.resume();
+      setTimeout(swiperReview.autoplay.pause, 60000);
+    }
+  }, swiperIntersectionOptions);
+
+swiperObserverAbout.observe(swiperAboutEl);
+swiperObserverReview.observe(swiperReviewEl);
+
+
+}
