@@ -25,6 +25,7 @@
 dl {
     display: inline;
     font-weight: bold;
+    color: var(--accent-red-txt-color);
 }
 
 dd {
@@ -61,6 +62,7 @@ dd::before {
 
 .legal-accent {
     font-weight: bold;
+    color: var(--accent-red-txt-color);
 }
 
 .legal p {
@@ -81,7 +83,7 @@ dd::before {
     color: var(--accent-blue-txt-color);
 }
 
-.dodatok {
+.annex {
     font-weight: bold;
     text-align: right;
 }

@@ -1,4 +1,5 @@
 import { langArr } from "./translation.js";
+import setCurrentDomine from "./current-domine.js";
 
 // const allLang = ["ua", "en"];
 // let currentLang = localStorage.getItem("language") || "ua";
@@ -49,6 +50,8 @@ import { langArr } from "./translation.js";
 // });
 
 
+
+
 class languageSwitcher {
     allLang = ["ua", "en"];
     vocabluary;
@@ -65,9 +68,10 @@ class languageSwitcher {
           event.stopPropagation();
           
           this.language = event.target.dataset.value;
-          console.log(this.language);
+          
           this.switchLanguageMenu();
           this.translateContent();
+          setCurrentDomine();
         })
       })
       
@@ -111,3 +115,5 @@ class languageSwitcher {
 const pkLangSwitcher = new languageSwitcher(langArr);
 
 pkLangSwitcher.translateContent();
+
+setCurrentDomine();
