@@ -11,14 +11,37 @@
       </div>
       <nav class="header-nav">
         <ul class="header-nav-list">
-          <li><a href="../#about" class="header-link" href="">Про нас</a></li>
-          <li><a href="../#reviews" class="header-link" href="">Відгуки</a></li>
           <li>
-            <a href="../#partners" class="header-link" href="">Партнери</a>
+            <a data-lng="header-link-about" href="../#about" class="header-link"
+              >Про нас</a
+            >
           </li>
-          <li><a href="../#faq" class="header-link" href="">FAQ</a></li>
           <li>
-            <a href="#contacts" class="header-link" href="">Контакти</a>
+            <a
+              data-lng="header-link-reviews"
+              href="../#reviews"
+              class="header-link"
+              >Відгуки</a
+            >
+          </li>
+          <li>
+            <a
+              data-lng="header-link-partners"
+              href="../#partners"
+              class="header-link"
+              >Партнери</a
+            >
+          </li>
+          <li>
+            <a href="../#faq" class="header-link">FAQ</a>
+          </li>
+          <li>
+            <a
+              data-lng="header-link-contacts"
+              href="#contacts"
+              class="header-link"
+              >Контакти</a
+            >
           </li>
         </ul>
       </nav>
@@ -28,12 +51,13 @@
             <li class="dropdown-list-item" data-value="ua">UA</li>
             <li class="dropdown-list-item" data-value="en">EN</li>
           </ul>
-          <button class="dropdown-button">UA</button>
+          <button class="dropdown-button"></button>
         </div>
         <button id="btn" class="js-open-menu header-burger-btn">
           <img src="../images/header/burger.svg" alt="" />
         </button>
         <a
+          data-lng="header-btn-donat"
           href="https://send.monobank.ua/jar/9XUQiiaqJi"
           target="_blank"
           class="header-btn-donat"
@@ -46,13 +70,33 @@
   <div class="js-menu-container menu visually-hidden">
     <nav class="menu-nav">
       <ul class="menu-list">
-        <li><a href="../#about" class="menu-link">Про нас</a></li>
-        <li><a href="../#reviews" class="menu-link">Відгуки</a></li>
-        <li><a href="../#partners" class="menu-link">Партнери</a></li>
-        <li><a href="../#faq" class="menu-link">FAQ</a></li>
-        <li><a href="#contacts" class="menu-link">Контакти</a></li>
+        <li>
+          <a data-lng="header-menu-about" href="../#about" class="menu-link"
+            >Про нас</a
+          >
+        </li>
+        <li>
+          <a data-lng="header-menu-reviews" href="../#reviews" class="menu-link"
+            >Відгуки</a
+          >
+        </li>
         <li>
           <a
+            data-lng="header-menu-partners"
+            href="../#partners"
+            class="menu-link"
+            >Партнери</a
+          >
+        </li>
+        <li><a href="../#faq" class="menu-link">FAQ</a></li>
+        <li>
+          <a data-lng="header-menu-contacts" href="#contacts" class="menu-link"
+            >Контакти</a
+          >
+        </li>
+        <li>
+          <a
+            data-lng="header-menu-donat"
             href="https://send.monobank.ua/jar/9XUQiiaqJi"
             target="_blank"
             class="menu-link menu-btn-donat"
