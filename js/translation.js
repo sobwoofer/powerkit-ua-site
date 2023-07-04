@@ -160,7 +160,7 @@ export const langArr = {
   },
   "faq-answer2": {
     ua: "Свої цигарки ви можете здавати в таких ТЦ Києва - River Mall, Respublika, Retroville, Cosmo Multimall, у всіх столичних кінотеатрах Multiplex та мережі магазинів Епіцентр в Києві, а також в Броварах, Боярці та Борисполі. Шукайте відповідні бокси на інфостійках або на касах.",
-    en: "You can leave your used electronic cigarettes for recycling at Kyiv malls: River Mall, Respublika, Cosmo Multimall and all Multiplex cinemas in Kyiv. Find our boxes at the information desks or near the cashiers.",
+    en: "You can leave your used electronic cigarettes for recycling at Kyiv malls: River Mall, Respublika, Retroville, Cosmo Multimall, in all metropolitan Multiplex cinemas and Epicenter chain stores in Kyiv, as well as in Brovary, Boyarka, and Boryspil. Find our boxes at the information desks or near the cashiers.",
   },
   "faq-question3": {
     ua: "Я з іншого міста, як я можу передати вам свої цигарки?",
