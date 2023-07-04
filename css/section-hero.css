@@ -91,6 +91,13 @@
 }
 
 /* COOKIE  */
+@media screen and (max-width: 767px) {
+  .modal-content {
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+}
+
 .modal-cookie {
   z-index: 100;
   position: fixed;
