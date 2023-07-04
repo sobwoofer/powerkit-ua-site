@@ -64,7 +64,7 @@ export const langArr = {
   },
   "amount-discription-pw": {
     ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? Задонать на комплектуючі.",
-    en: "We recycle used electronic cigarettes to assemble power banks that we provide to UAF soldiers absolutely for free. Do you want to support us? Donate to help buy the components.",
+    en: "All power banks were delivered to Ukrainian Armed Forces’ various units and brigades. And now power banks are helping them stay powered.",
   },
   "amount-numbers-sm": {
     ua: '<p class="amount-item-title-sp">Кількість</p>перероблених цигарок',
