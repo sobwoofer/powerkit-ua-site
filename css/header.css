@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .header-menu-dropdown {
@@ -38,12 +38,13 @@
   display: flex;
   padding-top: 8px;
   padding-bottom: 18px;
+  margin-right: 16px;
 }
 
 .dropdown {
   position: relative;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .dropdown-button {
@@ -77,17 +78,29 @@
   z-index: 2;
   position: absolute;
   background-color: var(--dark-bg-color);
-  top: 20%;
+  bottom: 1px;
   left: 0;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .dropdown-list-item:first-child {
-  margin-bottom: 7%;
+  margin-bottom: 5px;
 }
 
 .dropdown-list--visible {
-  display: block;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-list-reverse {
+  flex-direction: column-reverse;
+}
+.dropdown-list-reverse .dropdown-list-item:last-child {
+  margin-bottom: 5px;
+}
+.dropdown-list-reverse .dropdown-list-item:first-child {
+  margin-bottom: 0;
 }
 
 /* MOBILE */
@@ -123,7 +136,11 @@
   .menu-list {
     display: flex;
     flex-direction: column;
-    gap: 26px;
+    /* gap: 26px; */
+  }
+
+  .menu-list li:not(:last-child) {
+    margin-bottom: 26px;
   }
 
   .menu-link {
@@ -224,8 +241,18 @@
   }
 
   .dropdown-list {
-    top: 40%;
-    cursor: pointer;
+    bottom: 11px;
+  }
+
+  .dropdown-list-item:first-child {
+    margin-bottom: 8px;
+  }
+
+  .dropdown-list-reverse .dropdown-list-item:last-child {
+    margin-bottom: 8px;
+  }
+  .dropdown-list-reverse .dropdown-list-item:first-child {
+    margin-bottom: 0;
   }
 }
 
@@ -252,6 +279,7 @@
   .header-menu-dropdown {
     padding-top: 28px;
     padding-bottom: 28px;
+    margin-right: 24px;
   }
 
   .header-btn-donat {
@@ -268,6 +296,21 @@
 
   .dropdown {
     font-size: 18px;
+  }
+
+  .dropdown-list {
+    bottom: 3px;
+  }
+
+  .dropdown-list-item:first-child {
+    margin-bottom: 10px;
+  }
+
+  .dropdown-list-reverse .dropdown-list-item:last-child {
+    margin-bottom: 10px;
+  }
+  .dropdown-list-reverse .dropdown-list-item:first-child {
+    margin-bottom: 0;
   }
 }
 
@@ -288,4 +331,3 @@
     top: -147px;
   }
 }
-

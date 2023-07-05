@@ -136,8 +136,12 @@
 }
 .footer {
   padding: 16px 0;
-  background: #222222;
-  color: #e6e6e6;
+  background: #131111;
+  color: var(--main-txt-color);
+  border-top: 1px solid #ffffff;
+
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .footer-links {
@@ -161,8 +165,7 @@
 }
 
 .footer-links-item-link {
-  font-size: 14px;
-  line-height: 1.5;
+  
   color: inherit;
 }
 .footer-links-item-link:hover {
@@ -193,6 +196,7 @@
 @media screen and (min-width: 1440px) {
   .footer {
     padding: 40px 0;
+    font-size: 18px;
   }
   .footer-container {
     width: 1210px;
@@ -201,7 +205,7 @@
     grid-template-columns: auto 235px 148px;
     grid-column-gap: 83px;
   }
-  .footer-links-item-link {
-    font-size: 18px;
-  }
+  /* .footer-links-item-link {
+    
+  } */
 }

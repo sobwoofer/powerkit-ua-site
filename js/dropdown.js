@@ -29,6 +29,12 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
       dropDownBtn.innerText = this.innerText;
       dropDownBtn.focus();
       //   dropDownInput.value = this.dataset.value;
+      if (dropDownBtn.innerText === "EN") {
+        dropDownList.classList.add("dropdown-list-reverse");
+      }
+      if (dropDownBtn.innerText === "UA") {
+        dropDownList.classList.remove("dropdown-list-reverse");
+      }
       dropDownList.classList.remove("dropdown-list--visible");
     });
   });

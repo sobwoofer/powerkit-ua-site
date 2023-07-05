@@ -33,6 +33,7 @@
 @media screen and (max-width: 767px) {
   .hero-container {
     padding-top: 24px;
+    height: 270px;
   }
 }
 
@@ -90,6 +91,14 @@
 }
 
 /* COOKIE  */
+@media screen and (max-width: 767px) {
+  .modal-cookie {
+    display: flex;
+    height: 60px;
+    justify-content: end;
+  }
+}
+
 .modal-cookie {
   z-index: 100;
   position: fixed;
@@ -141,6 +150,7 @@
   background: #ffffff;
   border: 1px solid #f56a3d;
   border-radius: 5px;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {

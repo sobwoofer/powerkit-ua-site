@@ -13,11 +13,22 @@
   margin-bottom: 24px;
 }
 
+.about-text {
+  margin-bottom: 24px;
+}
+
 .about-wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  /* gap: 24px; */
 }
+
+/* @supports not (gap: 24px) {
+  .about-text {
+  margin-bottom: 24px;
+}
+
+} */
 
 .about-paragraph {
   font-weight: 400;
@@ -39,8 +50,13 @@
   width: 148px;
   height: 100%;
   /* border: 1px solid orangered; */
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
+}
+
+.swiper-slide img {
+  /* width: 100%; */
+  max-width: none;
 }
 
 .link-see-more {
@@ -81,7 +97,12 @@
 
   .about-wrapper {
     flex-wrap: nowrap;
-    gap: 12px;
+    /* gap: 12px; */
+  }
+
+  .about-text {
+    margin-bottom: 0;
+    margin-right: 12px;
   }
 
   .about-paragraph {
@@ -108,8 +129,8 @@
     margin-bottom: 80px;
   }
 
-  .about-wrapper {
-    gap: 24px;
+  .about-text {
+    margin-right: 24px;
   }
 
   .about-paragraph {
