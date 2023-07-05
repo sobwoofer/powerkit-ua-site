@@ -23,12 +23,15 @@
     transform: scale(1.3);
 }
 
-.logo-link:active,
+@media screen  and (max-width:767px) {
+    .logo-link:active,
 .logo-link:focus {
     filter: none;
     transform: scale(1);
 
 }
+}
+
 
 .logo-stb {
     width: 73px ;
