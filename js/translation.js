@@ -457,4 +457,356 @@ export const langArr = {
     ua: 'ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ ГО "ПАВЕРКІТ ВОЛОНТЕР"',
     en: 'The Privacy Policy of the NGO "POWERKIT VOLUNTEER"',
   },
+  "privacy-p-general-h2":{
+    ua: 'Загальна інформація',
+    en: 'GENERAL INFORMATION',
+  },
+  "privacy-p-general-0":{
+    ua:'Ця Політика конфіденційності персональних даних (далі – «Політика конфіденційності», «Політика») діє відносно всієї інформації, яку Громадська організація «ПАВЕРКІТ ВОЛОНТЕР», код 45051626, адреса: 04203, м. Київ, вул. Олександра Олеся, 4-А, кв. 227 (надалі «ГО») може отримати про Користувача під час використання сайту <a data-domine="current" href="http://powerkit.ua">powerkit.ua</a>, (надалі «Сайт»).',
+    en:'This Privacy Policy (hereinafter Privacy Policy, Policy) governing personal date applies to all information that NGO "POWERKIT VOLUNTEER", Unified State Register of Enterprises and Organisations of Ukraine (EDRPOU) сode: 45051626, address: Oleksandra Olesya str. bld. 4-A, apt. 227, Kyiv, 04203, (hereinafter the Organization) can receive about the User when browsing the Website <a data-domine="current" href="http://powerkit.ua">powerkit.ua</a> (hereinafter the Website). User must accept the terms of this Policy in order to use the Website.',
+  },
+  "privacy-p-general-1": {
+    ua:'Для користування Сайтом Користувач зобов’язаний прийняти умови цієї Політики.',
+    en:'User must accept the terms of this Policy in order to use the Website.',
+  },
+  "privacy-p-definitions-h2":{
+    ua:'ТЕРМІНИ',
+    en:'DEFINITIONS',
+  },
+  "privacy-p-def-0":{
+    ua:'<dl>«Персональні дані»</dl> <dd>відомості чи сукупність відомостей про фізичну особу, яка ідентифікована або може бути конкретно ідентифікована.</dd>',
+    en:'<dl>«Personal data»</dl><dd>means information or a collection of data about a natural person who is identified or can be specifically identified.</dd>',
+  },
+  "privacy-p-def-1":{
+    ua:'<dl>«Обробка персональних даних»</dl>  <dd>будь-яка дія або сукупність дій, таких як збирання, реєстрація, накопичення, зберігання, адаптування, зміна, поновлення, використання і поширення (розповсюдження, реалізація, передача), знеособлення, знищення персональних даних, у тому числі з використанням інформаційних (автоматизованих) систем.</dd>',
+    en:'<dl>«Processing of personal data»</dl><dd>means any action or set of actions, such gathering, collection, registration, acquisition, accumulation, storage, adaptation, change, updating, use and distribution (distribution, disposition, sale, transfer), anonymisation, destruction of personal data, including using of (automated) information systems.</dd>',
+  },
+  "privacy-p-def-2":{
+    ua:'<dl>«Конфіденційність персональних даних»</dl> <dd>обов’язкова для дотримання вимога не допускати поширення персональних даних Користувача без згоди суб’єкта персональних даних або наявності іншої законної підстави.</dd>',
+    en:'<dl>«Privacy of personal data»</dl><dd>means mandatory requirement to prevent distribution of User\'s personal data without consent of the subject of the personal data or existence of another legal grounding.</dd>',
+  },
+  "privacy-p-def-3":{
+    ua:'<dl>«Користувач»</dl>    <dd>будь-яка фізична особа, яка здійснює доступ на Сайт і використання ресурсів Сайту за допомогою мережі Інтернет.</dd>',
+    en:'<dl>«User»</dl><dd>is any natural person who accesses the Website and uses the Website\'s resources via the Internet.</dd>',
+  },
+  "privacy-p-def-4":{
+    ua:'<dl>«Загальнодоступні дані»</dl>    <dd>інформація (у тому числі Персональні дані), до якої фізична особа — власник цих даних, надала доступ необмеженому колу осіб (у т.ч. шляхом публікації на будь-якому інтернет-сайті без обмеження доступу до цих даних) або на які відповідно до даної Політики та/або чинного законодавства України не поширюється вимога дотримання конфіденційності.    </dd>',
+    en:'<dl>«Public data»</dl><dd>means information (including Personal Data) to which the natural person – the owner of this data – has given access to unlimited number of persons (including by publication on any Internet website without restricting access to this data) or to which respectively confidentiality requirements does not apply to according to this Policy and/or current legislation of Ukraine.</dd>',
+  },
+  "privacy-p-def-5":{
+    ua:'<dl>«Cookies (Кукі)»</dl><dd>фрагмент даних, створений Сайтом й збережений у комп’ютері у вигляді одного або декількох файлів. Cookies не містять Персональних даних і  можуть бути заблоковані у будь-який момент.</dd>',
+    en:'<dl>Cookies</dl><dd>is a piece of data created by the Website and saved on the computer in the form of one or more files. Cookies do not contain Personal Data and can be blocked at any time.</dd>',
+  },
+  "privacy-p-subject-h2":{
+    ua:'1. ПРЕДМЕТ ПОЛІТИКИ',
+    en:'1. SUBJECT OF THE POLICY  ',
+  },
+  "privacy-p-subject-1":{
+    ua:'1.1. Дана Політика визначає порядок одержання, зберігання, обробки, використання й розкриття Персональних даних, що передаються Користувачем при використанні Сайту.',
+    en:'1.1. This Policy defines the procedure for receiving, storing, processing, using and disclosing Personal Data transmitted by the User when using the Website.',
+  },
+  "privacy-p-subject-2":{
+    ua:'1.2. Використання Користувачем Сайту означає згоду з цією Політикою та умовами обробки персональних даних Користувача, у тому числі збір, систематизацію, накопичення, зберігання, уточнення, використання (у тому числі передання), знищення персональних даних. У разі незгоди з умовами Політики Користувач повинен припинити використання Сайту.',
+    en:'1.2. The use of the Website by User means User conscents with this Policy and the terms and conditions of processing the User\'s personal data, including the gathering, collection, registration, acquisition, accumulation, storage, adaptation, change, updating, use (including transfer), destruction of personal data. In case of User’s disagreement with the terms of the Policy, the User must stop using the Website.',
+  },
+  "privacy-p-subject-3":{
+    ua:'1.3. Дана Політика не регулює, а ГО не несе відповідальності за порядок одержання, зберігання, обробки, використання й розкриття Персональних даних Користувача третіми особами,  підприємствами й організаціями, що не перебувають у володінні або під керуванням ГО, і фізичними особами, що не є працівниками/-цями ГО, навіть якщо Користувач одержав доступ до сайтів, програмного забезпечення, товарів або послуг цих осіб за допомогою Сайту.',
+    en:'1.3. This Policy does not regulate, and the NGO is not responsible for the procedure for receiving, storing, processing, using and disclosing the User\'s Personal Data by third parties, enterprises and organizations that are not owned or controlled by the NGO, and natural persons who are not NGO’s employees, even if the User gained access to the websites, software, goods or services of these persons using the Website.',
+  },
+  "privacy-p-subject-4":{
+    ua:'1.4. Адміністрація не перевіряє достовірність персональних даних, що надаються Користувачем.',
+    en:'1.4. The Administration does not verify the authenticity of personal data provided by the User.    ',
+  },
+  "privacy-p-subject-5":{
+    ua:'1.5. Відповідно до пунктів 1 і 2 частини другої статті 8, частини другої статті 12 Закону України «Про захист персональних даних» ГО повідомляє про володільця, розпорядника, місцезнаходження, склад і мету збору персональних даних. Володільцем та розпорядником персональних даних, що обробляються, є Громадська організація «ПАВЕРКІТ ВОЛОНТЕР», код ЄДРПОУ: 45051626  (04203, м. Київ, вул. Олександра Олеся, 4-А, кв.227).    Зберігання наданих персональних даних здійснюється на серверах, що забезпечують функціонування Сайту.    Персональні дані зберігаються терміном не більше, ніж це необхідно відповідно цілей їх обробки.',
+    en:'1.5. According to clauses 1 and 2 of the second part of Article 8, the second part of Article 12 of the Law of Ukraine "On the Protection of Personal Data", the NGO informs about the owner, administrator, location, composition and purpose of collecting personal data. The owner and administrator of the processed personal data is the NGO "POWERKIT VOLUNTEER", Unified State Register of Enterprises and Organisations of Ukraine (EDRPOU) сode: 45051626 (Oleksandra Olesya str. bld. 4-A, apt. 227, Kyiv, 04203).<br>The storage of provided personal data is carried out on servers that ensure the functioning of the Site.<br>Personal data are stored for no longer than is necessary for the purposes of their processing.',
+  },
+  "privacy-p-subject-6":{
+    ua:'1.6. Метою одержання, зберігання, обробки й використання Персональних, Загальнодоступних та інших даних Користувача є:',
+    en:'1.6. The purpose of receiving, storing, processing and using the User\'s Personal, Public and other data is:',
+  },
+  "privacy-p-subject-6-1":{
+    ua:'1.6.1. захист інтересів Користувача, ГО та Сайту;',
+    en:'1.6.1. Protection of the interests of the User, the NGO and the Website;',
+  },
+  "privacy-p-subject-6-2":{
+    ua:'1.6.2. надання Користувачу послуг, включаючи показ таргетованої, персоналізованої або загальної інформації, покращення якості існуючих і створення нових сайтів та послуг, що надаються Сайтом.',
+    en:'1.6.2. Provision of services to the User, including demonstration of targeted, personalized or general information, creating new websites and services and improving the quality of existing websites and services provided by the Website.',
+  },
+  "privacy-p-subject-6-3":{
+    ua:'1.6.3. Ідентифікації Користувача, зареєстрованого на Сайті.',
+    en:'1.6.3. Identification of the User registered on the Website.',
+  },
+  "privacy-p-subject-6-4":{
+    ua:'1.6.4. Надання Користувачеві доступу до персоналізованих ресурсів Сайту.',
+    en:'1.6.4. Granting User the access to personalized resources of the Website.',
+  },
+  "privacy-p-subject-6-5":{
+    ua:'1.6.5. Встановлення з Користувачем зворотного зв’язку, включаючи напрямок повідомлень, запитів, що стосуються використання Сайту, надання послуг, обробка запитів і заявок від Користувача.',
+    en:'1.6.5. Establishing feedback with the User, including the direction of messages, requests related to the use of the Website, provision of services, processing of User’s requests and applications.',
+  },
+  "privacy-p-subject-6-6":{
+    ua:'1.6.6. Визначення місця знаходження Користувача для забезпечення безпеки, запобігання шахрайства.',
+    en:'1.6.6. Obtaining User’s location to ensure security and prevent fraud.',
+  },
+  "privacy-p-subject-6-7":{
+    ua:'1.6.7. Підтвердження достовірності та повноти персональних даних, наданих Користувачем.',
+    en:'1.6.7. Confirmation of authenticity and completeness of personal data provided by the User.',
+  },
+  "privacy-p-subject-6-8":{
+    ua:'1.6.8. Створення облікового запису.',
+    en:'1.6.8. Account creation.',
+  },
+  "privacy-p-subject-6-9":{
+    ua:'1.6.9. Надання Користувачеві ефективної клієнтської і технічної підтримки при виникненні проблем пов’язаних з використанням Сайту.',
+    en:'1.6.9. Provision of effective customer and technical support for the User if problems related to the use of the Website occur.',
+  },
+  "privacy-p-subject-6-10":{
+    ua:'1.6.10. Надання Користувачеві з його згоди, оновлень продукції, спеціальних пропозицій, розсилки новин та інших відомостей від імені ГО або від імені партнерів ГО.',
+    en:'1.6.10. Upon User’s consent provision of product updates, special offers, newsletters and other information on behalf of the NGO or on behalf of the NGO’s partners.',
+  },
+  "privacy-p-subject-6-11":{
+    ua:'1.6.11. Здійснення рекламної діяльності за згодою Користувача.',
+    en:'1.6.11. Performance of advertising activities upon User’s consent.',
+  },
+  "privacy-p-subject-6-12":{
+    ua:'1.6.12. Надання доступу Користувачеві на сайти або сервіси партнерів Сайту з метою отримання продуктів, оновлень і послуг.',
+    en:'1.6.12. Granting access for the User to the sites or services of the Website\'s partners in order to receive products, updates and services.',
+  },
+  "privacy-p-obtaining-h2":{
+    ua:'2. ОТРИМАННЯ, ОБРОБКА ТА ВИКОРИСТАННЯ ІНФОРМАЦІЇ ТА ПЕРСОНАЛЬНИХ ДАНИХ',
+    en:'2. OBTAINING, PROCESSING AND USE OF INFORMATION AND PERSONAL DATA',
+  },
+  "privacy-p-obtaining-1":{
+    ua:'2.1. Обробка персональних даних Користувача здійснюється протягом строку, необхідного для досягнення мети обробки, будь-яким законним способом, в тому числі в інформаційних системах персональних даних з використанням засобів автоматизації або без використання таких засобів.',
+    en:'2.1. The processing of the User\'s personal data is carried out during the period necessary to achieve the purpose of processing, in any legal way, including using personal data information systems with automation tools or without such tools.',
+  },
+  "privacy-p-obtaining-2":{
+    ua:'2.2. ГО має право завантажувати на комп’ютери Користувачів файли Сookies (якщо Користувач самостійно не обмежив дану можливість у своєму веб-браузері), а також одержувати, зберігати, обробляти й використовувати інформацію, що міститься в Сookies.',
+    en:'2.2. NGO has the right to set Cookies on Users\' computers (if the User has not limited this possibility in their web browser), as well as to receive, store, process and use the information contained in Cookies.',
+  },
+  "privacy-p-obtaining-3":{
+    ua:'2.3. Персональні дані, дозволені до обробки в рамках цієї Політики, надаються Користувачем шляхом заповнення реєстраційної форми на Сайті в розділі про реєстрацію і включають в себе:',
+    en:'2.3. Personal data allowed for processing under this Policy are provided by the User by filling out the registration form on the Website in the registration section and include:',
+  },
+  "privacy-p-obtaining-3-0":{
+    ua:'ПІБ, вік, стать Користувача;',
+    en:'name, age, gender of the User;',
+  },
+  "privacy-p-obtaining-3-1":{
+    ua:'контактний телефон Користувача;',
+    en:'the User\'s phone number;',
+  },
+  "privacy-p-obtaining-3-2":{
+    ua:'адреса електронної пошти (e-mail);',
+    en:'electronic mail address (e-mail);',
+  },
+  "privacy-p-obtaining-3-3":{
+    ua:'місце проживання Користувача.',
+    en:'place of residence of the User.',
+  },
+  
+  "privacy-p-obtaining-4":{
+    ua:'2.4. Сайт захищає дані, які автоматично передаються в процесі перегляду рекламних блоків і при відвідуванні сторінок, на яких встановлено статистичний скрипт системи ( “піксель”):',
+    en:'2.4. The Website protects data that is automatically transmitted when viewing advertising blocks and when visiting pages where statistical script ("pixel") system is installed:',
+  },
+  "privacy-p-obtaining-4-0":{
+    ua:'IP адреса;',
+    en:'IP address;',
+  },
+  "privacy-p-obtaining-4-1":{
+    ua:'інформація з Сookies;',
+    en:'information from cookies;',
+  },
+  "privacy-p-obtaining-4-2":{
+    ua:'інформація про браузер (чи іншої програми, яка здійснює доступ до показу реклами);',
+    en:'information about the browser (or other program that accesses advertising);',
+  },
+  "privacy-p-obtaining-4-3":{
+    ua:'час доступу;',
+    en:'access time;',
+  },
+  "privacy-p-obtaining-4-4":{
+    ua:'адреса сторінки, на якій розташований рекламний блок;',
+    en:'the address of the page where the advertising block is located;',
+  },
+  "privacy-p-obtaining-4-5":{
+    ua:'реферер (адреса попередньої сторінки).',
+    en:'referrer (web address of the previous page).',
+  },
+
+  "privacy-p-obtaining-5":{
+    ua:'2.5. При використанні Користувачем Сайту обладнання, на якому розташований Сайт, автоматично зберігає, обробляє та використовує дані Користувача, що не відносяться до Персональних, наприклад: IP-адреса Користувача, дані про місцезнаходження Користувача, які можна визначити за допомогою його IP-адреси, технічні параметри комп’ютера Користувача, наявність або відсутність у комп’ютері Користувача конкретного програмного забезпечення, налаштування даного програмного забезпечення, файли Сookies, а також статистична інформація про активність Користувача.',
+    en:'2.5. The hardware where the website is hosted automatically stores, processes and uses the User\'s non-Personal data when user accesses the website, i.e.: User\'s IP address, User\'s location data which can be determined by IP address, technical parameters of User\'s device, presence or absence of specific software on User\'s device, such software settings, cookies, as well as statistical information about User\'s activity.',
+  },
+  "privacy-p-obtaining-6":{
+    ua:'2.6. Відключення Сookies може спричинити неможливість доступу до частин Сайту, що вимагають авторизації.',
+    en:'2.6. Disabling cookies may prevent access to parts of the Website those require authorization.',
+  },
+  "privacy-p-obtaining-7":{
+    ua:'2.7. Сайт здійснює збір статистики про IP-адреси своїх відвідувачів. Дана інформація використовується з метою виявлення і вирішення технічних проблем, для контролю законності проведених фінансових платежів.',
+    en:'2.7. The Website gathers its visitors IP address-related statistics. This information is used for the purpose of detection and fixing technical errors and in order to monitor the legitimacy of payments made.',
+  },
+  "privacy-p-obtaining-8":{
+    ua:'2.8. ГО має право зберігати Персональні дані Користувача в обсязі та у строки необхідні для реалізації мети, що зазначена у даній Політиці, або у строки, встановлені чинним законодавством України, нормами міжнародного права, або законодавством країни проживання або перебування Учасника, або до моменту видалення Користувачем цих даних.',
+    en:'2.8. The NGO has the right to store the User\'s Personal Data within the volume and within the time period necessary for the purpose specified in this Policy, or within the time period established by the current legislation of Ukraine, the rules of international law, or the legislation of the country of residence or stay of the Participant, or until the User deletes these data.',
+  },
+  "privacy-p-access-h2":{
+    ua:'3. ДОСТУП ДО ІНФОРМАЦІЇ',
+    en:'3. ACCESS TO INFORMATION',
+  },
+  "privacy-p-access-1":{
+    ua:'3.1. ГО має право передавати Персональні дані третім особам без згоди Користувача, якому належать ці дані.',
+    en:'3.1. The NGO has the right to transfer Personal Data to third parties without the consent of the User to whom this data belongs.',
+  },
+  "privacy-p-access-2":{
+    ua:'3.2. Користувач дозволяє ГО надавати дозвіл іншим компаніям, з якими ГО уклала відповідні угоди, меморандуми, одержувати, зберігати та обробляти Персональні дані Користувача, а також IP-адреса Користувача, файли Сookies, деперсоналізовані контактні дані Користувача, статистичну інформація про активність Користувача для покращення якості надаваної цими компаніями послуг та інформації рекламного характеру.',
+    en:'3.2. The User allows the NGO to grant permissions to other companies with which the NGO has entered into agreements, memorandums, to receive, store and process the User\'s Personal Data, as well as the User\'s IP address, cookies, anonymized User’s data, User\'s activity statistical information to improve the quality of services and advertisements provided by these companies.',
+  },
+  "privacy-p-access-3":{
+    ua:'3.3. Користувач погоджується з тим, що конфіденційність переданих через Інтернет даних не гарантована і у випадку, якщо доступ до цих даних буде отриманий третіми особами поза зоною технічних засобів зв’язку, підвладних ГО, то ГО не несе відповідальності за збиток, заподіяний таким доступом.',
+    en:'3.3. The User agrees that the confidentiality of data transmitted via the Internet is not guaranteed, and the NGO is not responsible for the damage caused by access to User’s data, when such access is obtained by third parties outside of NGO’s controlled technical means of communication.',
+  },
+  "privacy-p-content-h2":{
+    ua:'4. КОНТЕНТ ВІД КОРИСТУВАЧІВ (У ТОМУ ЧИСЛІ КОМЕНТАРІ)',
+    en:'4. USER CONTENT (INCLUDING COMMENTS)',
+  },
+  "privacy-p-content-1":{
+    ua:'4.1. ГО надає Користувачам можливість брати участь у дискусіях на Сайті, включаючи коментарі, рекомендації, точки зору читачів, огляди, рейтинги та ін. Будь-яка інформація, яку Користувач надає, вказавши своє вигадане або справжнє ім’я, ID у будь-якій соцмережі, або будь-яке зображення або фотографію, стає надбанням громадськості і може бути використаним ГО або партнерами ГО у рекламних або комерційних цілях в будь-яких засобах масової інформації.',
+    en:'4.1. NGO provides Users with the opportunity to participate in discussions on the Website, including comments, recommendations, readers\' points of view, reviews, ratings, etc. Any information that the User provides, indicating his fictitious or real name, ID of any social network, or any image or photo, becomes public domain and may be used by the NGO or partners of the NGO for advertising or commercial purposes by any mass media.',
+  },
+  "privacy-p-content-2":{
+    ua:'4.2. Якщо Користувач вирішив брати участь у громадській дискусії, він повинен знати, що будь-яка особиста інформація, надана Користувачем, може бути прочитана, зібрана чи використана іншими користувачами цих послуг, і може бути використана для розсилки небажаних повідомлень. ГО не несе відповідальність за особисту інформацію, яку Користувач надає у коментарях і не зобов’язаний публікувати, видаляти або редагувати будь-який з коментарів Користувача.',
+    en:'4.2. If the User decides to participate in a public discussion, he should be aware that any personal information provided by the User may be read, collected or used by other users of these services, and may be used to send unsolicited messages. NGO is not responsible for the personal information that the User provides in the comments and is not obliged to publish, delete or edit any of the User\'s comments.',
+  },
+  "privacy-p-content-3":{
+    ua:'4.3. Якщо Користувач вирішив рекомендувати будь-яку статтю з Сайту у соціальній мережі в Інтернеті, ці дії регулюються Політикою конфіденційності відповідної соціальної мережі.',
+    en:'4.3. If the User decides to recommend any Website’s article on a social network on the Internet, these actions are governed by the Privacy Policy of the corresponding social network.',
+  },
+  "privacy-p-content-4":{
+    ua:'4.4. Якщо Користувач зареєстрований на Сайті, ГО може відстежувати і аналізувати його дії на ньому. Беручи участь у громадській дискусії, Користувач погоджується на те, що його дії будуть публічними. Крім того, вони можуть бути включені у RSS-канали, API, і стати доступними для інших веб-сайтів за допомогою інших форматів. В результаті, надана Користувачем інформація може з’явитись на інших веб-сайтах, блогах, та ін. ГО не несе відповідальності за будь-яку особисту інформацію, яку Користувач вирішив оприлюднити через цей функціонал, і Користувач погоджуєтесь, що ця інформація буде вважатися такою, що була надана вами, а не ГО.',
+    en:'4.4. If the User is registered on the Website, the NGO can monitor and analyze User’s activity on the Website. By participating in a public discussion, the User agrees that his/her activity will be publicly available. Additionally, it may be included in RSS feeds, APIs, and made available to other websites using other formats. Hence, the information provided by the User may appear on other websites, blogs, etc. The NGO is not responsible for any personal information that the User chooses to disclose through such functionality, and the User agrees that such information will be deemed to have been provided by you and not by the NGO.',
+  },
+  
+  "privacy-p-limit-h2":{
+    ua:'5. ОБМЕЖЕННЯ ВІДПОВІДАЛЬНОСТІ ЗА ДОСТОВІРНІСТЬ ОТРИМАНОЇ ІНФОРМАЦІЇ',
+    en:'5. LIMITATION OF LIABILITY FOR THE ADEQUACY OF INFORMATION RECEIVED',
+  },
+  "privacy-p-limit-1":{
+    ua:'5.1. ГО не перевіряє достовірність отриманої про Користувачів інформації і не контролює правосуб’єктність Користувачів.',
+    en:'5.1. The NGO does not check the authenticity of the information received about the Users and does not verify Users’ legal capacity.',
+  },
+  "privacy-p-limit-2":{
+    ua:'5.2. Інформація, яка може бути оброблена в процесі взаємодії з Користувачем (перелік невичерпний):',
+    en:'5.2. Information that can be processed in the process of interaction with the User (among other	but not limited to the list):',
+  },
+  "privacy-p-limit-2-0":{
+    ua:'Інформація, що надається Користувачами будь-якої соціальної мережі – під час використання Сайту може використовуватися надана Користувачем особиста інформація. Обсяг вищевказаної інформації не перевищує обсяг інформації, що вказується зареєстрованим користувачем у відповідній соціальній мережі.',
+    en:'Information provided by Users of any social network: personal information provided by the User may be used when using the Website. The volume of the above information does not exceed the volume of information specified by a registered user in the relevant social network.',
+  },
+  "privacy-p-limit-2-1":{
+    ua:'Інформація про відвідування – при доступі до Сайту ГО через браузер, програму тощо, сервери  ГО автоматично записують певну інформацію. Ці журнали сервера можуть містити інформацію про веб-запити, IP-адресу, типи і мову браузера, дату і час запиту, а також містити один або декілька файлів Cookies, за якими можна визначити браузер або аккаунт Користувача.',
+    en:'Information about visits: when accessing the NGO’s Website vai a browser, application, etc., NGO’s servers automatically record certain information. These server logs may contain information about web requests, IP address, browser types and language, date and time of the request, as well as contain one or more cookies, which can be used to identify the browser or User\'s account.',
+  },
+  "privacy-p-limit-2-2":{
+    ua:'Повідомлення Користувача – коли Користувач в процесі взаємодії при використанні Сайту відправляє повідомлення, у тому числі в служби підтримки, можливе збереження і обробка цих повідомлень для відповідей на запитання і подальшого вдосконалення функціонування Сайту та роботи ГО. Для зв’язку з Користувачем з питань роботи Сайту може використовуватися адреса електронної пошти надана Користувачем.',
+    en:'User messages: when the User sends messages during interaction with the Website, including messages to the support service, it is possible to save and process these messages for answering questions and further improving performance of the Website and NGO’s activities. The e-mail address provided by the User may be used to communicate with the User regarding the performance of the Website.',
+  },
+  
+  "privacy-p-protection-h2":{
+    ua:'6. ЗАХИСТ ІНФОРМАЦІЇ',
+    en:'6. PROTECTION OF INFORMATION',
+  },
+  "privacy-p-protection-1":{
+    ua:'6.1. ГО вживає всіх необхідних заходів для захисту даних від несанкціонованого доступу, зміни, розкриття чи знищення. До цих заходів належать, зокрема, внутрішня перевірка процесів збору, зберігання та обробки даних і заходів безпеки, включаючи відповідне шифрування і заходи щодо забезпечення фізичної безпеки даних для запобігання неавторизованого доступу до систем, в яких ми зберігаємо особисті дані.',
+    en:'6.1. The NGO takes all necessary actions to protect data from unauthorized access, modification, disclosure or destruction. These actions include but are not limited to internal review of processes of data collection, storage and processing and security measures including appropriate encryption and physical data security measures to prevent unauthorized access to the systems where we store personal data.',
+  },
+  "privacy-p-protection-2":{
+    ua:'6.2. ГО надає доступ до інформації користувачів тільки тим співробітникам, підрядникам, волонтерам та контрагентам ГО, яким необхідно мати цю інформацію для здійснення дій, які виконуються від імені ГО.',
+    en:'6.2. The NGO provides access to Users’ information only to those employees, contractors, volunteers and contractors of the NGO who need to have this information to carry out tasks on behalf of the NGO.',
+  },
+  
+  "privacy-p-additional-h2":{
+    ua:'7. ДОДАТКОВІ УМОВИ',
+    en:'7. ADDITIONAL TERMS',
+  },
+  "privacy-p-additional-1":{
+    ua:'7.1. ГО не несе відповідальності за шкоду або збитки, яких зазнав Користувач або треті особи в результаті помилкового розуміння або нерозуміння умов даної Політики, інструкцій або вказівок про порядок використання Сайту, щодо порядку розміщення даних та інших технічних питань.',
+    en:'7.1. The NGO is not responsible for damage or losses suffered by the User or third parties as a result of misunderstanding or failure to understand the terms and conditions of this Policy, Website rules and instructions, regarding provision of data procedures and other technical issues.',
+  },
+  "privacy-p-additional-2":{
+    ua:'7.2. У випадку визнання недійсної або нездійсненої будь-якої частини даної Політики, інші частини Політики залишаються чинними. Відмова кожної зі сторін від будь-якого положення або умови даної Політики, або будь-яке їх порушення не скасовує дію цього положення або умови.',
+    en:'7.2. In the event that any part of this Policy is declared as void or unenforceable, the other parts of the Policy shall remain in effect. The waiver by either party of any provision or condition of this Policy, or any violation thereof, shall not nullify such provision or condition.',
+  },
+  "privacy-p-additional-3":{
+    ua:'7.3. До даної Політики та відносин між ГО та Користувачем, що виникають у зв’язку з використанням Сайту, застосовується законодавство України. Кожна сторона незаперечно погоджується з тим, що відповідні суди України мають виняткову юрисдикцію відносно будь-яких претензій, спорів або розбіжностей, що стосуються Політики та використання Сайту.',
+    en:'7.3. The Ukrainian legislation is the governing legislation to this Policy and the relationship between the NGO and the User arising in connection with the use of the Website. Each party expressly agrees that the relevant courts of Ukraine shall have exclusive jurisdiction over any claims, disputes or disagreements relating to the Policy and the use of the Website.',
+  },
+  
+  "privacy-p-change-h2":{
+    ua:'8. ЗМІНА ПОЛІТИКИ',
+    en:'8. POLICY CHANGE',
+  },
+  "privacy-p-change-1":{
+    ua:'8.1. Користувач, використовуючи Сайт, прийняв умови цієї політики конфіденційності ГО і враховує, що дана політика конфіденційності може час від часу змінюватися. Зміни, що вносяться до політики конфіденційності, публікуються ГО на Сайті.',
+    en:'8.1. By using the Website, the User accepts the terms of this Privacy Policy of the NGO and acknowledges that this Privacy Policy may change from time to time. NGO publishes changes made to the Privacy Policy on the Website.    ',
+  },
+  "privacy-p-change-2":{
+    ua:'8.2. ГО має право вносити зміни в Політику конфіденційності без згоди Користувача.',
+    en:'8.2. The NGO has the right to make changes to the Privacy Policy without the User\'s consent.',
+  },
+  "privacy-p-change-3":{
+    ua:'8.3. Зміни до Політики конфіденційності вступають в силу з моменту їх розміщення на Сайті, якщо інше не передбачено новою редакцією Політики конфіденційності.',
+    en:'8.3. Changes to the Privacy Policy enter into force from the moment they are published on the Website, unless otherwise provided by the new version of the Privacy Policy.',
+  },
+  "privacy-p-change-4":{
+    ua:' 8.4. Для питань щодо політики конфіденційності, Користувач може зв’язатися з ГО через Сайт або використовуючи e-mail: <a href="mailto:Hachikyan@ukr.net">Hachikyan@ukr.net</a>.',
+    en:'8.4. In case of questions about the Privacy Policy, the User may contact the NGO through the Website or e-mail: Hachikyan@ukr.net.',
+  },
+  
+  "privacy-p-liability-h2":{
+    ua:'9. ВІДПОВІДАЛЬНІСТЬ СТОРІН',
+    en:'9. LIABILITY OF THE PARTIES',
+  },
+  "privacy-p-liability-1":{
+    ua:'9.1. ГО, у випадку не виконання своїх зобов’язань, несе відповідальність за збитки, понесені Користувачем у зв’язку з неправомірним використанням персональних даних, відповідно до законодавства України, за винятком випадків, передбачених цією Політикою Конфіденційності.',
+    en:'9.1.In case of failure to fulfill its obligations, the NGO shall be liable for damages incurred by the User in connection with the improper use of personal data, in accordance with the legislation of Ukraine, except otherwise specified in this Privacy Policy.',
+  },
+  "privacy-p-liability-2":{
+    ua:'9.2. У разі втрати або розголошення Конфіденційної інформації ГО не несе відповідальність, якщо дана конфіденційна інформація:',
+    en:'9.2. In case of loss or disclosure of Confidential Information, the NGO is not liable if this confidential information:',
+  },
+  "privacy-p-9-2-1":{
+    ua:'9.2.1. Стала публічним надбанням до її втрати або розголошення.',
+    en:'9.2.1. Became a part of public domain before its loss or disclosure.',
+  },
+  "privacy-p-liability-2-2":{
+    ua:'9.2.2. Була отримана від третьої сторони до моменту її отримання ГО.',
+    en:'9.2.2. It was received from a third party before User provided it to the NGO.',
+  },
+  "privacy-p-liability-2-3":{
+    ua:'9.2.3. Була розголошена за згодою Користувача.',
+    en:'9.2.3. It was disclosed upon User’s consent.',
+  },
+  "privacy-p-disputes-h2":{
+    ua:'10. ВИРІШЕННЯ СПОРІВ',
+    en:'10. RESOLUTION OF DISPUTES',
+  },
+  "privacy-p-disputes-1":{
+    ua:'10.1. До звернення в суд з позовом у спорах, що виникають із відносин між Користувачем сайту і ГО, обов’язковим є пред’явлення претензії (письмової пропозиції про добровільне врегулювання спору).',
+    en:'10.1. In case of disputes arising from the relationship between the Website User and the NGO, before filing a court claim it is mandatory to submit a claim (a written proposal for voluntary settlement of the dispute) to the NGO.',
+  },
+  "privacy-p-disputes-2":{
+    ua:'10.2. Отримувач претензії протягом 30 календарних днів з дня отримання претензії, письмово повідомляє заявника претензії про результати розгляду претензії.',
+    en:'10.2. The recipient of the claim notifies the claimant in writing about the results of the claim consideration within 30 calendar days from the date of receipt of the claim.',
+  },
+  "privacy-p-disputes-3":{
+    ua:'10.3. При не досягненні угоди суперечка може буде передана на розгляд до судового органу відповідно до чинного законодавства України.',
+    en:'10.3. If no agreement is reached, the dispute may be referred to a judicial authority in accordance with the current legislation of Ukraine.',
+  },
+  "privacy-p-disputes-4":{
+    ua:'10.4. До цієї Політики конфіденційності та відносин між Користувачем і ГО застосовується чинне законодавство України.',
+    en:'10.4. The current legislation of Ukraine applies to this Privacy Policy and relations between the User and the NGO.',
+  },
+  
 };
