@@ -59,16 +59,16 @@ export const langArr = {
   },
   // section-amount
   "amount-numbers-pw": {
-    ua: '<p class="amount-item-title-sp">Кількість</p> зроблених паверів',
-    en: '<p class="amount-item-title-sp">Powerbanks</p> assembled',
+    ua: '<span class="amount-item-title-sp">Кількість</span> зроблених паверів',
+    en: '<span class="amount-item-title-sp">Powerbanks</span> assembled',
   },
   "amount-discription-pw": {
     ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? Задонать на комплектуючі.",
     en: "All power banks were delivered to Ukrainian Armed Forces’ various units and brigades. And now power banks are helping them stay powered.",
   },
   "amount-numbers-sm": {
-    ua: '<p class="amount-item-title-sp">Кількість</p> перероблених цигарок',
-    en: '<p class="amount-item-title-sp">Electronic cigarettes</p> recycled',
+    ua: '<span class="amount-item-title-sp">Кількість</span> перероблених цигарок',
+    en: '<span class="amount-item-title-sp">Electronic cigarettes</span> recycled',
   },
   "amount-discription-sm": {
     ua: "Для виробництва повербанків ми використовуємо акумулятори з електронних сигарет. Інші комплектуючі цигарок ми утилізуємо за допомогою наших партнерів.",
