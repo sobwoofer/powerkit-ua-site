@@ -39,28 +39,20 @@
   }
 }
 
-@media ((hover: none) and (pointer: coarse)),
-  ((hover: none) and (pointer: fine)),
-  ((hover: hover) and (pointer: coarse)),
-  (any-pointer: coarse),
-  (any-hover: on-demand),
-  (max-width: 767px) {
-  .logo-link:active,
-  .logo-link:focus {
+@media ((hover: none) and (pointer: coarse)), (max-width: 767px) {
+  .logo-link:active {
     -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
     filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
     transform: translateZ(0) scale(1.2);
   }
 
-  .logo-link.small:active,
-  .logo-link.small:focus {
+  .logo-link.small:active {
     -webkit-filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
     filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
     transform: translateZ(0) scale(1.2);
   }
 
-  .logo-link.v-small:active,
-  .logo-link.v-small:focus {
+  .logo-link.v-small:active {
     -webkit-filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
     filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
     transform: translateZ(0) scale(1.2);
