@@ -39,7 +39,12 @@
   }
 }
 
-@media (hover: none) and (pointer: coarse) {
+@media ((hover: none) and (pointer: coarse)),
+  ((hover: none) and (pointer: fine)),
+  ((hover: hover) and (pointer: coarse)),
+  (any-pointer: coarse),
+  (any-hover: on-demand),
+  (max-width: 767px) {
   .logo-link:active {
     -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
     filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
@@ -56,20 +61,6 @@
     -webkit-filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
     filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
     transform: translateZ(0) scale(1.2);
-  }
-}
-
-@media (max-width: 767px) {
-  .logo-link:hover {
-    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
-    filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
-    transform: translateZ(0) scale(1.2);
-  }
-
-  .logo-link:active,
-  .logo-link:focus {
-    filter: none;
-    transform: translateZ(0) scale(1);
   }
 }
 
