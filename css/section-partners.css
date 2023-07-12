@@ -30,11 +30,13 @@
 }
 
 .logo-eco-kpi {
+  width: 87px;
   grid-row: 4;
   grid-column: 2;
 }
 
 .logo-respublika-park {
+  width: 164px;
   grid-row: 3;
   grid-column: 1;
 }
@@ -157,7 +159,6 @@
 
   .logo-respublika-park {
     width: 322px;
-    height: 91px;
   }
 
   .logo-kyiv-komun-s {
