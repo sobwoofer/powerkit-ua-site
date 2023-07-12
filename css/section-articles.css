@@ -25,6 +25,18 @@
   transform: translateZ(0) scale(1.2);
 }
 
+.logo-link.small:hover {
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
+  filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
+  transform: translateZ(0) scale(1.2);
+}
+
+.logo-link.v-small:hover {
+  -webkit-filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
+  filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
+  transform: translateZ(0) scale(1.2);
+}
+
 @media screen and (max-width: 767px) {
   .logo-link:active,
   .logo-link:focus {
