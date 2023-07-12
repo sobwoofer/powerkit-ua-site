@@ -19,31 +19,53 @@
   transform: translateZ(0);
 }
 
-.logo-link:hover {
-  -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
-  filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
-  transform: translateZ(0) scale(1.2);
+@media (hover: hover) {
+  .logo-link:hover {
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1.2);
+  }
+
+  .logo-link.small:hover {
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1.2);
+  }
+
+  .logo-link.v-small:hover {
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1.2);
+  }
 }
 
-.logo-link.small:hover {
-  -webkit-filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
-  filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
-  transform: translateZ(0) scale(1.2);
+@media (hover: none) {
+  .logo-link:active {
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1.2);
+  }
+
+  .logo-link.small:active {
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1.2);
+  }
+
+  .logo-link.v-small:active {
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1.2);
+  }
 }
 
-.logo-link.v-small:hover {
-  -webkit-filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
-  filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
-  transform: translateZ(0) scale(1.2);
-}
-
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .logo-link:active,
   .logo-link:focus {
     filter: none;
     transform: translateZ(0) scale(1);
   }
-}
+} */
 
 .logo-stb {
   width: 73px;
