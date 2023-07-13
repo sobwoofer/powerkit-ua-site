@@ -58,6 +58,10 @@ export const langArr = {
     en: "Agree",
   },
   // section-amount
+  "amount-numbers-title-h2": {
+    ua: "Наші досягнення",
+    en: "Our achievements",
+  },
   "amount-numbers-pw": {
     ua: '<span class="amount-item-title-sp">Кількість</span> зроблених паверів',
     en: '<span class="amount-item-title-sp">Powerbanks</span> assembled',
