@@ -31,7 +31,11 @@
 
   @media screen and (max-width: 767px) {
     .logo-link:active,
-    .logo-link:focus {
+    .logo-link:focus,
+    .logo-link.small:active,
+    .logo-link.small:focus,
+    .logo-link.v-small:active,
+    .logo-link.v-small:focus {
       filter: none;
       transform: scale(1);
     }
