@@ -1,4 +1,4 @@
-// Полифилл для метода forEach для NodeList
+// Polyfill for NodeList's forEach method
 if (window.NodeList && !NodeList.prototype.forEach) {
   NodeList.prototype.forEach = function (callback, thisArg) {
     thisArg = thisArg || window;
@@ -16,13 +16,13 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
   );
   const dropDownInput = dropDownWrapper.querySelector(".dropdown-input-hidden");
 
-  // Клик по кнопке. Открыть/Закрыть select
+  // Click on the button. Open/Close select
   dropDownBtn.addEventListener("click", function (e) {
     dropDownList.classList.toggle("dropdown-list--visible");
     this.classList.add("dropdown-button--active");
   });
 
-  // Выбор элемента списка. Запомнить выбранное значение. Закрыть дропдаун
+  // Selecting an element of the list. Remember the selected value. close dropdown
   dropDownListItems.forEach(function (listItem) {
     listItem.addEventListener("click", function (e) {
       e.stopPropagation();
@@ -38,7 +38,7 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
     });
   });
 
-  // Клик снаружи дропдауна. Закрыть дропдаун
+  // Click outside the dropdown. close dropdown
   document.addEventListener("click", function (e) {
     if (e.target !== dropDownBtn) {
       dropDownBtn.classList.remove("dropdown-button--active");
@@ -46,7 +46,7 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
     }
   });
 
-  // Нажатие на Tab или Escape. Закрыть дропдаун
+  // Pressing Tab or Escape. close dropdown
   document.addEventListener("keydown", function (e) {
     if (e.key === "Tab" || e.key === "Escape") {
       dropDownBtn.classList.remove("dropdown-button--active");
