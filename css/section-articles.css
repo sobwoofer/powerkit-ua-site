@@ -19,8 +19,8 @@
   transform: translateZ(0);
 }
 
-/* миша, тачпад */
-@media (hover: hover) and (pointer: fine) {
+/* миша, тачпад (hover: hover) and */
+@media (pointer: fine) {
   .logo-link:hover,
   .logo-link.small:hover,
   .logo-link.v-small:hover {
@@ -28,21 +28,22 @@
     filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
     transform: translateZ(0) scale(1.15);
   }
-}
-/* екрани до 767px, самсунг? */
-@media screen and (max-width: 767px) and (pointer: fine) {
-  .logo-link:hover {
-    filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
-    transform: scale(1.15);
+
+  @media screen and (max-width: 767px) {
+    .logo-link:active,
+    .logo-link:focus,
+    .logo-link.small:active,
+    .logo-link.small:focus,
+    .logo-link.v-small:active,
+    .logo-link.v-small:focus {
+      filter: none;
+      transform: scale(1);
+    }
   }
-  .logo-link:active,
-  .logo-link:focus {
-    filter: none;
-    transform: scale(1);
-  }
 }
-/* смартфони, пристрої із сенсорним екраном, з яким працюють пальцями */
-@media (hover: none) and (pointer: coarse) {
+
+/* смартфони, пристрої із сенсорним екраном, з яким працюють пальцями (hover: none) and */
+@media (pointer: coarse) {
   .logo-link:active,
   .logo-link.small:active,
   .logo-link.v-small:active {
