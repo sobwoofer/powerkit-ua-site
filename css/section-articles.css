@@ -28,9 +28,17 @@
     filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
     transform: translateZ(0) scale(1.15);
   }
+
+  @media screen and (max-width: 767px) {
+    .logo-link:active,
+    .logo-link:focus {
+      filter: none;
+      transform: scale(1);
+    }
+  }
 }
 
-/* смартфони, (hover: none) and пристрої із сенсорним екраном, з яким працюють пальцями */
+/* смартфони, пристрої із сенсорним екраном, з яким працюють пальцями (hover: none) and */
 @media (pointer: coarse) {
   .logo-link:active,
   .logo-link.small:active,
