@@ -1,137 +1,125 @@
 .legal {
-    padding-top: 64px;
-    padding-bottom: 64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .legal h1 {
-    font-size: 32px;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-    text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .legal h2 {
-    font-size: 20px;
-    margin: 24px 0;
-    text-transform:uppercase;
+  font-size: 20px;
+  margin: 24px 0;
+  text-transform: uppercase;
 }
 
 .legal h3 {
-    font-size: 16px;
-    margin-bottom: 8px;
-    text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
 }
 
 dl {
-    display: inline;
-    font-weight: bold;
-    color: var(--accent-red-txt-color);
+  display: inline;
+  font-weight: bold;
+  color: var(--accent-red-txt-color);
 }
 
 dd {
-
-    display: inline;
-    margin-inline-start: 10px;
-    
+  display: inline;
+  margin-inline-start: 10px;
 }
 
 dd::before {
-    content:  " \2014 ";
-    padding-right: 10px;
+  content: " \2014 ";
+  padding-right: 10px;
 }
 
 .legal ol li {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 14px;
 }
 
 .legal ol li ol {
-    padding-left: 24px;
+  padding-left: 24px;
 }
 
 .legal ol li ul {
-    padding-left: 24px;
-    list-style: circle;
+  padding-left: 24px;
+  list-style: circle;
 }
 
 .legal ol li ul li {
-    margin-bottom: 0;
-
+  margin-bottom: 0;
 }
 
 .legal-accent {
-    font-weight: bold;
-    color: var(--accent-red-txt-color);
+  font-weight: bold;
+  color: var(--accent-red-txt-color);
 }
 
 .legal p {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 14px;
 }
 
 .legal a {
-    color: var(--accent-blue-txt-color);
+  color: var(--accent-blue-txt-color);
 }
 
 .legal a:hover {
-    color: var(--accent-blue-txt-color);
+  color: var(--accent-blue-txt-color);
 }
 
 .legal a:visited {
-    color: var(--accent-blue-txt-color);
+  color: var(--accent-blue-txt-color);
 }
 
 .annex {
-    font-weight: bold;
-    text-align: right;
+  font-weight: bold;
+  text-align: right;
 }
 
 .agree {
-    text-align: center;
+  text-align: center;
 }
 
-.agree>span {
-    display: block;
-}
-
-/* TABLET */
-@media screen and (min-width: 768px) {
-
+.agree > span {
+  display: block;
 }
 
 /* DESKTOP */
 @media screen and (min-width: 1440px) {
-    
-    .legal {
-        padding-top: 150px;
-        padding-bottom: 150px;
-    }
+  .legal {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
 
-    .legal h1 {
-        font-size: 64px;
-        margin-bottom: 120px;
-    }
+  .legal h1 {
+    font-size: 64px;
+    margin-bottom: 120px;
+  }
 
-    .legal h2 {
-        font-size: 45px  ;
-        margin-bottom: 40px;
-    }
+  .legal h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
 
-    .legal h3 {
-        font-size: 32px ;
-        margin-bottom: 40px;
-    }
-    
-    .legal ol li {
-        font-size: 24px;
-        /* line-height: 2.5; */
-    }
+  .legal h3 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
 
-    .legal p {
-        font-size: 24px;
-        /* line-height: 2.5; */
-    }
-	
+  .legal ol li {
+    font-size: 24px;
+  }
+
+  .legal p {
+    font-size: 24px;
+  }
 }

@@ -24,8 +24,8 @@
   transition: box-shadow var(--transition-dur-and-func);
 }
 
-.contacts-list-item:hover{
-	box-shadow: 0px 0px 12px 6px #FFFFFF66;
+.contacts-list-item:hover {
+  box-shadow: 0px 0px 12px 6px #ffffff66;
 }
 /* focus + */
 .contacts-list-item.instagram {
@@ -91,7 +91,7 @@
   .contacts-list-item {
     width: 68px;
     height: 68px;
-	border-radius: 20px;
+    border-radius: 20px;
   }
   .contacts-list-item-link.instagram {
     width: 50px;
@@ -110,7 +110,7 @@
 @media screen and (min-width: 1440px) {
   .contacts-title {
     margin-bottom: 40px;
-	font-size: 45px;
+    font-size: 45px;
   }
   .contacts-list {
     gap: 24px;
@@ -118,7 +118,7 @@
   .contacts-list-item {
     width: 91px;
     height: 91px;
-	border-radius: 24px;
+    border-radius: 24px;
   }
   .contacts-list-item-link.instagram {
     width: 67px;
@@ -165,7 +165,6 @@
 }
 
 .footer-links-item-link {
-  
   color: inherit;
 }
 .footer-links-item-link:hover {
@@ -205,7 +204,4 @@
     grid-template-columns: auto 235px 148px;
     grid-column-gap: 83px;
   }
-  /* .footer-links-item-link {
-    
-  } */
 }

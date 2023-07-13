@@ -6,11 +6,3 @@ function toggleMenu(event) {
   event.preventDefault();
   mobileMenu.classList.toggle("visually-hidden");
 }
-
-//   window.addEventListener("keydown", closeMenu);
-//   function closeMenu(event) {
-//     event.preventDefault();
-//     if (!event.currentTarget === event.target) {
-//       mobileMenu.classList.add("visually-hidden");
-//     }
-//   }
