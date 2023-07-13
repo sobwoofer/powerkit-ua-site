@@ -5,7 +5,7 @@ if (cookieMenu) {
 
   const cookieKey = document.cookie;
   if (cookieKey.includes("PKCoockiesAgree")) {
-    // додати скрипт у тіло сторінки:
+    // add the script to the body of the page:
     const string = `
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
@@ -20,7 +20,7 @@ if (cookieMenu) {
   } else if (localStorage.getItem("PKCoockies")) {
     // console.log("PKCoockies", "no");
   } else {
-    // показати модалку
+    // show the modal
     setTimeout(function openCookieMenu() {
       agreeBtn.addEventListener("click", setCookie);
       closeMenuBtn.addEventListener("click", closeCookieMenu);
@@ -29,10 +29,10 @@ if (cookieMenu) {
   }
 
   function setCookie() {
-    // закрити модальне вікно з кукі
+    // close the modal window with the cookie
     cookieMenu.classList.add("visually-hidden");
 
-    // i додати скрипт у тіло сторінки:
+    // and add the script to the body of the page:
     const string = `
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
@@ -45,7 +45,7 @@ if (cookieMenu) {
   </script>`;
     document.head.insertAdjacentHTML("afterend", string);
 
-    // встановити кукі
+    // set cookies
     const d = new Date();
     let cvalue = d.toUTCString();
     d.setTime(d.getTime() + 365 * 24 * 60 * 60 * 1000);
