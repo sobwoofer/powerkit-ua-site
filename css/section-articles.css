@@ -19,43 +19,43 @@
   transform: translateZ(0);
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .logo-link:hover {
+@media screen and (max-width: 767px) and (hover: hover) {
+  .logo-link:hover,
+  .logo-link.small:hover,
+  .logo-link.v-small:hover {
     -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
     filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
-    transform: translateZ(0) scale(1.2);
+    transform: translateZ(0) scale(1.15);
   }
 
-  .logo-link.small:hover {
-    -webkit-filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
-    filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
-    transform: translateZ(0) scale(1.2);
-  }
-
-  .logo-link.v-small:hover {
-    -webkit-filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
-    filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
-    transform: translateZ(0) scale(1.2);
+  .logo-link:active,
+  .logo-link:focus,
+  .logo-link.small:active,
+  .logo-link.small:focus,
+  .logo-link.v-small:active,
+  .logo-link.v-small:focus {
+    filter: none;
+    transform: scale(1);
   }
 }
 
-@media ((hover: none) and (pointer: coarse)), (max-width: 767px) {
-  .logo-link:active {
+@media (hover: hover) and (pointer: fine) {
+  .logo-link:hover,
+  .logo-link.small:hover,
+  .logo-link.v-small:hover {
     -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
     filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
-    transform: translateZ(0) scale(1.2);
+    transform: translateZ(0) scale(1.15);
   }
+}
 
-  .logo-link.small:active {
-    -webkit-filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
-    filter: drop-shadow(0px 0px 8px rgba(253, 253, 253, 1));
-    transform: translateZ(0) scale(1.2);
-  }
-
+@media ((hover: none) and (pointer: coarse)) {
+  .logo-link:active,
+  .logo-link.small:active,
   .logo-link.v-small:active {
-    -webkit-filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
-    filter: drop-shadow(0px 0px 4px rgba(253, 253, 253, 1));
-    transform: translateZ(0) scale(1.2);
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1.15);
   }
 }
 
