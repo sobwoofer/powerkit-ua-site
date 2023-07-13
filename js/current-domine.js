@@ -7,7 +7,6 @@ export default function setCurrentDomine (){
         currentDomineArr.forEach ((a) => {
         a.href = currentHref;
         a.innerText = currentDomine;
-        // console.dir(a);
     })
   }
 }

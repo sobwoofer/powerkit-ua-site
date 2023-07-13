@@ -28,7 +28,6 @@ document.querySelectorAll(".dropdown").forEach(function (dropDownWrapper) {
       e.stopPropagation();
       dropDownBtn.innerText = this.innerText;
       dropDownBtn.focus();
-      //   dropDownInput.value = this.dataset.value;
       if (dropDownBtn.innerText === "EN") {
         dropDownList.classList.add("dropdown-list-reverse");
       }

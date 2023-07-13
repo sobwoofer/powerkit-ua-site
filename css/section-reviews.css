@@ -9,13 +9,7 @@
 }
 
 .swiper-review .swiper-slide img {
-  /* border: 1px solid orangered; */
-  /* height: 100%; */
   width: 100%;
-}
-
-/* MOBILE */
-@media screen and (min-width: 375px) {
 }
 
 /* TABLET */

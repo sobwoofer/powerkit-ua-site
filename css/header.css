@@ -30,7 +30,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 24px; */
 }
 
 .header-menu-dropdown {
@@ -136,7 +135,6 @@
   .menu-list {
     display: flex;
     flex-direction: column;
-    /* gap: 26px; */
   }
 
   .menu-list li:not(:last-child) {
