@@ -113,6 +113,10 @@ export const langArr = {
     en: "Donate",
   },
   // section-img
+  "img-title-h2": {
+    ua: "Приклади повербанків",
+    en: "Examples of bankers",
+  },
   "img-description-17mAh": {
     ua: "Наш найменший повербанк, з достатньою ємністю щоб зарядити середній смартфон 4 рази. Має USB вихід для зарядки гаджетів та вихід для зарядки військових рацій. Може комплектуватись LED стрічкою червоного кольору.",
     en: "Our smallest power bank has enough capacity to charge an average smartphone 4 times. There is a USB output for charging gadgets and an output for charging military radios. Optionally, it can be equipped with a red LED strip.",
