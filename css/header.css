@@ -142,7 +142,7 @@
     visibility: hidden;
     position: absolute;
     white-space: nowrap;
-    width: 1px;
+    width: 0px;
     height: 300px;
     overflow: hidden;
     border: 0;
