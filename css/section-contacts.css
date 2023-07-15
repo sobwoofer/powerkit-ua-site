@@ -53,6 +53,7 @@
     filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.80));
     } 
     @media screen and (max-width: 767px) {
+      
       .instagram-lnk:active,
       .instagram-lnk:focus,
       .instagram-lnk:visited,
@@ -66,11 +67,12 @@
 
 /* Smartphones, devices with a touch screen that are operated with fingers */
 @media (pointer: coarse) {
+  .instagram-lnk:active,
   .instagram:hover {
   filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.80));
   -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.8));
   }
-
+  .telegram-lnk:active,
   .telegram:hover {
     filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.80));
     -webkit-filter: drop-shadow(0px 0px 32px rgba(253, 253, 253, 0.8));
