@@ -1,16 +1,60 @@
-.section-contacts {
-  position: relative;
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.contacts-list-item-link {
+  display: block;
+  width: 40px;
+  height: 40px;
 }
 
-.contacts-list-item {
-  background: radial-gradient(
-    92.18% 99.11% at 26.56% 107.7%,
-    #ffdd55 0%,
-    #ffdd55 10%,
-    #ff543e 50%,
-    #c837ab 100%
-  );
+.instagram {
+  transition: filter var(--transition-dur-and-func);
 }
-.footer {
-  background: #fff;
+
+.instagram:hover {
+  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
+}
+.instagram:hover img {
+  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
+}
+
+.telegram {
+  transition: filter var(--transition-dur-and-func);
+}
+
+.telegram:hover {
+  filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.40));
+} 
+.telegram:hover img {
+  filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.40));
+} 
+
+.contacts-list-item-link img {
+  border-radius: 19px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .contacts-list {
+    gap: 13px;
+  }
+
+  .contacts-list-item-link {
+    width: 68px;
+    height: 68px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contacts-list {
+    gap: 24px;
+  }
+
+  .contacts-list-item-link {
+    width: 91px;
+    height: 91px;
+  }
 }
