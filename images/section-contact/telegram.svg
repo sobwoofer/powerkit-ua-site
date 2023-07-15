@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="91"
+   height="91"
+   fill="none"
+   version="1.1"
+   id="svg39"
+   sodipodi:docname="telegram.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview41"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="7.2782609"
+     inkscape:cx="57.431302"
+     inkscape:cy="57.431302"
+     inkscape:window-width="1916"
+     inkscape:window-height="1042"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10" />
+  <g
+     filter="url(#a)"
+     id="g10">
+    <path
+       fill="#ffffff"
+       d="M 0,31.652 C 0,20.572 0,15.033 2.156,10.802 A 19.783,19.783 0 0 1 10.802,2.156 C 15.032,0 20.572,0 31.651,0 h 27.696 c 11.08,0 16.619,0 20.85,2.156 a 19.784,19.784 0 0 1 8.646,8.646 C 91,15.032 91,20.572 91,31.651 v 27.696 c 0,11.08 0,16.619 -2.156,20.85 a 19.786,19.786 0 0 1 -8.645,8.646 C 75.966,91 70.426,91 59.347,91 H 31.652 c -11.08,0 -16.619,0 -20.85,-2.156 A 19.784,19.784 0 0 1 2.156,80.199 C 0,75.966 0,70.426 0,59.347 Z"
+       id="path2" />
+    <g
+       clip-path="url(#b)"
+       id="g8"
+       transform="translate(-12,-12)">
+      <path
+         fill="url(#c)"
+         d="M 57.5,97 C 79.315,97 97,79.315 97,57.5 97,35.685 79.315,18 57.5,18 35.685,18 18,35.685 18,57.5 18,79.315 35.685,97 57.5,97 Z"
+         id="path4"
+         style="fill:url(#c)" />
+      <path
+         fill="#ffffff"
+         fill-rule="evenodd"
+         d="m 35.956,57.498 c 11.543,-5.08 19.24,-8.43 23.09,-10.048 10.997,-4.62 13.282,-5.423 14.77,-5.45 0.328,-0.005 1.06,0.077 1.535,0.465 0.4,0.329 0.51,0.772 0.564,1.084 a 7.13,7.13 0 0 1 0.066,1.574 c -0.596,6.325 -3.174,21.674 -4.486,28.758 -0.555,2.998 -1.648,4.003 -2.706,4.101 -2.3,0.214 -4.045,-1.535 -6.272,-3.01 -3.485,-2.307 -5.454,-3.744 -8.837,-5.996 -3.909,-2.602 -1.375,-4.033 0.853,-6.37 0.583,-0.612 10.714,-9.922 10.91,-10.766 0.025,-0.106 0.048,-0.5 -0.184,-0.707 -0.231,-0.208 -0.573,-0.137 -0.82,-0.08 -0.35,0.08 -5.916,3.797 -16.701,11.152 -1.58,1.096 -3.011,1.63 -4.294,1.602 -1.414,-0.031 -4.133,-0.808 -6.155,-1.472 -2.48,-0.814 -4.45,-1.244 -4.279,-2.627 0.09,-0.72 1.072,-1.457 2.946,-2.21 z"
+         clip-rule="evenodd"
+         id="path6" />
+    </g>
+  </g>
+  <defs
+     id="defs37">
+    <linearGradient
+       id="c"
+       x1="57.5"
+       x2="57.5"
+       y1="18"
+       y2="96.414001"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#2AABEE"
+         id="stop12" />
+      <stop
+         offset="1"
+         stop-color="#229ED9"
+         id="stop14" />
+    </linearGradient>
+    <clipPath
+       id="b">
+      <path
+         fill="#ffffff"
+         d="M 18,18 H 97 V 97 H 18 Z"
+         id="path17" />
+    </clipPath>
+    <filter
+       id="a"
+       width="115"
+       height="115"
+       x="0"
+       y="0"
+       color-interpolation-filters="sRGB"
+       filterUnits="userSpaceOnUse">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood20" />
+      <feColorMatrix
+         in="SourceAlpha"
+         result="hardAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix22" />
+      <feOffset
+         id="feOffset24" />
+      <feGaussianBlur
+         stdDeviation="6"
+         id="feGaussianBlur26" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite28" />
+      <feColorMatrix
+         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.4 0"
+         id="feColorMatrix30" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_1_918"
+         id="feBlend32"
+         mode="normal" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect1_dropShadow_1_918"
+         result="shape"
+         id="feBlend34"
+         mode="normal" />
+    </filter>
+  </defs>
+</svg>
