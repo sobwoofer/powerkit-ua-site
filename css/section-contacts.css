@@ -9,69 +9,77 @@
   height: 40px;
 }
 
-.instagram {
+/* .instagram {
   transition: filter var(--transition-dur-and-func);
-}
+} */
 
-.instagram:hover,
+/* .instagram:hover,
 .instagram:hover img, 
 .telegram ,
 .telegram:hover, 
 .telegram:hover img {
 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
+} */
   
-
-.contacts-list-item-link img {
+.contact-list-svg {
+  width: inherit;
+  height: inherit;
   border-radius: 8px;
 }
+
+.contact-list-svg-image {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+/* .instagramsvg {
+  width: 40px;
+} */
+
+/* .contacts-list-item-link img {
+  border-radius: 8px;
+} */
 
 /* Mouse, touchpad */
 @media (pointer: fine) {
 
-  .instagram:hover {
-    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
-    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.4));
-  }
-  .instagram:hover img {
-    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
-  }
-    .telegram:hover {
-    filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.60));
-    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.6));
-  } 
-  .telegram:hover img {
-    filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.40));
-  } 
-
-  @media screen and (max-width: 767px) {
-    .instagram:active,
-    .instagram:focus,
-    .telegram:active,
-    .telegram:focus {
-      /* filter: none; */
-      filter: unset;
+    .instagram-lnk:hover {
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.8));
+    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.80));
     }
-  }
-
+    .telegram-lnk:hover {
+      -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.8));
+    filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.80));
+    } 
+    @media screen and (max-width: 767px) {
+      .instagram-lnk:active,
+      .instagram-lnk:focus,
+      .instagram-lnk:visited,
+      .telegram-lnk:active,
+      .telegram-lnk:visited,
+      .telegram-lnk:focus {
+        filter: none; 
+      }
+    }
 }
 
 /* Smartphones, devices with a touch screen that are operated with fingers */
 @media (pointer: coarse) {
   .instagram:hover {
-  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
-  -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.4));
+  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.80));
+  -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.8));
   }
-  .instagram:hover img {
+  /* .instagram:hover img {
   filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
-  }
+  } */
   .telegram:hover {
-    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
-    -webkit-filter: drop-shadow(0px 0px 32px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.80));
+    -webkit-filter: drop-shadow(0px 0px 32px rgba(253, 253, 253, 0.8));
   } 
-  .telegram:hover img {
+  /* .telegram:hover img {
     filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
-  } 
+  }  */
 }
 
 @media screen and (min-width: 768px) {
@@ -84,7 +92,9 @@
     height: 68px;
   }
 
-  .contacts-list-item-link img {
+  .svgtag {
+    width: inherit;
+    height: inherit;
     border-radius: 13px;
   }
 }
