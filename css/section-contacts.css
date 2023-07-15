@@ -9,22 +9,11 @@
   height: 40px;
 }
 
-/* .instagram {
-  transition: filter var(--transition-dur-and-func);
-} */
-
-/* .instagram:hover,
-.instagram:hover img, 
-.telegram ,
-.telegram:hover, 
-.telegram:hover img {
--webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-} */
-  
 .contact-list-svg {
   width: inherit;
   height: inherit;
   border-radius: 8px;
+  overflow: hidden;
 }
 
 .contact-list-svg-image {
@@ -33,58 +22,49 @@
   border-radius: inherit;
 }
 
-/* .instagramsvg {
-  width: 40px;
-} */
+/* .............. */
+.contacts-list-item-link {
+  display: block;
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+  transform: translateZ(0);
+}
 
-/* .contacts-list-item-link img {
-  border-radius: 8px;
-} */
+.contacts-list-item {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 /* Mouse, touchpad */
 @media (pointer: fine) {
+  .contacts-list-item-link.instagram-lnk:hover,
+  .contacts-list-item-link.telegram-lnk:hover {
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1);
+  }
 
-    .instagram-lnk:hover {
-    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.8));
-    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.80));
+  @media screen and (max-width: 767px) {
+    .contacts-list-item-link.instagram-lnk:active,
+    .contacts-list-item-link.instagram-lnk:focus,
+    .contacts-list-item-link.telegram-lnk:active,
+    .contacts-list-item-link.telegram-lnk:focus {
+      filter: none;
+      transform: scale(1);
     }
-    .telegram-lnk:hover {
-      -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.8));
-    filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.80));
-    } 
-    @media screen and (max-width: 767px) {
-      
-      .instagram-lnk:active,
-      .instagram-lnk:focus,
-      .instagram-lnk:visited,
-      .telegram-lnk:active,
-      .telegram-lnk:visited,
-      .telegram-lnk:focus {
-        filter: none; 
-      }
-    }
+  }
 }
 
 /* Smartphones, devices with a touch screen that are operated with fingers */
 @media (pointer: coarse) {
-  .instagram-lnk:active,
-  .instagram:hover {
-  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.80));
-  -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.8));
-  }
-  .telegram-lnk:active,
-  .telegram:hover {
-    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.80));
-    -webkit-filter: drop-shadow(0px 0px 32px rgba(253, 253, 253, 0.8));
-  } 
-  @media screen and (max-width: 767px) {
-
-    .instagram-lnk:visited,
-    .telegram-lnk:visited {
-      filter: none; 
-    }
+  .contacts-list-item-link.instagram-lnk:active,
+  .contacts-list-item-link.telegram-lnk:active {
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1);
   }
 }
+
+/* ........ */
 
 @media screen and (min-width: 768px) {
   .contacts-list {
