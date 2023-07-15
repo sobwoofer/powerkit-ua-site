@@ -13,29 +13,66 @@
   transition: filter var(--transition-dur-and-func);
 }
 
-.instagram:hover {
-  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
-}
-.instagram:hover img {
-  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
-}
-
-.telegram {
-  transition: filter var(--transition-dur-and-func);
-}
-
-.telegram:hover {
-  filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.40));
-} 
+.instagram:hover,
+.instagram:hover img, 
+.telegram ,
+.telegram:hover, 
 .telegram:hover img {
-  filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.40));
-} 
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+  
 
 .contacts-list-item-link img {
-  border-radius: 19px;
+  border-radius: 8px;
 }
 
+/* Mouse, touchpad */
+@media (pointer: fine) {
 
+  .instagram:hover {
+    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.4));
+  }
+  .instagram:hover img {
+    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
+  }
+    .telegram:hover {
+    filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.60));
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.6));
+  } 
+  .telegram:hover img {
+    filter: drop-shadow(0px 0px 24px rgba(255, 255, 255, 0.40));
+  } 
+
+  @media screen and (max-width: 767px) {
+    .instagram:active,
+    .instagram:focus,
+    .telegram:active,
+    .telegram:focus {
+      /* filter: none; */
+      filter: unset;
+    }
+  }
+
+}
+
+/* Smartphones, devices with a touch screen that are operated with fingers */
+@media (pointer: coarse) {
+  .instagram:hover {
+  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
+  -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 0.4));
+  }
+  .instagram:hover img {
+  filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
+  }
+  .telegram:hover {
+    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
+    -webkit-filter: drop-shadow(0px 0px 32px rgba(253, 253, 253, 1));
+  } 
+  .telegram:hover img {
+    filter: drop-shadow(0px 0px 16px rgba(255, 255, 255, 0.40));
+  } 
+}
 
 @media screen and (min-width: 768px) {
   .contacts-list {
@@ -45,6 +82,10 @@
   .contacts-list-item-link {
     width: 68px;
     height: 68px;
+  }
+
+  .contacts-list-item-link img {
+    border-radius: 13px;
   }
 }
 
@@ -56,5 +97,9 @@
   .contacts-list-item-link {
     width: 91px;
     height: 91px;
+  }
+
+  .contacts-list-item-link img {
+    border-radius: 19px;
   }
 }
