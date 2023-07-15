@@ -30,6 +30,14 @@
   z-index: -1;
 }
 
+.visually-hidden {
+  position: absolute;
+  top: 50px;
+  transform: translateX(200%);
+  visibility: hidden;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 767px) {
   .hero-container {
     padding-top: 24px;
