@@ -204,8 +204,8 @@ export const langArr = {
   },
   // section-contacts
   "contacts-title": {
-    ua: "Зв'язатись з нами",
-    en: "Contact us",
+    ua: "Ми в соціальних мережах",
+    en: "We're on social media",
   },
   // footer
   "footer-privacy-policy": {
