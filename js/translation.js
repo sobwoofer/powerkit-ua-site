@@ -17,7 +17,7 @@ export const langArr = {
     en: "Contacts",
   },
   "header-btn-donat": {
-    ua: "Задонатити",
+    ua: "Донат",
     en: "Donate",
   },
   "header-menu-about": {
@@ -37,7 +37,7 @@ export const langArr = {
     en: "Contacts",
   },
   "header-menu-donat": {
-    ua: "Задонатити",
+    ua: "Донат",
     en: "Donate",
   },
   // section-hero
@@ -110,7 +110,7 @@ export const langArr = {
     en: "Donate for power banks manufacturing",
   },
   "donate-top-btn": {
-    ua: "Задонатити",
+    ua: "Донат",
     en: "Donate",
   },
   // section-img
@@ -142,7 +142,7 @@ export const langArr = {
     en: "Make your contribution to the fight against evil",
   },
   "donate-down-btn": {
-    ua: "Задонатити",
+    ua: "Донат",
     en: "Donate",
   },
   "donate-down-text": {
