@@ -29,7 +29,7 @@ gallery.addEventListener("click", (event) => {
             const length = srcset.indexOf("1x");
             const substring = srcset.substring(0,length);
             console.log(substring);
-            backdrop.innerHTML = `<picture class="photo">
+            backdrop.innerHTML = `<picture class="increased-photo">
                 <source
             srcset="${srcset}"
             type="image/jpeg">
@@ -42,12 +42,14 @@ gallery.addEventListener("click", (event) => {
         
     });
 
-    backdrop.classList.remove("hidden-element");
+    backdrop.classList.remove("hidden-backdrop");
+    backdrop.classList.add("increasing-backdrop");
 
 
 })
 
 backdrop.addEventListener("click", (event)=>{
     
-    event.target.classList.add("hidden-element");
+    event.target.classList.remove("increasing-backdrop");
+    event.target.classList.add("hidden-backdrop");
 });
