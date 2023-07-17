@@ -43,15 +43,16 @@ export const langArr = {
   // section-hero
   "hero-title": {
     ua: 'Ми команда <span class="text-accent">PowerKit</span>, що створює безкоштовні повербанки для ЗСУ',
-    en: 'We are <span class="text-accent">PowerKit</span> and  we make free power banks for UAF',
+    en: 'We are <span class="text-accent">PowerKit</span> and  we make free power banks for Ukraine’s Armed Forces',
   },
   "hero-moto": {
     ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? Задонать на комплектуючі.",
     en: "We recycle used electronic cigarettes into power banks, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces. Do you want to support us? Donate to help buy the components.",
   },
+  // coockies
   "coockies-msg": {
-    ua: 'Ми використовуємо файли <a href="./coockies-policy.php">cookie</a>, щоб дозволити нашому сайту працювати належним чином і аналізувати наш трафік.',
-    en: 'We use files <a href="./coockies-policy.php">cookie</a>, to allow our site to function properly and to analyze our traffic.',
+    ua: 'Ми використовуємо файли <a href="./coockies-policy.php">cookie</a>',
+    en: 'We use files <a href="./coockies-policy.php">cookie</a>',
   },
   "coockies-btn": {
     ua: "Погоджуюсь",
