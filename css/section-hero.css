@@ -127,7 +127,7 @@
 }
 
 .modal-content-text {
-  margin-right: 20px;
+  margin-right: auto;
 
   font-size: 12px;
   line-height: 1.2;
@@ -163,8 +163,6 @@
   }
 
   .modal-content-text {
-    margin-right: 30px;
-
     font-size: 14px;
   }
 
@@ -191,8 +189,6 @@
   }
 
   .modal-content-text {
-    margin-right: 43px;
-
     font-size: 16px;
   }
 
