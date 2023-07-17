@@ -43,7 +43,7 @@ export const langArr = {
   // section-hero
   "hero-title": {
     ua: 'Ми команда <span class="text-accent">PowerKit</span>, що створює безкоштовні повербанки для ЗСУ',
-    en: 'We are <span class="text-accent">PowerKit</span> and  we make free power banks for UAF',
+    en: 'We are <span class="text-accent">PowerKit</span> and  we make free power banks for Ukraine’s Armed Forces',
   },
   "hero-moto": {
     ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? Задонать на комплектуючі.",
