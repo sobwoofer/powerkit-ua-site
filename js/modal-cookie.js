@@ -1,6 +1,5 @@
 const cookieMenu = document.querySelector(".modal-cookie");
 if (cookieMenu) {
-  const closeMenuBtn = document.querySelector(".modal-button-close");
   const agreeBtn = document.querySelector(".modal-content-btn");
 
   const cookieKey = document.cookie;
@@ -17,13 +16,10 @@ if (cookieMenu) {
   gtag('config', 'G-VK2FJHKC8D');
   </script>`;
     document.head.insertAdjacentHTML("afterend", string);
-  } else if (localStorage.getItem("PKCoockies")) {
-    // console.log("PKCoockies", "no");
   } else {
     // show the modal
     setTimeout(function openCookieMenu() {
       agreeBtn.addEventListener("click", setCookie);
-      closeMenuBtn.addEventListener("click", closeCookieMenu);
       cookieMenu.classList.remove("visually-hidden");
     }, 5000);
   }
@@ -52,11 +48,5 @@ if (cookieMenu) {
     let expires = "expires=" + d.toUTCString();
     let cname = "PKCoockiesAgree";
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-  }
-
-  function closeCookieMenu(event) {
-    event.preventDefault();
-    cookieMenu.classList.add("visually-hidden");
-    localStorage.setItem("PKCoockies", "no");
   }
 }
