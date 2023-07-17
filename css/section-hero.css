@@ -46,6 +46,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-container {
+    height: 458px;
+  }
+
   .hero-text {
     max-width: 458px;
     padding-top: 110px;
@@ -71,6 +75,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .hero-container {
+    height: 782px;
+  }
+
   .hero-text {
     max-width: 782px;
     padding-top: 210px;
