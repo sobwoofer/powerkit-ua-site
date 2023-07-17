@@ -185,7 +185,7 @@
     color: var(--accent-btn-color);
     border: 0.54px solid #ffffff;
     border-radius: 5px;
-    padding: 5px 18.5px;
+    padding: 5px 5.5px;
     transition: color var(--transition-dur-and-func),
       background-color var(--transition-dur-and-func);
   }
@@ -244,7 +244,7 @@
     color: var(--accent-btn-color);
     border: 0.54px solid var(--default-btn-color);
     border-radius: 5px;
-    padding: 5.5px 25.5px;
+    padding: 5.5px 10.5px;
     transition: color var(--transition-dur-and-func),
       background-color var(--transition-dur-and-func);
   }
