@@ -47,7 +47,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-container {
-    height: 458px;
+    max-height: 427px;
   }
 
   .hero-text {
@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 1440px) {
   .hero-container {
-    height: 782px;
+    max-height: 703px;
   }
 
   .hero-text {
