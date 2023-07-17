@@ -47,7 +47,7 @@ export const langArr = {
   },
   "hero-moto": {
     ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? Задонать на комплектуючі.",
-    en: "We recycle used electronic cigarettes to assemble power banks that we provide to UAF soldiers absolutely for free. Do you want to support us? Donate to help buy the components.",
+    en: "We recycle used electronic cigarettes into power banks, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces. Do you want to support us? Donate to help buy the components.",
   },
   "coockies-msg": {
     ua: 'Ми використовуємо файли <a href="./coockies-policy.php">cookie</a>, щоб дозволити нашому сайту працювати належним чином і аналізувати наш трафік.',
@@ -67,8 +67,8 @@ export const langArr = {
     en: '<span class="amount-item-title-sp">Powerbanks</span> assembled',
   },
   "amount-discription-pw": {
-    ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? Задонать на комплектуючі.",
-    en: "All power banks were delivered to Ukrainian Armed Forces’ various units and brigades. And now power banks are helping them stay powered.",
+    ua: "Всі повербанки розʼїхались по різним бригадам та підрозділам Збройних Сил України і допомогають нашим військовим завжди залишатись із електроенергією.",
+    en: "All power banks were delivered to various units and brigades of the Ukrainian Armed Forces. Now our power banks are helping them stay powered.",
   },
   "amount-numbers-sm": {
     ua: '<span class="amount-item-title-sp">Кількість</span> перероблених цигарок',
@@ -76,7 +76,7 @@ export const langArr = {
   },
   "amount-discription-sm": {
     ua: "Для виробництва повербанків ми використовуємо акумулятори з електронних сигарет. Інші комплектуючі цигарок ми утилізуємо за допомогою наших партнерів.",
-    en: "We make power banks recycling batteries from electronic cigarettes. And we send other parts of electronic cigarettes to our partners for further utilization.",
+    en: "We make power banks by recycling batteries from electronic cigarettes. And we send other parts of electronic cigarettes to our partners for further reuse.",
   },
   //  section-about
   "about-title": {
@@ -84,16 +84,16 @@ export const langArr = {
     en: "About us",
   },
   "about-paragraph1": {
-    ua: 'Проект <span class="text-accent">PowerKit</span> засновано з перших тижнів повномасштабного вторгнення рф в Україну. З самого початку над проектом працювало 5 друзів, згодом наша команда розширилась до понад 100 волонтерів з різних міст України та інших держав.',
-    en: '<span class="text-accent">PowerKit</span> project was founded on the first weeks of the full-scale russian invasion of Ukraine. Only 5 friends had been working on the project since its start. More than 100 volunteers from various Ukrainian cities and even other countries joined the project later on.',
+    ua: 'Проєкт <span class="text-accent">PowerKit</span> засновано з перших тижнів повномасштабного вторгнення рф в Україну. З самого початку над проєктом працювало 5 друзів, згодом наша команда розширилась до понад 100 волонтерів з різних міст України та інших держав.',
+    en: '<span class="text-accent">The PowerKit</span> project was founded in the first weeks of the full-scale russian invasion of Ukraine. Only 5 friends were working on the project at the beginning. Since then, more than 100 volunteers from different Ukrainian cities and even other countries have joined the project.',
   },
   "about-paragraph2": {
-    ua: '<span class="text-accent">Мета проекту</span> - забезпечити військових ЗСУ безкоштовними, потужними та зручними повербанками. Наші повербанки обладнані LED стрічкою червоного кольору, виходами USB та спеціальним розʼємом для зарядки військових рацій.',
+    ua: '<span class="text-accent">Мета проєкту</span> - забезпечити військових ЗСУ безкоштовними, потужними та зручними повербанками. Наші повербанки обладнані LED стрічкою червоного кольору, виходами USB та спеціальним розʼємом для зарядки військових рацій.',
     en: '<span class="text-accent">Project goal</span> - to provide free, powerful and convenient power banks to UAF servicemen. Our power banks are equipped with a red LED strip, USB outputs and a connector for charging handheld transceivers.',
   },
   "about-paragraph3": {
-    ua: "Проект виконує також екологічну функцію, а саме утилізацію електронних сигарет. Такі сигарети містять літієві акумулятори, які за своїми властивостями підходять для виробництва досить потужних повербанків.",
-    en: "The project also serves ecological purposes: recycling electronic cigarettes. Such cigarettes have lithium batteries inside and by their properties they fit for making powerful power banks.",
+    ua: "Проєкт виконує також екологічну функцію, а саме утилізацію електронних сигарет. Такі сигарети містять літієві акумулятори, які за своїми властивостями підходять для виробництва досить потужних повербанків.",
+    en: "The project also serves ecological purposes: recycling electronic cigarettes. Such cigarettes have lithium batteries inside and their properties make them suitable for making powerful power banks.",
   },
   "about-link": {
     ua: "Дивитись більше &rarr;",
@@ -118,12 +118,12 @@ export const langArr = {
     en: "Examples of bankers",
   },
   "img-description-17mAh": {
-    ua: "Наш найменший повербанк, з достатньою ємністю щоб зарядити середній смартфон 4 рази. Має USB вихід для зарядки гаджетів та вихід для зарядки військових рацій. Може комплектуватись LED стрічкою червоного кольору.",
+    ua: "Наш найменший повербанк, з достатньою ємністю, щоб зарядити середній смартфон 4 рази. Має USB вихід для зарядки гаджетів та вихід для зарядки військових рацій. Може комплектуватись LED стрічкою червоного кольору.",
     en: "Our smallest power bank has enough capacity to charge an average smartphone 4 times. There is a USB output for charging gadgets and an output for charging military radios. Optionally, it can be equipped with a red LED strip.",
   },
   "img-description-34mAh": {
-    ua: "Повербанк збільшеної ємності. Також має більші розміри. Його ємності буде достатньо щоб зарядити середній смартфон 8 разів. Повербанк обладнаний так само як і його менший брат на 17.000 mAh.",
-    en: "Power bank of increased capacity. Also it is larger. It has enough capacity to charge an average smartphone 8 times. The power bank is equipped the same way as its “little brother” 17 000 mAh power bank.",
+    ua: "Повербанк збільшеної ємності. Також має більші розміри. Його ємності буде достатньо, щоб зарядити середній смартфон 8 разів. Повербанк обладнаний так само, як і його менший брат на 17.000 mAh.",
+    en: "Power bank of increased capacity. It is larger. It has enough capacity to charge an average smartphone 8 times. The power bank is equipped in the same way as its “little brother” 17 000 mAh power bank.",
   },
   // section-reviews
   "reviews-link": {
@@ -146,7 +146,7 @@ export const langArr = {
   },
   "donate-down-text": {
     ua: "Задонать PowerKit на комплектуючі до повербанків",
-    en: "Donate PowerKit for purchase of power bank parts",
+    en: "Donate to PowerKit to purchase power bank parts",
   },
   // section-partners
   "partners-title": {
@@ -160,7 +160,7 @@ export const langArr = {
   },
   "faq-answer1": {
     ua: "Ми команда волонтерів, згуртованих задля однієї мети - виготовлення безкоштовних повербанків для військових ЗСУ. В якості елементів живлення ми використовуємо акумулятори із використаних електронних сигарет.",
-    en: "We are a team of volunteers united for one goal: manufacturing free power banks for UAF servicemen. We utilize batteries from used electronic cigarettes as power banks’ battery cells.",
+    en: "We are a team of volunteers united for one goal: to produce free power banks for the soldiers of Ukraine's Armed Forces. We use batteries from used electronic cigarettes as the power banks’ battery cells. ",
   },
   "faq-question2": {
     ua: "Маю використану електронну сигарету, як вам передати її?",
@@ -168,7 +168,7 @@ export const langArr = {
   },
   "faq-answer2": {
     ua: "Свої цигарки ви можете здавати в таких ТЦ Києва - River Mall, Respublika, Retroville, Cosmo Multimall, у всіх столичних кінотеатрах Multiplex та мережі магазинів Епіцентр в Києві, а також в Броварах, Боярці та Борисполі. Шукайте відповідні бокси на інфостійках або на касах.",
-    en: "You can leave your used electronic cigarettes for recycling at Kyiv malls: River Mall, Respublika, Retroville, Cosmo Multimall, in all metropolitan Multiplex cinemas and Epicenter chain stores in Kyiv, as well as in Brovary, Boyarka, and Boryspil. Find our boxes at the information desks or near the cashiers.",
+    en: "You can leave your used electronic cigarettes for recycling in Kyiv malls: River Mall, Respublika, Retroville, Cosmo Multimall, in all metropolitan Multiplex cinemas and Epicenter stores in Kyiv, as well as in Brovary, Boyarka, and Boryspil. You can find our boxes at the information desks or near the cash registers.",
   },
   "faq-question3": {
     ua: "Я з іншого міста, як я можу передати вам свої цигарки?",
@@ -183,12 +183,12 @@ export const langArr = {
     en: "I want to help by being directly involved, what should I do?",
   },
   "faq-answer4": {
-    ua: "Наш проект завжди відкритий до нових волонтерів та їх ідей. Якщо хочете допомогти проекту своєю працею - напишіть, будь ласка, нам в Інстаграм або Телеграм. Для виготовлення повербанків ми використовуємо різні комлпектуючі - від дротів та мікросхем до каналізаційних труб. Також елементи корпусів ми друкуємо на 3D принтерах. Якщо ви хочете допомогти нам із комплектуючими - напишіть нам, будь ласка, в Інстаграм або Телеграм для подальшої комунікації.",
+    ua: "Наш проєкт завжди відкритий до нових волонтерів та їх ідей. Якщо хочете допомогти проєкту своєю працею - напишіть, будь ласка, нам в Інстаграм або Телеграм. Для виготовлення повербанків ми використовуємо різні комлпектуючі - від дротів та мікросхем до каналізаційних труб. Також елементи корпусів ми друкуємо на 3D принтерах. Якщо ви хочете допомогти нам із комплектуючими - напишіть нам, будь ласка, в Інстаграм або Телеграм для подальшої комунікації.",
     en: "We are always open to new volunteers and your ideas. If you want to join our team and help the project with your work, please, contact us via Instagram or Telegram. We need various components for power banks assembly: wires, microchips, etc., and even sewer pipes. We 3D print a few housing components. If you could donate us some of the components, please, contact us via Instagram or Telegram.",
   },
   "faq-question5": {
     ua: "Я військовий, як мені замовити повербанк?",
-    en: "I’m a UAF serviceman, how can I order a power bank?",
+    en: "I am a soldier of the Ukrainian Armed Forces, how do I order a power bank?",
   },
   "faq-answer5": {
     ua: "На нашій Інстаграм сторінці ми публікуємо посилання на Google форму, зазвичай це 1 раз на 2 тижні. За допомогою цієї форми військові замовляють повербанки. Протягом 2 тижнів ми опрацьовуємо всі замовлення та відправляємо повербанки всім адресатам.",
@@ -199,8 +199,8 @@ export const langArr = {
     en: "How might I verify donations spending?",
   },
   "faq-answer6": {
-    ua: "Всі донати ми використовуємо виключно на закупівлю комплектуючих та інші супутні витрати проекту. Наприклад бензин для генератору або газ для обігріву приміщення. Кожен тиждень ми публікуємо фотозвіти від військових, які щойно отримали свій повербанк. Також ми публікуємо фотозвіти з закупленими комплектуючим.",
-    en: "We direct all donations to cover procurement of components and other project’s corresponding expenses, i.e. fuel for power generator or natural gas for heating of the premise. Every week we share pictures of servicemen who just received power banks. Also we share photo reports with purchased components.",
+    ua: "Всі донати ми використовуємо виключно на закупівлю комплектуючих та інші супутні витрати проєкту. Наприклад бензин для генератору або газ для обігріву приміщення. Кожен тиждень ми публікуємо фотозвіти від військових, які щойно отримали свій повербанк. Також ми публікуємо фотозвіти з закупленими комплектуючим.",
+    en: "We use all donations to purchase components and other related project expenses, such as fuel for the power generator or natural gas to heat our facility. Every week we share pictures of soldiers who have received our power banks. We also share photo reports with purchased components.",
   },
   // section-contacts
   "contacts-title": {
