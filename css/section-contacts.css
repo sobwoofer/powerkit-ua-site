@@ -1,27 +1,103 @@
-.section-contacts {
-  position: relative;
+.contacts-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.contacts-list-item-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.contact-list-svg {
+  width: inherit;
+  height: inherit;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contact-list-svg-image {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+/* .............. */
+.contacts-list-item-link {
+  display: block;
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+  transform: translateZ(0);
 }
 
 .contacts-list-item {
-  background: radial-gradient(
-    92.18% 99.11% at 26.56% 107.7%,
-    #ffdd55 0%,
-    #ffdd55 10%,
-    #ff543e 50%,
-    #c837ab 100%
-  );
-}
-.footer {
-  background: #fff;
-}
-/* MOBILE */
-@media screen and (min-width: 375px) {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* TABLET */
+/* Mouse, touchpad */
+@media (pointer: fine) {
+  .contacts-list-item-link.instagram-lnk:hover,
+  .contacts-list-item-link.telegram-lnk:hover,
+  .contacts-list-item-link.tiktok-lnk:hover {
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1);
+  }
+
+  @media screen and (max-width: 767px) {
+    .contacts-list-item-link.instagram-lnk:active,
+    .contacts-list-item-link.instagram-lnk:focus,
+    .contacts-list-item-link.telegram-lnk:active,
+    .contacts-list-item-link.telegram-lnk:focus,
+    .contacts-list-item-link.tiktok-lnk:active,
+    .contacts-list-item-link.tiktok-lnk:focus {
+      filter: none;
+      transform: scale(1);
+    }
+  }
+}
+
+/* Smartphones, devices with a touch screen that are operated with fingers */
+@media (pointer: coarse) {
+  .contacts-list-item-link.instagram-lnk:active,
+  .contacts-list-item-link.telegram-lnk:active,
+  .contacts-list-item-link.tiktok-lnk:active {
+    -webkit-filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    filter: drop-shadow(0px 0px 16px rgba(253, 253, 253, 1));
+    transform: translateZ(0) scale(1);
+  }
+}
+
+/* ........ */
+
 @media screen and (min-width: 768px) {
+  .contacts-list {
+    gap: 13px;
+  }
+
+  .contacts-list-item-link {
+    width: 68px;
+    height: 68px;
+  }
+
+  .svgtag {
+    width: inherit;
+    height: inherit;
+    border-radius: 13px;
+  }
 }
 
-/* DESKTOP */
 @media screen and (min-width: 1440px) {
+  .contacts-list {
+    gap: 24px;
+  }
+
+  .contacts-list-item-link {
+    width: 91px;
+    height: 91px;
+  }
+
+  .contacts-list-item-link img {
+    border-radius: 19px;
+  }
 }

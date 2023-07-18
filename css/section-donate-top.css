@@ -8,10 +8,6 @@
   margin-bottom: 24px;
 }
 
-/* MOBILE */
-@media screen and (min-width: 375px) {
-}
-
 /* TABLET */
 @media screen and (min-width: 768px) {
   .donate-title.top {

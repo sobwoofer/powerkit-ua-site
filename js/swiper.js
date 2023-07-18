@@ -73,13 +73,6 @@ if (swiperAboutEl && swiperReviewEl) {
 
   }
 
-  // function swiperStatus () {
-  //   console.log('about paused: ' + swiper.autoplay.paused);
-  //   console.log('review paused: ' + swiperReview.autoplay.paused);
-  // }
-
-  // setInterval(swiperStatus, 2000);
-
   const swiperIntersectionOptions = {
     root: null,
     rootMargin: "0px",

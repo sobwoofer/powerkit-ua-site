@@ -6,8 +6,6 @@
 
   /* Background colors */
   --dark-bg-color: #010101;
-  /* --dark-bg-color: #0a0909;
-  --dark-bg-color: #090909; */
 
   /* Button colors */
   --default-btn-color: #ffffff;
@@ -52,13 +50,6 @@ button {
 a {
   text-decoration: none;
 }
-.visually-hidden {
-  position: absolute;
-  top: 50px;
-  transform: translateX(200%);
-  visibility: hidden;
-  overflow: hidden;
-}
 
 .hidden-element {
   position: absolute;
@@ -71,7 +62,7 @@ a {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-  }
+}
 
 /* General styles */
 *,

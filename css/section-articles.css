@@ -19,7 +19,12 @@
   transform: translateZ(0);
 }
 
-/* миша, тачпад (hover: hover) and */
+.articles-item,
+.partners-item {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Mouse, touchpad */
 @media (pointer: fine) {
   .logo-link:hover,
   .logo-link.small:hover,
@@ -42,7 +47,7 @@
   }
 }
 
-/* смартфони, пристрої із сенсорним екраном, з яким працюють пальцями (hover: none) and */
+/* Smartphones, devices with a touch screen that are operated with fingers */
 @media (pointer: coarse) {
   .logo-link:active,
   .logo-link.small:active,
@@ -93,7 +98,6 @@
 
 .logo-vkyiv {
   width: 164px;
-  /* height: 43px; */
   grid-row: 3;
   grid-column: 1 / 3;
 }

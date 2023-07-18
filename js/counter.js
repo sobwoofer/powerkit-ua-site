@@ -17,7 +17,7 @@ function windowLoad() {
     const duration = parseInt(digitsCounter.dataset.digitsCounter)
       ? parseInt(digitsCounter.dataset.digitsCounter)
       : 1000;
-    const startValue = parseInt(digitsCounter.innerHTML);
+    const startValue = parseInt(digitsCounter.dataset.max);
     const startPosition = 0;
     const step = (timestamp) => {
       if (!startTimestamp) startTimestamp = timestamp;
@@ -47,6 +47,7 @@ function windowLoad() {
         }
       }
     });
+
   }, options);
 
   let sections = document.querySelectorAll(".amount-item-numbers");

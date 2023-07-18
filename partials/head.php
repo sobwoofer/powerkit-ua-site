@@ -15,7 +15,7 @@
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-/>
+>
 
 <?php 
 function addCss(string $css_file_name = 'styles.css'){
