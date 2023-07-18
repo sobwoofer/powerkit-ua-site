@@ -90,7 +90,7 @@ export const langArr = {
   },
   "about-paragraph2": {
     ua: '<span class="text-accent">Мета проєкту</span> - забезпечити військових ЗСУ безкоштовними, потужними та зручними повербанками. Наші повербанки обладнані LED стрічкою червоного кольору, виходами USB та спеціальним розʼємом для зарядки військових рацій.',
-    en: '<span class="text-accent">Project goal</span> - to provide free, powerful and convenient power banks to UAF servicemen. Our power banks are equipped with a red LED strip, USB outputs and a connector for charging handheld transceivers.',
+    en: '<span class="text-accent">Project goal</span> - to provide free, powerful and convenient power banks to soldiers of the Ukrainian Armed Forces. Our power banks are equipped with a red LED strip, USB outputs and a connector for charging handheld transceivers.',
   },
   "about-paragraph3": {
     ua: "Проєкт виконує також екологічну функцію, а саме утилізацію електронних сигарет. Такі сигарети містять літієві акумулятори, які за своїми властивостями підходять для виробництва досить потужних повербанків.",
@@ -124,7 +124,7 @@ export const langArr = {
   },
   "img-description-34mAh": {
     ua: "Повербанк збільшеної ємності. Також має більші розміри. Його ємності буде достатньо, щоб зарядити середній смартфон 8 разів. Повербанк обладнаний так само, як і його менший брат на 17.000 mAh.",
-    en: "Power bank of increased capacity. It is larger. It has enough capacity to charge an average smartphone 8 times. The power bank is equipped in the same way as its “little brother” 17 000 mAh power bank.",
+    en: "Power bank of increased capacity. It is bigger. It has enough capacity to charge an average smartphone 8 times. The power bank is equipped in the same way as its “little brother” 17 000 mAh power bank.",
   },
   // section-reviews
   "reviews-link": {
@@ -197,7 +197,7 @@ export const langArr = {
   },
   "faq-question6": {
     ua: "Як я можу проконтролювати витрачання коштів?",
-    en: "How might I verify donations spending?",
+    en: "How can I track how donations are spent?",
   },
   "faq-answer6": {
     ua: "Всі донати ми використовуємо виключно на закупівлю комплектуючих та інші супутні витрати проєкту. Наприклад бензин для генератору або газ для обігріву приміщення. Кожен тиждень ми публікуємо фотозвіти від військових, які щойно отримали свій повербанк. Також ми публікуємо фотозвіти з закупленими комплектуючим.",
