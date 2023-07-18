@@ -20,13 +20,13 @@ if (cookieMenu) {
     // show the modal
     setTimeout(function openCookieMenu() {
       agreeBtn.addEventListener("click", setCookie);
-      cookieMenu.classList.remove("visually-hidden");
+      cookieMenu.classList.remove("hide-cookie-modal");
     }, 5000);
   }
 
   function setCookie() {
     // close the modal window with the cookie
-    cookieMenu.classList.add("visually-hidden");
+    cookieMenu.classList.add("hide-cookie-modal");
 
     // and add the script to the body of the page:
     const string = `
