@@ -10,17 +10,7 @@
 
 .swiper-review .swiper-slide img {
   width: 100%;
-}
-
-.hidden-backdrop{
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 27;
-  transform: scale(0);
-  transition: transform 250ms ease-in;
+  cursor: pointer;
 }
 
 .increasing-backdrop {
@@ -30,14 +20,23 @@
   bottom: 0;
   left: 0;
   z-index: 27;
-  padding-top: 180px;
+  /* padding-top: 180px; */
   background: rgba(10, 9, 9, 0.80);
-  
-  pointer-events: all;
+  overflow: hidden;
+  pointer-events: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   transform: scale(1);
-  transition: transform 250ms ease-in;
+  transition: transform var(--transition-dur-and-func);
+}
+
+.hidden-backdrop{
+  transform: scale(0);
+}
+
+.body-no-scroll {
+  overflow: hidden;
 }
 
 .increased-photo {
@@ -62,7 +61,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  top: -24px;
+  top: -224px;
   right: -7px;
 }
 
@@ -77,6 +76,10 @@
     width: 400px;
     height: 600px;
   }
+
+  .increasing-backdrop::after {
+    top: -312px;
+  }
 }
 
 /* DESKTOP */
@@ -86,8 +89,4 @@
     height: 484px;
   }
 
-  .increased-photo {
-    width: 500px;
-    height: 750px;
-  }
 }

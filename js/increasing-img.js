@@ -1,6 +1,8 @@
 const gallery = document.querySelector(".swiper-review");
 const backdrop = document.querySelector(".js-increasing-backdrop");
+const bodyEl = document.querySelector("body");
 
+if (gallery) {
 gallery.addEventListener("click", (event) => {
     const parentEl = event.target.parentElement;
     if (parentEl.nodeName !== "PICTURE" ) {
@@ -33,12 +35,14 @@ gallery.addEventListener("click", (event) => {
     });
 
     backdrop.classList.remove("hidden-backdrop");
-    backdrop.classList.add("increasing-backdrop");
-
+    
+    bodyEl.classList.add("body-no-scroll");
 })
-
+}
+if (backdrop){
 backdrop.addEventListener("click", (event)=>{
     
-    event.target.classList.remove("increasing-backdrop");
+    bodyEl.classList.remove("body-no-scroll");
     event.target.classList.add("hidden-backdrop");
 });
+}
