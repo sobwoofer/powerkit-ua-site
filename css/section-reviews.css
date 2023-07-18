@@ -20,7 +20,7 @@
   left: 0;
   z-index: 27;
   transform: scale(0);
-  transition: transform 0.4s ease-in;
+  transition: transform 250ms ease-in;
 }
 
 .increasing-backdrop {
@@ -37,7 +37,7 @@
   display: flex;
   justify-content: center;
   transform: scale(1);
-  transition: transform 0.4s ease-in;
+  transition: transform 250ms ease-in;
 }
 
 .increased-photo {
