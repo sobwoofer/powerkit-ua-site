@@ -47,6 +47,6 @@ if (cookieMenu) {
     d.setTime(d.getTime() + 365 * 24 * 60 * 60 * 1000);
     let expires = "expires=" + d.toUTCString();
     let cname = "PKCoockiesAgree";
-    // document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
   }
 }
