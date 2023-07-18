@@ -1,3 +1,7 @@
+.section-contacts {
+  position: relative;
+}
+
 .contacts-list {
   display: flex;
   justify-content: center;
