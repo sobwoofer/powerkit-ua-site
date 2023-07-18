@@ -20,13 +20,13 @@ if (cookieMenu) {
     // show the modal
     setTimeout(function openCookieMenu() {
       agreeBtn.addEventListener("click", setCookie);
-      cookieMenu.classList.remove("visually-hidden");
+      cookieMenu.classList.remove("hide-cookie-modal");
     }, 5000);
   }
 
   function setCookie() {
     // close the modal window with the cookie
-    cookieMenu.classList.add("visually-hidden");
+    cookieMenu.classList.add("hide-cookie-modal");
 
     // and add the script to the body of the page:
     const string = `
@@ -47,6 +47,6 @@ if (cookieMenu) {
     d.setTime(d.getTime() + 365 * 24 * 60 * 60 * 1000);
     let expires = "expires=" + d.toUTCString();
     let cname = "PKCoockiesAgree";
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    // document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
   }
 }
