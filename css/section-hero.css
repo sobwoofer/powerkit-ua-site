@@ -124,13 +124,15 @@
   background-color: #ffffff;
   border-radius: 6px;
   opacity: 1;
-  transition: background-color var(--transition-dur-and-func), 
+  transition: bottom var(--transition-dur-and-func),
+              background-color var(--transition-dur-and-func), 
               opacity var(--transition-dur-and-func);
 }
 
 .hide-cookie-modal {
   background-color: transparent;
   opacity: 0;
+  bottom: -60px;
 }
 
 .modal-content-img {
