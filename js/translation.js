@@ -52,7 +52,7 @@ export const langArr = {
   // coockies
   "coockies-msg": {
     ua: 'Ми використовуємо файли <a href="./coockies-policy.php">cookie</a>.',
-    en: 'We use files <a href="./coockies-policy.php">cookie</a>.',
+    en: 'We use <a href="./coockies-policy.php">cookie</a>-files.',
   },
   "coockies-btn": {
     ua: "Погоджуюсь",
