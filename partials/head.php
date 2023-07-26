@@ -59,6 +59,7 @@ function addCss(string $css_file_name = 'styles.css'){
     function createMainCss($arr) {
         $main = '';
         $main_css_path = $_SERVER['DOCUMENT_ROOT'] . "/css/main.css";
+        echo "<style id='lex'>" . $main_css_path . "</style>";
         $main_css_file = fopen($main_css_path, "w" ) or die("file not found");
 
         foreach($arr as $value) {
