@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="uk">
@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="description" content="official site of NGO 'Powerkit volunteer', that was created with the purpose of providing information about the activity of organization.">
 
     <link rel="icon" type="image/x-icon" href="../favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
