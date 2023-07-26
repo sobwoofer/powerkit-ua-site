@@ -20,7 +20,8 @@
 <?php 
 function addCss(string $css_file_name = 'styles.css'){
     $file_with_path = $_SERVER['DOCUMENT_ROOT'] . "/css/" . $css_file_name;
-    $mtime = filemtime($file_with_path);
+    $mtime = hash_file("crc32", $file_with_path);
+    // $mtime = filemtime($file_with_path);
     echo '<link rel="stylesheet" href="../css/' . $css_file_name . '?v=' . $mtime . '">';
 }
  addCss('modern-normalize.min.css');
@@ -59,8 +60,8 @@ function addCss(string $css_file_name = 'styles.css'){
     function createMainCss($arr) {
         $main = '';
         $main_css_path = $_SERVER['DOCUMENT_ROOT'] . "/css/main.css";
-        echo "<style id='lex'>" . $main_css_path . "</style>";
-        $main_css_file = fopen($main_css_path, "w" ) or die("file not found");
+        // echo "<style id='lex'>" . $main_css_path . "</style>";
+        $main_css_file = fopen($main_css_path, "w" ) or die("main.css - file not found");
 
         foreach($arr as $value) {
             $file_with_path = $_SERVER['DOCUMENT_ROOT'] . "/css/" . $value;
