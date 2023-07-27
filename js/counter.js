@@ -1,5 +1,7 @@
 window.addEventListener("load", windowLoad);
 
+refreshDataCounters();
+
 function windowLoad() {
   function digitsCountersInit(digitsCountersItems) {
     let digitsCounters = digitsCountersItems
@@ -12,8 +14,9 @@ function windowLoad() {
     }
   }
 
-  function digitsCountersAnimate(digitsCounter) {
+ async function digitsCountersAnimate(digitsCounter) {
     let startTimestamp = null;
+    await refreshDataCounters();
     const duration = parseInt(digitsCounter.dataset.digitsCounter)
       ? parseInt(digitsCounter.dataset.digitsCounter)
       : 1000;
@@ -58,29 +61,34 @@ function windowLoad() {
   }
 }
 
-
 //https://docs.google.com/spreadsheets/d/1g7L0wGZOsrsTBnFKl4MQsw9O9fVYJ2XxAy0K9gFGSoU/edit?usp=sharing
 
-const gDocBaseURL = 'https://docs.google.com/spreadsheets/d/';
-const gDID = '1g7L0wGZOsrsTBnFKl4MQsw9O9fVYJ2XxAy0K9gFGSoU';
-const sheetName = 'Sheet1';
-const range = 'B5:C5';
+async function getNubers(){
+  const gDocBaseURL = 'https://docs.google.com/spreadsheets/d/';
+  const gDID = '1g7L0wGZOsrsTBnFKl4MQsw9O9fVYJ2XxAy0K9gFGSoU';
+  const sheetName = 'Sheet1';
+  const range = 'B5:C5';
 
-const accessLink = gDocBaseURL + gDID + '/gviz/tq?sheet=' + sheetName + '&range=' + range;
+  const accessLink = gDocBaseURL + gDID + '/gviz/tq?sheet=' + sheetName + '&range=' + range;
 
-console.log(accessLink);
-
-fetch(accessLink).then(response => 
-  response.text()).then( (data) => {
-  // console.dir(data);
-    const converter = JSON.parse(data.substring(47).slice(0,-2));
-  console.log(converter);
-  console.log(converter.table.rows[0].c[1].v);
-  const filds = document.querySelectorAll('[data-digits-couter]');
-  console.log(filds);
-  for(let i = 0; i < filds.length; i++){
-    console.log(filds[i]);
-    filds[i].dataset.max = converter.table.rows[0].c[i].v;
+  try {
+    const response = await fetch(accessLink);
+    const res2text = await response.text();
+    return JSON.parse(res2text.substring(47).slice(0,-2));
+    
+  } catch (error) {
+    console.error(error);
   }
-  
-})
+
+}
+
+async function refreshDataCounters(){
+
+  const data = await getNubers();
+
+  const filds = document.querySelectorAll('[data-digits-couter]');
+
+  for(let i = 0; i < filds.length; i++){
+    filds[i].dataset.max = data.table.rows[0].c[i].v;
+  }
+}
