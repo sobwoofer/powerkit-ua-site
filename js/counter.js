@@ -60,10 +60,11 @@ function windowLoad() {
 }
 
 //https://docs.google.com/spreadsheets/d/1g7L0wGZOsrsTBnFKl4MQsw9O9fVYJ2XxAy0K9gFGSoU/edit?usp=sharing
+//https://docs.google.com/spreadsheets/d/1CEQsUVfJFMx7zCAHLm2KPGLSjaNSNxfMk7107ZH2ae8/edit#gid=0
 
 async function getNubers(){
   const gDocBaseURL = 'https://docs.google.com/spreadsheets/d/';
-  const gDID = '1g7L0wGZOsrsTBnFKl4MQsw9O9fVYJ2XxAy0K9gFGSoU';
+  const gDID = '1CEQsUVfJFMx7zCAHLm2KPGLSjaNSNxfMk7107ZH2ae8';
   const sheetName = 'Sheet1';
   const range = 'B5:C5';
 
