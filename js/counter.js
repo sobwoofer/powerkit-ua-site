@@ -1,7 +1,5 @@
 window.addEventListener("load", windowLoad);
 
-refreshDataCounters();
-
 function windowLoad() {
   function digitsCountersInit(digitsCountersItems) {
     let digitsCounters = digitsCountersItems
