@@ -1,3 +1,16 @@
+ <?php 
+          $gDocBaseURL = 'https://docs.google.com/spreadsheets/d/';
+          $gDID = '1CEQsUVfJFMx7zCAHLm2KPGLSjaNSNxfMk7107ZH2ae8';
+          $sheetName = 'Sheet1';
+          $range = 'B5:C5';
+
+          $accessLink = $gDocBaseURL . $gDID . '/gviz/tq?sheet=' . $sheetName . '&range=' . $range;
+          $gDocJson = substr(file_get_contents($accessLink), 47, -2);
+          $gDocArr = json_decode($gDocJson, TRUE);
+          $targetDataArr = $gDocArr['table']['rows'][0]['c'];
+          $amountPowerBanks = $targetDataArr[0]['v'];
+          $amountCigarettes = $targetDataArr[1]['v'];
+?>
 <section class="section-amount section">
   <div class="container container-amount">
     <h2 data-lng="amount-numbers-title-h2" class="hidden-element">
@@ -10,7 +23,7 @@
           зроблених паверів
         </h3>
         <span class="amount-item-numbers text-accent"
-          ><span data-digits-couter data-max="2000">2000</span>+</span
+          ><span data-digits-couter data-max="<?= $amountPowerBanks;?>"><?= $amountPowerBanks;?></span>+</span
         >
         <p data-lng="amount-discription-pw" class="amount-item-discription">
           Всі повербанки розʼїхались по різним бригадам та підрозділам Збройних
@@ -24,7 +37,7 @@
           перероблених цигарок
         </h3>
         <span class="amount-item-numbers blue-number"
-          ><span data-digits-couter data-max="60000">60000</span>+</span
+          ><span data-digits-couter data-max="<?= $amountCigarettes;?>"><?= $amountCigarettes;?></span>+</span
         >
         <p data-lng="amount-discription-sm" class="amount-item-discription">
           Для виробництва повербанків ми використовуємо акумулятори з
