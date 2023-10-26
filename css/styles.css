@@ -21,6 +21,10 @@
   --hover-shadow: 0px 0px 16px rgba(253, 253, 253, 0.28);
 }
 
+#root {
+  min-height: 70vh;
+}
+
 h1,
 h2,
 h3,
