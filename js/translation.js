@@ -46,8 +46,8 @@ export const langArr = {
     en: 'We are <span class="text-accent">PowerKit</span> and  we make free power banks for Ukraine’s Armed Forces',
   },
   "hero-moto": {
-    ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? Задонать на комплектуючі.",
-    en: "We recycle used electronic cigarettes into power banks, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces. Do you want to support us? Donate to help buy the components.",
+    ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Задонать на комплектуючі</a>, або <a style='text-decoration:underline; color: white;' href='../map.php'>здай свою використану електронну сигарету</a>",
+    en: "We recycle used electronic cigarettes into power banks, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces. Do you want to support us? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Donate to help buy the components.</a> or <a style='text-decoration:underline; color: white;' href='../map.php'>turn in your used E-cigs</a>",
   },
   // coockies
   "coockies-msg": {
@@ -168,8 +168,8 @@ export const langArr = {
     en: "I have a used electronic cigarette, how can I give it to you?",
   },
   "faq-answer2": {
-    ua: "Свої цигарки ви можете здавати в таких ТЦ Києва - River Mall, Respublika, Retroville, Cosmo Multimall, у всіх столичних кінотеатрах Multiplex та мережі магазинів Епіцентр в Києві, а також в Броварах, Боярці та Борисполі. Шукайте відповідні бокси на інфостійках або на касах.",
-    en: "You can leave your used electronic cigarettes for recycling in Kyiv malls: River Mall, Respublika, Retroville, Cosmo Multimall, in all metropolitan Multiplex cinemas and Epicenter stores in Kyiv, as well as in Brovary, Boyarka, and Boryspil. You can find our boxes at the information desks or near the cash registers.",
+    ua: "Свої цигарки ви можете здавати в таких ТЦ Києва - River Mall, Respublika, Retroville, Cosmo Multimall, у всіх столичних кінотеатрах Multiplex та мережі магазинів Епіцентр в Києві, а також в Броварах, Боярці та Борисполі. Шукайте відповідні бокси на інфостійках або на касах. <a style='text-decoration:underline; color: white;' href='../map.php'>Всі пункти прийому можна переглянути на мапі.</a>",
+    en: "You can leave your used electronic cigarettes for recycling in Kyiv malls: River Mall, Respublika, Retroville, Cosmo Multimall, in all metropolitan Multiplex cinemas and Epicenter stores in Kyiv, as well as in Brovary, Boyarka, and Boryspil. You can find our boxes at the information desks or near the cash registers. <a style='text-decoration:underline; color: white;' href='../map.php'>All reception points can be viewed on the map.</a>",
   },
   "faq-question3": {
     ua: "Я з іншого міста, як я можу передати вам свої цигарки?",
@@ -212,6 +212,10 @@ export const langArr = {
   "footer-privacy-policy": {
     ua: "Політика конфіденційності ",
     en: "Privacy Policy",
+  },
+  "footer-reception-points": {
+    ua: "Пункти прийому одноразок",
+    en: "E-cigs reception points",
   },
   "footer-public-offer": {
     ua: "Публічна оферта",
