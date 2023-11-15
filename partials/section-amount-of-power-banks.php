@@ -1,15 +1,12 @@
- <?php 
-          $gDocBaseURL = 'https://docs.google.com/spreadsheets/d/';
-          $gDID = '1CEQsUVfJFMx7zCAHLm2KPGLSjaNSNxfMk7107ZH2ae8';
-          $sheetName = 'Sheet1';
-          $range = 'B5:C5';
+ <?php
+          $powerCountURL = 'https://uapowerkit.creatio.com/0/ServiceModel/PKitCreateOrderService.svc/GetPowerCount';
+          $ch = curl_init($powerCountURL);
+          curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+          $response = curl_exec($ch);
+          curl_close($ch);
 
-          $accessLink = $gDocBaseURL . $gDID . '/gviz/tq?sheet=' . $sheetName . '&range=' . $range;
-          $gDocJson = substr(file_get_contents($accessLink), 47, -2);
-          $gDocArr = json_decode($gDocJson, TRUE);
-          $targetDataArr = $gDocArr['table']['rows'][0]['c'];
-          $amountPowerBanks = $targetDataArr[0]['v'];
-          $amountCigarettes = $targetDataArr[1]['v'];
+          $amountPowerBanks = json_decode($response, true) ?? 3000;
+          $amountCigarettes = $amountPowerBanks * 40;
 ?>
 <section class="section-amount section">
   <div class="container container-amount">
@@ -23,7 +20,7 @@
           зроблених паверів
         </h3>
         <span class="amount-item-numbers text-accent"
-          ><span data-digits-couter data-max="<?= $amountPowerBanks;?>"><?= $amountPowerBanks;?></span>+</span
+          ><span data-digits-couter data-max="<?= $amountPowerBanks;?>"><?= $amountPowerBanks;?></span></span
         >
         <p data-lng="amount-discription-pw" class="amount-item-discription">
           Всі повербанки розʼїхались по різним бригадам та підрозділам Збройних
@@ -37,7 +34,7 @@
           перероблених цигарок
         </h3>
         <span class="amount-item-numbers blue-number"
-          ><span data-digits-couter data-max="<?= $amountCigarettes;?>"><?= $amountCigarettes;?></span>+</span
+          ><span data-digits-couter data-max="<?= $amountCigarettes;?>"><?= $amountCigarettes;?></span></span
         >
         <p data-lng="amount-discription-sm" class="amount-item-discription">
           Для виробництва повербанків ми використовуємо акумулятори з
