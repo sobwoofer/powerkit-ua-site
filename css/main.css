@@ -21,6 +21,10 @@
   --hover-shadow: 0px 0px 16px rgba(253, 253, 253, 0.28);
 }
 
+#root {
+  min-height: 70vh;
+}
+
 h1,
 h2,
 h3,
@@ -592,7 +596,6 @@ body {
 @media screen and (max-width: 767px) {
   .hero-container {
     padding-top: 24px;
-    height: 290px;
   }
 }
 
@@ -996,6 +999,10 @@ body {
   position: relative;
 }
 
+.map-container {
+  margin-bottom: 40px;
+}
+
 .section-header {
   font-family: Inter, sans-serif;
   font-weight: 600;
@@ -1005,6 +1012,10 @@ body {
   display: block;
   text-align: center;
   margin-bottom: 24px;
+}
+
+.map-container-header {
+  margin-top: 24px;
 }
 
 .about-text {
@@ -1078,6 +1089,10 @@ body {
     margin-bottom: 40px;
   }
 
+  .map-container-header {
+    margin-top: 40px;
+  }
+
   .about-wrapper {
     flex-wrap: nowrap;
   }
@@ -1109,6 +1124,11 @@ body {
   .section-header {
     font-size: 45px;
     margin-bottom: 80px;
+  }
+
+  .map-container-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .about-text {

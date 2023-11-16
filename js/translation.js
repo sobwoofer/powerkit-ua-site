@@ -46,8 +46,8 @@ export const langArr = {
     en: 'We are <span class="text-accent">PowerKit</span> and  we make free power banks for Ukraine’s Armed Forces',
   },
   "hero-moto": {
-    ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Задонать на комплектуючі</a>, або <a style='text-decoration:underline; color: white;' href='../map.php'>здай свою використану електронну сигарету</a>",
-    en: "We recycle used electronic cigarettes into power banks, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces. Do you want to support us? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Donate to help buy the components.</a> or <a style='text-decoration:underline; color: white;' href='../map.php'>turn in your used E-cigs</a>",
+    ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Задонать на комплектуючі</a>, або <a style='text-decoration:underline; color: white;' href='../map.php'>здай свою використану електронну сигарету</a>.",
+    en: "We recycle used electronic cigarettes into power banks, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces. Do you want to support us? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Donate to help buy the components.</a> or <a style='text-decoration:underline; color: white;' href='../map.php'>turn in your used E-cigs</a>.",
   },
   // coockies
   "coockies-msg": {
@@ -202,6 +202,11 @@ export const langArr = {
   "faq-answer6": {
     ua: "Всі донати ми використовуємо виключно на закупівлю комплектуючих та інші супутні витрати проєкту. Наприклад бензин для генератору або газ для обігріву приміщення. Кожен тиждень ми публікуємо фотозвіти від військових, які щойно отримали свій повербанк. Також ми публікуємо фотозвіти з закупленими комплектуючим.",
     en: "We use all donations to purchase components and other related project expenses, such as fuel for the power generator or natural gas to heat our facility. Every week we share pictures of soldiers who have received our power banks. We also share photo reports with purchased components.",
+  },
+  // section-map
+  "reception-points-map": {
+    ua: "Пункти прийому одноразок",
+    en: "E-cigs reception points"
   },
   // section-contacts
   "contacts-title": {

@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.map-container {
+  margin-bottom: 40px;
+}
+
 .section-header {
   font-family: Inter, sans-serif;
   font-weight: 600;
@@ -11,6 +15,10 @@
   display: block;
   text-align: center;
   margin-bottom: 24px;
+}
+
+.map-container-header {
+  margin-top: 24px;
 }
 
 .about-text {
@@ -84,6 +92,10 @@
     margin-bottom: 40px;
   }
 
+  .map-container-header {
+    margin-top: 40px;
+  }
+
   .about-wrapper {
     flex-wrap: nowrap;
   }
@@ -115,6 +127,11 @@
   .section-header {
     font-size: 45px;
     margin-bottom: 80px;
+  }
+
+  .map-container-header {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .about-text {
