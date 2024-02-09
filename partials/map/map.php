@@ -1,4 +1,4 @@
-<div class="container map-container">
+<div class="map-container">
     <h2 data-lng="reception-points-map" class="section-header map-container-header">Ми в соціальних мережах</h2>
     <div id="map-root" style="display:flex;"></div>
 </div>
