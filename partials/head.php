@@ -9,7 +9,7 @@ header("Cache-Control: public, max-age=2592000");
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <meta http-equiv="Cache-control" content="public"> -->
-    <meta name="description" content="official site of NGO 'Powerkit volunteer', that was created with the purpose of providing information about the activity of organization.">
+    <meta name="description" content="official site of NGO 'PowerKit volunteer', that was created with the purpose of providing information about the activity of organization.">
     <link rel="icon" type="image/x-icon" href="../favicon-32x32.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -76,7 +76,7 @@ function addCss(string $css_file_name = 'styles.css'){
     addCss("main.css");
 ?>
     
-    <title>Powerkit</title>
+    <title>PowerKit | Повербанки, ліхтарі та зарядні станції для військових</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>
     <script>
