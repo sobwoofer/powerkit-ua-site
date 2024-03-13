@@ -1,9 +1,12 @@
+<?php
+    $currentYear = date('Y');
+?>
 </main>
 <footer class="footer">
   <div class="footer-container container">
     <ul class="footer-links">
       <li class="footer-links-item">
-		  <p>©2023, Powerkit </p>
+		  <p>©<?=$currentYear ?>, PowerKit </p>
       </li>
       <li class="footer-links-item">
 		<a data-lng="footer-privacy-policy" href="../privacy-policy.php" class="footer-links-item-link">Політика конфіденційності </a>

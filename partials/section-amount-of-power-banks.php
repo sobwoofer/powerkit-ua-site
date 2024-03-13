@@ -1,12 +1,23 @@
  <?php
-          $powerCountURL = 'https://uapowerkit.creatio.com/0/ServiceModel/PKitCreateOrderService.svc/GetPowerCount';
-          $ch = curl_init($powerCountURL);
-          curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-          $response = curl_exec($ch);
-          curl_close($ch);
+    try {
+        $powerCountURL = 'https://uapowerkit.creatio.com/0/ServiceModel/PKitCreateOrderService.svc/GetPowerCount';
+        $ch = curl_init($powerCountURL);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
-          $amountPowerBanks = json_decode($response, true) ?? 3000;
-          $amountCigarettes = $amountPowerBanks * 40;
+        # curl timeout
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 1);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 1);
+
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        $amountPowerBanks = json_decode($response, true) ?? 4185;
+    }
+    catch (Throwable $e) {
+        $amountPowerBanks = 4185;
+    }
+
+    $amountCigarettes = $amountPowerBanks * 40;
 ?>
 <section class="section-amount section">
   <div class="container container-amount">
