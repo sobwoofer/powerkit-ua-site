@@ -28,13 +28,13 @@
       <li class="amount-item">
         <h3 data-lng="amount-numbers-pw" class="amount-item-title">
           <span class="amount-item-title-sp">Кількість</span>
-          зроблених паверів
+          зроблених девайсів
         </h3>
         <span class="amount-item-numbers text-accent"
           ><span data-digits-couter data-max="<?= $amountPowerBanks;?>"><?= $amountPowerBanks;?></span></span
         >
         <p data-lng="amount-discription-pw" class="amount-item-discription">
-          Всі повербанки розʼїхались по різним бригадам та підрозділам Збройних
+          Всі девайси розʼїхались по різним бригадам та підрозділам Збройних
           Сил України і допомогають нашим військовим завжди залишатись із
           електроенергією.
         </p>
@@ -48,7 +48,7 @@
           ><span data-digits-couter data-max="<?= $amountCigarettes;?>"><?= $amountCigarettes;?></span></span
         >
         <p data-lng="amount-discription-sm" class="amount-item-discription">
-          Для виробництва повербанків ми використовуємо акумулятори з
+          Для виробництва наших девайсів ми використовуємо акумулятори з
           електронних сигарет. Інші комплектуючі цигарок ми утилізуємо за
           допомогою наших партнерів.
         </p>

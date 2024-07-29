@@ -30,6 +30,7 @@ https://cdn.jsdelivr.net/npm/swiper@9.3.2/swiper-bundle.min.js
 <script src="../js/modal-cookie.js" type="module"></script>
 <script src="../js/dom-slider.js" type="module"></script>
 <script src="../js/faq.js" type="module"></script>
+<script src="../js/volunteer.js" type="module"></script>
 <script src="../js/basic-localization.js" type="module"></script>
 <script src="../js/current-domine.js" type="module"></script>
 <script src="../js/increasing-img.js" type="module"></script>

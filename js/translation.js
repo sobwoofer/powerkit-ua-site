@@ -25,12 +25,12 @@ export const langArr = {
     en: "About us",
   },
   "header-menu-reviews": {
-    ua: "Відгуки",
-    en: "Reviews",
+    ua: "Звіти",
+    en: "Reports",
   },
-  "header-menu-partners": {
-    ua: "Партнери",
-    en: "Our partners",
+  "header-menu-products": {
+    ua: "Продукти",
+    en: "Products",
   },
   "header-menu-contacts": {
     ua: "Контакти",
@@ -42,12 +42,20 @@ export const langArr = {
   },
   // section-hero
   "hero-title": {
-    ua: 'Ми команда <span class="text-accent">PowerKit</span>, що створює безкоштовні повербанки для ЗСУ',
-    en: 'We are <span class="text-accent">PowerKit</span> and  we make free power banks for Ukraine’s Armed Forces',
+    ua: 'Ми команда <span class="text-accent">PowerKit</span>, що створює безкоштовні зарядні пристрої для ЗСУ',
+    en: 'We are the <span class="text-accent">PowerKit</span> team, creating free chargers for the Armed Forces of Ukraine',
+  },
+  "hero-donate": {
+    ua: "Донат",
+    en: "Donate",
+  },
+  "hero-dispose": {
+    ua: 'Здати e-цигарки',
+    en: 'Dispose of <br/> e-cigarettes',
   },
   "hero-moto": {
-    ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Задонать на комплектуючі</a>, або <a style='text-decoration:underline; color: white;' href='../map.php'>здай свою використану електронну сигарету</a>.",
-    en: "We recycle used electronic cigarettes into power banks, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces. Do you want to support us? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Donate to help buy the components.</a> or <a style='text-decoration:underline; color: white;' href='../map.php'>turn in your used E-cigs</a>.",
+    ua: "Наші девайси виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно.",
+    en: "We recycle used electronic cigarettes into devices, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces.",
   },
   // coockies
   "coockies-msg": {
@@ -64,20 +72,20 @@ export const langArr = {
     en: "Our achievements",
   },
   "amount-numbers-pw": {
-    ua: '<span class="amount-item-title-sp">Кількість</span> зроблених паверів',
-    en: '<span class="amount-item-title-sp">Powerbanks</span> assembled',
+    ua: '<span class="amount-item-title-sp">Кількість</span> зроблених девайсів',
+    en: '<span class="amount-item-title-sp">Devices</span> assembled',
   },
   "amount-discription-pw": {
-    ua: "Всі повербанки розʼїхались по різним бригадам та підрозділам Збройних Сил України і допомогають нашим військовим завжди залишатись із електроенергією.",
-    en: "All power banks were delivered to various units and brigades of the Ukrainian Armed Forces. Now our power banks are helping them stay powered.",
+    ua: "Всі девайси розʼїхались по різним бригадам та підрозділам Збройних Сил України і допомогають нашим військовим завжди залишатись із електроенергією.",
+    en: "All devices were delivered to various units and brigades of the Ukrainian Armed Forces. Now our devices are helping them stay powered.",
   },
   "amount-numbers-sm": {
     ua: '<span class="amount-item-title-sp">Кількість</span> перероблених цигарок',
     en: '<span class="amount-item-title-sp">Electronic cigarettes</span> recycled',
   },
   "amount-discription-sm": {
-    ua: "Для виробництва повербанків ми використовуємо акумулятори з електронних сигарет. Інші комплектуючі цигарок ми утилізуємо за допомогою наших партнерів.",
-    en: "We make power banks by recycling batteries from electronic cigarettes. And we send other parts of electronic cigarettes to our partners for further reuse.",
+    ua: "Для виробництва наших девайсів ми використовуємо акумулятори з електронних сигарет. Інші комплектуючі цигарок ми утилізуємо за допомогою наших партнерів.",
+    en: "We make our devices by recycling batteries from electronic cigarettes. And we send other parts of electronic cigarettes to our partners for further reuse.",
   },
   //  section-about
   "about-title": {

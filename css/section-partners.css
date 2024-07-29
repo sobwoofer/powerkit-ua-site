@@ -4,176 +4,28 @@
 
 .logo-partners {
   display: grid;
-  grid-template-columns: 164px 164px;
-  grid-template-rows: 139px 55px 50px 70px 55px;
-  gap: 30px 16px;
-  justify-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.logo-partners .logo-link {
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .partners-item .partners-img {
-  width: inherit;
+  width: 100%;
+  max-width: 200px;
 }
 
-.logo-multimall {
-  width: 152px;
-}
-
-.logo-actualne {
-  width: 150px;
-  justify-self: end;
-}
-
-.logo-multiplex {
-  grid-row: 4;
-  justify-self: start;
-}
-
-.logo-eco-kpi {
-  width: 87px;
-  grid-row: 4;
-  grid-column: 2;
-}
-
-.logo-respublika-park {
-  width: 164px;
-  grid-row: 3;
-  grid-column: 1;
-}
-
-.logo-rivermall {
-  width: 163px;
-  grid-row: 3;
-  grid-column: 2;
-}
-
-.logo-mardal-cables {
-  grid-row: 2;
-  grid-column: 1;
-}
-
-.logo-nova-poshta {
-  width: 163px;
-  grid-row: 2;
-  grid-column: 2;
-}
-
-.logo-kyiv-komun-s {
-  grid-row: 5;
-  grid-column: span 2;
-}
-
-/* MOBILE */
-@media screen and (min-width: 375px) {
-}
-
-/* TABLET */
-@media screen and (min-width: 768px) {
+@media (max-width: 768px) {
   .logo-partners {
-    grid-template-columns: repeat(12, 60px);
-    grid-template-rows: 74px 58px 68px;
-    row-gap: 50px;
-    column-gap: 0;
-  }
-
-  .logo-multimall {
-    width: 96px;
-    grid-row: 1;
-    grid-column: 1 / 3;
-    justify-self: start;
-  }
-
-  .logo-actualne {
-    width: 80px;
-    grid-row: 1;
-    grid-column: 12;
-  }
-
-  .logo-multiplex {
-    width: 127px;
-    grid-row: 1;
-    grid-column: 5 / 7;
-  }
-
-  .logo-eco-kpi {
-    width: 55px;
-    grid-row: 1;
-    grid-column: 9 / 10;
-  }
-
-  .logo-respublika-park {
-    width: 204px;
-    grid-row: 2;
-    grid-column: 1 / 5;
-    justify-self: start;
-  }
-
-  .logo-kyiv-komun-s {
-    width: 204px;
-    grid-row: 2;
-    grid-column: 5 / 9;
-  }
-
-  .logo-rivermall {
-    width: 204px;
-    grid-row: 2;
-    grid-column: 10 / 13;
-  }
-
-  .logo-mardal-cables {
-    width: 204px;
-    grid-row: 3;
-    grid-column: 3 / 7;
-  }
-
-  .logo-nova-poshta {
-    width: 204px;
-    grid-row: 3;
-    grid-column: 8 / 12;
-  }
-}
-
-/* DESKTOP */
-@media screen and (min-width: 1440px) {
-  .logo-partners {
-    grid-template-columns: repeat(12, 113px);
-    grid-template-rows: 116px 91px 108px;
-    row-gap: 80px;
-  }
-
-  .logo-multimall {
-    width: 152px;
-  }
-
-  .logo-multiplex {
-    width: 201px;
-  }
-
-  .logo-eco-kpi {
-    width: 87px;
-  }
-
-  .logo-actualne {
-    width: 126px;
-  }
-
-  .logo-respublika-park {
-    width: 322px;
-  }
-
-  .logo-kyiv-komun-s {
-    width: 322px;
-  }
-
-  .logo-rivermall {
-    width: 322px;
-  }
-
-  .logo-mardal-cables {
-    width: 322px;
-  }
-
-  .logo-nova-poshta {
-    width: 322px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   }
 }
