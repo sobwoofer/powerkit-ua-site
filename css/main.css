@@ -1948,7 +1948,7 @@ body {
 
 .volunteer__list {
     margin-left: 8px;
-    list-style: disc;
+    list-style: auto;
     margin-bottom: 16px;
 }
 

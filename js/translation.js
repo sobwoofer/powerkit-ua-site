@@ -17,8 +17,8 @@ export const langArr = {
     en: "Contacts",
   },
   "header-btn-donat": {
-    ua: "Донат",
-    en: "Donate",
+    ua: "Долучитись",
+    en: "Join us",
   },
   "header-menu-about": {
     ua: "Про нас",
@@ -37,8 +37,8 @@ export const langArr = {
     en: "Contacts",
   },
   "header-menu-donat": {
-    ua: "Донат",
-    en: "Donate",
+    ua: "Долучитись",
+    en: "Join us",
   },
   // section-hero
   "hero-title": {
@@ -118,21 +118,21 @@ export const langArr = {
     en: "Donate for power banks manufacturing",
   },
   "donate-top-btn": {
-    ua: "Донат",
-    en: "Donate",
+    ua: "Долучитись",
+    en: "Join us",
   },
   // section-img
   "img-title-h2": {
     ua: "Приклади повербанків",
     en: "Examples of bankers",
   },
-  "img-description-17mAh": {
-    ua: "Наш найменший повербанк, з достатньою ємністю, щоб зарядити середній смартфон 4 рази. Має USB вихід для зарядки гаджетів та вихід для зарядки військових рацій. Може комплектуватись LED стрічкою червоного кольору.",
-    en: "Our smallest power bank has enough capacity to charge an average smartphone 4 times. There is a USB output for charging gadgets and an output for charging military radios. Optionally, it can be equipped with a red LED strip.",
+  "img-description-flashlight-green": {
+    ua: "Ліхтарик з червоним світлом. Має вхід USB Type-C для зарядки, ремінець для кріплення на рюкзак або одяг. А також магніт та липучу стрічку для фіксації на металевих поверхнях або на спорядженні. Акумулятора вистачить на тиждень роботи.",
+    en: "Flashlight with red light. It has a USB Type-C input for charging, a strap for attaching to a backpack or clothing. As well as a magnet and sticky tape for fixation on metal surfaces or on equipment. The battery is enough for a week of work.",
   },
   "img-description-34mAh": {
-    ua: "Повербанк збільшеної ємності. Також має більші розміри. Його ємності буде достатньо, щоб зарядити середній смартфон 8 разів. Повербанк обладнаний так само, як і його менший брат на 17.000 mAh.",
-    en: "Power bank of increased capacity. It is bigger. It has enough capacity to charge an average smartphone 8 times. The power bank is equipped in the same way as its “little brother” 17 000 mAh power bank.",
+    ua: "Повербанк із ємністю 34.000 mAh. Його ємності буде достатньо, щоб зарядити середній смартфон 8 разів. Має вихід для зарядки військових рацій та USB для зарядки гаджетів а також ліхтар червоного кольору.",
+    en: "Powerbank with a capacity of 34,000 mAh. Its capacity will be enough to charge an average smartphone 8 times. It has a connector for charging a military walkie-talkie and USB for charging gadgets, as well as a red flashlight.",
   },
   // section-reviews
   "reviews-link": {

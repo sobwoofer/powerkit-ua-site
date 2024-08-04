@@ -11,7 +11,7 @@
         $response = curl_exec($ch);
         curl_close($ch);
 
-        $amountPowerBanks = json_decode($response, true) ?? 4185;
+        $amountPowerBanks = json_decode($response, true) ?? 5669;
     }
     catch (Throwable $e) {
         $amountPowerBanks = 4185;
