@@ -11,6 +11,7 @@
 <?php include "./partials/section-partners.html" ;?>
 <?php include "./partials/section-FAQ.html" ;?>
 <?php include "./partials/section-contacts.html" ;?>
+<?php include "./partials/volunteer.html" ;?>
 <?php include "./partials/footer.php" ;?>
 
 

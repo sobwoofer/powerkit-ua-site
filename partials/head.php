@@ -15,7 +15,7 @@ header("Cache-Control: public, max-age=2592000");
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
-<?php 
+<?php
 function addCss(string $css_file_name = 'styles.css'){
     $file_with_path = $_SERVER['DOCUMENT_ROOT'] . "/css/" . $css_file_name;
     $mtime = hash_file("crc32", $file_with_path);
@@ -36,6 +36,7 @@ function addCss(string $css_file_name = 'styles.css'){
 // addCss('section-donate-down.css');
 // addCss('section-FAQ.css');
 // addCss('section-contacts.css');
+// addCss('section-volunteer.css');
 // addCss('footer.css');
 // addCss('text-offer.css');
     $all_css = ['styles.css',
@@ -51,6 +52,7 @@ function addCss(string $css_file_name = 'styles.css'){
                 'section-donate-down.css',
                 'section-FAQ.css',
                 'section-contacts.css',
+                'section-volunteer.css',
                 'footer.css',
                 'text-offer.css'
              ];
@@ -68,14 +70,14 @@ function addCss(string $css_file_name = 'styles.css'){
 
         fwrite($main_css_file, $main);
         fclose($main_css_file);
-        
+
     }
 
     createMainCss($all_css);
 
     addCss("main.css");
 ?>
-    
+
     <title>PowerKit | Повербанки, ліхтарі та зарядні станції для військових</title>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-VK2FJHKC8D"></script>

@@ -17,37 +17,45 @@ export const langArr = {
     en: "Contacts",
   },
   "header-btn-donat": {
-    ua: "Донат",
-    en: "Donate",
+    ua: "Долучитись",
+    en: "Join us",
   },
   "header-menu-about": {
     ua: "Про нас",
     en: "About us",
   },
   "header-menu-reviews": {
-    ua: "Відгуки",
-    en: "Reviews",
+    ua: "Звіти",
+    en: "Reports",
   },
-  "header-menu-partners": {
-    ua: "Партнери",
-    en: "Our partners",
+  "header-menu-products": {
+    ua: "Продукти",
+    en: "Products",
   },
   "header-menu-contacts": {
     ua: "Контакти",
     en: "Contacts",
   },
   "header-menu-donat": {
-    ua: "Донат",
-    en: "Donate",
+    ua: "Долучитись",
+    en: "Join us",
   },
   // section-hero
   "hero-title": {
-    ua: 'Ми команда <span class="text-accent">PowerKit</span>, що створює безкоштовні повербанки для ЗСУ',
-    en: 'We are <span class="text-accent">PowerKit</span> and  we make free power banks for Ukraine’s Armed Forces',
+    ua: 'Ми команда <span class="text-accent">PowerKit</span>, що створює безкоштовні зарядні пристрої для ЗСУ',
+    en: 'We are the <span class="text-accent">PowerKit</span> team, creating free chargers for the Armed Forces of Ukraine',
+  },
+  "hero-donate": {
+    ua: "Донат",
+    en: "Donate",
+  },
+  "hero-dispose": {
+    ua: 'Здати e-цигарки',
+    en: 'Dispose of <br/> e-cigarettes',
   },
   "hero-moto": {
-    ua: "Наші повербанки виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно. Хочеш допомогти? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Задонать на комплектуючі</a>, або <a style='text-decoration:underline; color: white;' href='../map.php'>здай свою використану електронну сигарету</a>.",
-    en: "We recycle used electronic cigarettes into power banks, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces. Do you want to support us? <a style='text-decoration:underline; color: white;' href='https://send.monobank.ua/jar/9XUQiiaqJi' target='_blank'>Donate to help buy the components.</a> or <a style='text-decoration:underline; color: white;' href='../map.php'>turn in your used E-cigs</a>.",
+    ua: "Наші девайси виготовляються із використаних електронних сигарет та передаються воїнам ЗСУ абсолютно безкоштовно.",
+    en: "We recycle used electronic cigarettes into devices, which we provide absolutely free of charge to soldiers of the Ukrainian Armed Forces.",
   },
   // coockies
   "coockies-msg": {
@@ -64,20 +72,20 @@ export const langArr = {
     en: "Our achievements",
   },
   "amount-numbers-pw": {
-    ua: '<span class="amount-item-title-sp">Кількість</span> зроблених паверів',
-    en: '<span class="amount-item-title-sp">Powerbanks</span> assembled',
+    ua: '<span class="amount-item-title-sp">Кількість</span> зроблених девайсів',
+    en: '<span class="amount-item-title-sp">Devices</span> assembled',
   },
   "amount-discription-pw": {
-    ua: "Всі повербанки розʼїхались по різним бригадам та підрозділам Збройних Сил України і допомогають нашим військовим завжди залишатись із електроенергією.",
-    en: "All power banks were delivered to various units and brigades of the Ukrainian Armed Forces. Now our power banks are helping them stay powered.",
+    ua: "Всі девайси розʼїхались по різним бригадам та підрозділам Збройних Сил України і допомогають нашим військовим завжди залишатись із електроенергією.",
+    en: "All devices were delivered to various units and brigades of the Ukrainian Armed Forces. Now our devices are helping them stay powered.",
   },
   "amount-numbers-sm": {
     ua: '<span class="amount-item-title-sp">Кількість</span> перероблених цигарок',
     en: '<span class="amount-item-title-sp">Electronic cigarettes</span> recycled',
   },
   "amount-discription-sm": {
-    ua: "Для виробництва повербанків ми використовуємо акумулятори з електронних сигарет. Інші комплектуючі цигарок ми утилізуємо за допомогою наших партнерів.",
-    en: "We make power banks by recycling batteries from electronic cigarettes. And we send other parts of electronic cigarettes to our partners for further reuse.",
+    ua: "Для виробництва наших девайсів ми використовуємо акумулятори з електронних сигарет. Інші комплектуючі цигарок ми утилізуємо за допомогою наших партнерів.",
+    en: "We make our devices by recycling batteries from electronic cigarettes. And we send other parts of electronic cigarettes to our partners for further reuse.",
   },
   //  section-about
   "about-title": {
@@ -110,21 +118,21 @@ export const langArr = {
     en: "Donate for power banks manufacturing",
   },
   "donate-top-btn": {
-    ua: "Донат",
-    en: "Donate",
+    ua: "Долучитись",
+    en: "Join us",
   },
   // section-img
   "img-title-h2": {
     ua: "Приклади повербанків",
     en: "Examples of bankers",
   },
-  "img-description-17mAh": {
-    ua: "Наш найменший повербанк, з достатньою ємністю, щоб зарядити середній смартфон 4 рази. Має USB вихід для зарядки гаджетів та вихід для зарядки військових рацій. Може комплектуватись LED стрічкою червоного кольору.",
-    en: "Our smallest power bank has enough capacity to charge an average smartphone 4 times. There is a USB output for charging gadgets and an output for charging military radios. Optionally, it can be equipped with a red LED strip.",
+  "img-description-flashlight-green": {
+    ua: "Ліхтарик з червоним світлом. Має вхід USB Type-C для зарядки, ремінець для кріплення на рюкзак або одяг. А також магніт та липучу стрічку для фіксації на металевих поверхнях або на спорядженні. Акумулятора вистачить на тиждень роботи.",
+    en: "Flashlight with red light. It has a USB Type-C input for charging, a strap for attaching to a backpack or clothing. As well as a magnet and sticky tape for fixation on metal surfaces or on equipment. The battery is enough for a week of work.",
   },
   "img-description-34mAh": {
-    ua: "Повербанк збільшеної ємності. Також має більші розміри. Його ємності буде достатньо, щоб зарядити середній смартфон 8 разів. Повербанк обладнаний так само, як і його менший брат на 17.000 mAh.",
-    en: "Power bank of increased capacity. It is bigger. It has enough capacity to charge an average smartphone 8 times. The power bank is equipped in the same way as its “little brother” 17 000 mAh power bank.",
+    ua: "Повербанк із ємністю 34.000 mAh. Його ємності буде достатньо, щоб зарядити середній смартфон 8 разів. Має вихід для зарядки військових рацій та USB для зарядки гаджетів а також ліхтар червоного кольору.",
+    en: "Powerbank with a capacity of 34,000 mAh. Its capacity will be enough to charge an average smartphone 8 times. It has a connector for charging a military walkie-talkie and USB for charging gadgets, as well as a red flashlight.",
   },
   // section-reviews
   "reviews-link": {

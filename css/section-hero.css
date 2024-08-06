@@ -1,87 +1,122 @@
+.hero {
+  padding: 40px 0;
+}
+
 .hero-container {
   position: relative;
-  overflow-x: hidden;
-  display: flex;
-  gap: 8px;
+  overflow: hidden;
+}
+
+.hero-video {
+  position: absolute;
+  bottom: 0;
+  right: -40vw;
+  z-index: -1;
+  max-width: 900px;
+  width: 120%;
 }
 
 .hero-text {
-  max-width: 234px;
+  max-width: 70%;
+  margin-bottom: 40px;
+}
+
+.hero-box {
+  position: relative;
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.hero-donate-btns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  max-width: 460px;
+  width: 100%;
+  /*margin: 0 auto;*/
+}
+
+.hero-donate-btn {
+  height: 56px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 100%;
+  border-radius: 10px;
+  background-color: var(--default-btn-color);
+  color: var(--accent-btn-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition-dur-and-func),
+  background-color var(--transition-dur-and-func);
+}
+
+.hero-donate-btn span {
+  text-align: center;
+}
+
+.hero-donate-btn:hover,
+.hero-donate-btn:focus {
+  background-color: var(--accent-btn-color);
+  color: var(--default-btn-color);
 }
 
 .hero-title {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 130%;
   margin-bottom: 12px;
 }
 
 .hero-moto {
   font-size: 14px;
-  line-height: 1.34;
+  line-height: 150%;
 }
-
-.hero-video {
-  width: 501px;
-  height: 281px;
-  position: absolute;
-  left: 63px;
-  top: -14px;
-  z-index: -1;
-}
-
-/* .visually-hidden {
-  position: absolute;
-  top: 50px;
-  transform: translateX(200%);
-  visibility: hidden;
-  overflow: hidden;
-} */
 
 @media screen and (max-width: 767px) {
-  .hero-container {
-    padding-top: 24px;
+  .hero-donate-btns {
+    grid-template-columns: 1fr;
+    grid-row-gap: 16px;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .hero-box {
+    margin-bottom: 24px;
+  }
+  .hero-video {
+    right: -38vw;
+    bottom: auto;
+    top: -5vh;
+    width: 110%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .hero-container {
-    max-height: 427px;
+  .hero-video {
+    right: -26vw;
+    width: 100%;
   }
 
   .hero-text {
-    max-width: 458px;
-    padding-top: 110px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
 
   .hero-title {
     font-size: 36px;
   }
-
-  .hero-moto {
-    line-height: 1.5;
-  }
-
-  .hero-video {
-    width: 777px;
-    height: 437px;
-    position: absolute;
-    left: 239px;
-    top: -20px;
-    z-index: -1;
-  }
 }
 
 @media screen and (min-width: 1440px) {
   .hero-container {
-    max-height: 703px;
+    padding: 88px 0!important;
   }
 
-  .hero-text {
-    max-width: 782px;
-    padding-top: 210px;
-    padding-bottom: 253px;
+  .hero-video {
+    right: -10vw;
+  }
+
+  .hero-box {
+    position: relative;
   }
 
   .hero-title {
@@ -93,15 +128,6 @@
     max-width: 607px;
     font-size: 18px;
     line-height: 1.5;
-  }
-
-  .hero-video {
-    width: 1235px;
-    height: 695px;
-    position: absolute;
-    left: 503px;
-    top: -65px;
-    z-index: -1;
   }
 }
 
@@ -124,7 +150,7 @@
   border-radius: 6px;
   opacity: 1;
   transition: bottom var(--transition-dur-and-func),
-              background-color var(--transition-dur-and-func), 
+              background-color var(--transition-dur-and-func),
               opacity var(--transition-dur-and-func);
 }
 
@@ -162,6 +188,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    padding: 80px 0;
+  }
+
   .modal-cookie {
     width: 476px;
     left: 49%;
