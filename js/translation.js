@@ -127,12 +127,12 @@ export const langArr = {
     en: "Examples of bankers",
   },
   "img-description-flashlight-green": {
-    ua: "Ліхтарик з червоним світлом. Має вхід USB Type-C для зарядки, ремінець для кріплення на рюкзак або одяг. А також магніт та липучу стрічку для фіксації на металевих поверхнях або на спорядженні. Акумулятора вистачить на тиждень роботи.",
-    en: "Flashlight with red light. It has a USB Type-C input for charging, a strap for attaching to a backpack or clothing. As well as a magnet and sticky tape for fixation on metal surfaces or on equipment. The battery is enough for a week of work.",
+    ua: "Ліхтарик з червоним світлом. Має вхід USB Type-C для зарядки, ремінець для кріплення на рюкзак або одяг. А також магніт та липучу стрічку для фіксації на металевих поверхнях або на спорядженні.",
+    en: "Flashlight with red light. It has a USB Type-C input for charging, a strap for attaching to a backpack or clothing. As well as a magnet and sticky tape for fixation on metal surfaces or on equipment.",
   },
   "img-description-34mAh": {
-    ua: "Повербанк із ємністю 34.000 mAh. Його ємності буде достатньо, щоб зарядити середній смартфон 8 разів. Має вихід для зарядки військових рацій та USB для зарядки гаджетів а також ліхтар червоного кольору.",
-    en: "Powerbank with a capacity of 34,000 mAh. Its capacity will be enough to charge an average smartphone 8 times. It has a connector for charging a military walkie-talkie and USB for charging gadgets, as well as a red flashlight.",
+    ua: "Повербанк із ємністю 34.000 mAh. Його ємності буде достатньо, щоб зарядити середній смартфон 8 разів. Має вихід 12V для зарядки військових рацій та USB для зарядки гаджетів а також ліхтар червоного кольору.",
+    en: "Powerbank with a capacity of 34,000 mAh. Its capacity will be enough to charge an average smartphone 8 times. It has a 12V connector for charging a military walkie-talkie and USB for charging gadgets, as well as a red flashlight.",
   },
   // section-reviews
   "reviews-link": {
