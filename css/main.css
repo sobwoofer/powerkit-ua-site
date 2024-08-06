@@ -663,7 +663,7 @@ body {
 
 @media screen and (min-width: 1440px) {
   .hero-container {
-    padding: 88px 0!important;
+    padding: 88px 40px !important;
   }
 
   .hero-video {
